@@ -1,0 +1,277 @@
+/* ============================================
+   Profile Page Styles
+   ============================================ */
+
+/* Back Button */
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid var(--bg-accent);
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    color: var(--gold-primary);
+    border-color: var(--gold-primary);
+    transform: translateX(-4px);
+}
+
+.back-arrow {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.profile-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--bg-accent);
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.profile-picture {
+    flex-shrink: 0;
+}
+
+.picture-placeholder {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-accent) 100%);
+    border: 3px solid var(--gold-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-display);
+    font-size: 4rem;
+    color: var(--gold-primary);
+    box-shadow: 0 0 40px var(--gold-glow);
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--gold-primary);
+    box-shadow: 0 0 40px var(--gold-glow);
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--gold-primary);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--gold-primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.profile-name {
+    font-family: var(--font-display);
+    font-size: clamp(3rem, 8vw, 5rem);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.profile-tenure {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.profile-accolades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.profile-accolades .accolade {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Profile Stats */
+.profile-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+    animation: fadeInUp 0.6s ease-out 0.1s both;
+}
+
+.stat-card {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    border-color: var(--gold-primary);
+    transform: translateY(-4px);
+}
+
+.stat-value {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    color: var(--gold-primary);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+}
+
+/* Profile Sections */
+.profile-section {
+    margin-bottom: 4rem;
+    animation: fadeInUp 0.6s ease-out 0.2s both;
+}
+
+.section-heading {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gold-primary);
+    display: inline-block;
+}
+
+/* Biography */
+.bio-content {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 2rem;
+    line-height: 1.8;
+}
+
+.bio-content p {
+    margin-bottom: 1rem;
+    color: var(--text-secondary);
+}
+
+.bio-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* History Timeline */
+.history-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    background: var(--bg-card);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.history-item:hover {
+    background: var(--bg-card-hover);
+    transform: translateX(8px);
+}
+
+.history-year {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    min-width: 60px;
+}
+
+.history-event {
+    flex: 1;
+    color: var(--text-secondary);
+}
+
+.history-event.championship {
+    color: var(--gold-primary);
+    font-weight: 600;
+}
+
+.history-event.runner-up {
+    color: var(--silver);
+}
+
+.history-event.scandal {
+    color: var(--scandal-red);
+    font-weight: 600;
+}
+
+.history-event.founder-event {
+    color: var(--founder-blue);
+    font-weight: 600;
+}
+
+/* Special Badges */
+.profile-badge.rookie-badge {
+    border-color: var(--rookie-green);
+    color: var(--rookie-green);
+}
+
+.accolade.founder {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--founder-blue);
+}
+
+.accolade.current {
+    background: rgba(212, 175, 55, 0.2);
+    border: 1px solid var(--gold-primary);
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-accolades {
+        justify-content: center;
+    }
+    
+    .picture-placeholder,
+    .profile-picture img {
+        width: 150px;
+        height: 150px;
+        font-size: 3rem;
+    }
+}
+
