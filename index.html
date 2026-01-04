@@ -16,6 +16,7 @@
             <div class="nav-links">
                 <a href="#champions" class="nav-link">Champions</a>
                 <a href="#standings" class="nav-link">Standings</a>
+                <a href="#drafts" class="nav-link">Drafts</a>
                 <a href="#history" class="nav-link">History</a>
                 <a href="#members" class="nav-link">Members</a>
             </div>
@@ -1403,6 +1404,881 @@
             </div>
         </section>
 
+        <!-- Draft Recaps Section -->
+        <section id="drafts" class="section">
+            <div class="section-header">
+                <h2 class="section-title">Draft Recaps</h2>
+            </div>
+            
+            <div class="season-tabs">
+                <button class="season-tab active" data-draft="2025">2025</button>
+                <button class="season-tab" data-draft="2024">2024</button>
+                <button class="season-tab" data-draft="2023">2023</button>
+                <button class="season-tab" data-draft="2022">2022</button>
+                <button class="season-tab" data-draft="2021">2021</button>
+            </div>
+            
+            <!-- 2025 Draft -->
+            <div class="draft-content active" id="draft-2025">
+                <h3 class="season-year">2025 Draft</h3>
+                
+                <div class="draft-filter">
+                    <label for="team-filter-2025">Filter by Team:</label>
+                    <select id="team-filter-2025" class="team-filter-select">
+                        <option value="all">All Teams</option>
+                    </select>
+                </div>
+                
+                <div class="draft-table-wrapper">
+                    <table class="draft-table">
+                        <thead>
+                            <tr>
+                                <th class="col-round">Round</th>
+                                <th class="col-pick">Pick</th>
+                                <th class="col-player">Player</th>
+                                <th class="col-team">Team</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>1</td><td>Ja'Marr Chase (Cin, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>1</td><td>2</td><td>Bijan Robinson (Atl, RB)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>1</td><td>3</td><td>Saquon Barkley (Phi, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>1</td><td>4</td><td>Jahmyr Gibbs (Det, RB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>1</td><td>5</td><td>Justin Jefferson (Min, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>1</td><td>6</td><td>CeeDee Lamb (Dal, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>1</td><td>7</td><td>Christian McCaffrey (SF, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>1</td><td>8</td><td>Malik Nabers (NYG, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>1</td><td>9</td><td>Amon-Ra St. Brown (Det, WR)</td><td>Ian Baker</td></tr>
+                            <tr><td>1</td><td>10</td><td>Ashton Jeanty (LV, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>1</td><td>11</td><td>Nico Collins (Hou, WR)</td><td>David Sun</td></tr>
+                            <tr><td>1</td><td>12</td><td>De'Von Achane (Mia, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>2</td><td>1</td><td>Brian Thomas Jr. (Jax, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>2</td><td>2</td><td>Derrick Henry (Bal, RB)</td><td>David Sun</td></tr>
+                            <tr><td>2</td><td>3</td><td>Puka Nacua (LAR, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>2</td><td>4</td><td>Drake London (Atl, WR)</td><td>Ian Baker</td></tr>
+                            <tr><td>2</td><td>5</td><td>Josh Jacobs (GB, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>2</td><td>6</td><td>A.J. Brown (Phi, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>2</td><td>7</td><td>Jonathan Taylor (Ind, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>2</td><td>8</td><td>Brock Bowers (LV, TE)</td><td>Jasper Mills</td></tr>
+                            <tr><td>2</td><td>9</td><td>Tee Higgins (Cin, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>2</td><td>10</td><td>Chase Brown (Cin, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>2</td><td>11</td><td>Bucky Irving (TB, RB)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>2</td><td>12</td><td>Davante Adams (LAR, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>3</td><td>1</td><td>Josh Allen (Buf, QB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>3</td><td>2</td><td>Ladd McConkey (LAC, WR)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>3</td><td>3</td><td>Kyren Williams (LAR, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>3</td><td>4</td><td>Jaxon Smith-Njigba (Sea, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>3</td><td>5</td><td>Omarion Hampton (LAC, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>3</td><td>6</td><td>Tyreek Hill (Mia, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>3</td><td>7</td><td>James Cook III (Buf, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>3</td><td>8</td><td>Trey McBride (Ari, TE)</td><td>Steven Masters</td></tr>
+                            <tr><td>3</td><td>9</td><td>Chuba Hubbard (Car, RB)</td><td>Ian Baker</td></tr>
+                            <tr><td>3</td><td>10</td><td>Alvin Kamara (NO, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>3</td><td>11</td><td>Lamar Jackson (Bal, QB)</td><td>David Sun</td></tr>
+                            <tr><td>3</td><td>12</td><td>Kenneth Walker III (Sea, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>4</td><td>1</td><td>Marvin Harrison Jr. (Ari, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>4</td><td>2</td><td>Terry McLaurin (Wsh, WR)</td><td>David Sun</td></tr>
+                            <tr><td>4</td><td>3</td><td>Jayden Daniels (Wsh, QB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>4</td><td>4</td><td>TreVeyon Henderson (NE, RB)</td><td>Ian Baker</td></tr>
+                            <tr><td>4</td><td>5</td><td>Garrett Wilson (NYJ, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>4</td><td>6</td><td>George Kittle (SF, TE)</td><td>Joseph Martin</td></tr>
+                            <tr><td>4</td><td>7</td><td>Rashee Rice (KC, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>4</td><td>8</td><td>Joe Burrow (Cin, QB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>4</td><td>9</td><td>Mike Evans (TB, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>4</td><td>10</td><td>DK Metcalf (Pit, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>4</td><td>11</td><td>Xavier Worthy (KC, WR)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>4</td><td>12</td><td>James Conner (Ari, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>5</td><td>1</td><td>Breece Hall (NYJ, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>5</td><td>2</td><td>Jalen Hurts (Phi, QB)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>5</td><td>3</td><td>DJ Moore (Chi, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>5</td><td>4</td><td>D'Andre Swift (Chi, RB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>5</td><td>5</td><td>Courtland Sutton (Den, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>5</td><td>6</td><td>Aaron Jones Sr. (Min, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>5</td><td>7</td><td>Zay Flowers (Bal, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>5</td><td>8</td><td>Patrick Mahomes (KC, QB)</td><td>Steven Masters</td></tr>
+                            <tr><td>5</td><td>9</td><td>David Montgomery (Det, RB)</td><td>Ian Baker</td></tr>
+                            <tr><td>5</td><td>10</td><td>Jameson Williams (Det, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>5</td><td>11</td><td>Calvin Ridley (Ten, WR)</td><td>David Sun</td></tr>
+                            <tr><td>5</td><td>12</td><td>Sam LaPorta (Det, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>6</td><td>1</td><td>Isiah Pacheco (KC, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>6</td><td>2</td><td>T.J. Hockenson (Min, TE)</td><td>David Sun</td></tr>
+                            <tr><td>6</td><td>3</td><td>Jacory Croskey-Merritt (Wsh, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>6</td><td>4</td><td>Tetairoa McMillan (Car, WR)</td><td>Ian Baker</td></tr>
+                            <tr><td>6</td><td>5</td><td>Joe Mixon (Hou, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>6</td><td>6</td><td>George Pickens (Dal, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>6</td><td>7</td><td>Cooper Kupp (Sea, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>6</td><td>8</td><td>RJ Harvey (Den, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>6</td><td>9</td><td>Jaylen Waddle (Mia, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>6</td><td>10</td><td>Jerry Jeudy (Cle, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>6</td><td>11</td><td>DeVonta Smith (Phi, WR)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>6</td><td>12</td><td>Travis Hunter (Jax, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>7</td><td>1</td><td>Travis Kelce (KC, TE)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>7</td><td>2</td><td>Chris Olave (NO, WR)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>7</td><td>3</td><td>Jakobi Meyers (Jax, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>7</td><td>4</td><td>David Njoku (Cle, TE)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>7</td><td>5</td><td>Tony Pollard (Ten, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>7</td><td>6</td><td>Tyrone Tracy Jr. (NYG, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>7</td><td>7</td><td>Kaleb Johnson (Pit, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>7</td><td>8</td><td>Emeka Egbuka (TB, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>7</td><td>9</td><td>Tyler Warren (Ind, TE)</td><td>Ian Baker</td></tr>
+                            <tr><td>7</td><td>10</td><td>Colston Loveland (Chi, TE)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>7</td><td>11</td><td>Jaylen Warren (Pit, RB)</td><td>David Sun</td></tr>
+                            <tr><td>7</td><td>12</td><td>Rome Odunze (Chi, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>8</td><td>1</td><td>Bo Nix (Den, QB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>8</td><td>2</td><td>J.K. Dobbins (Den, RB)</td><td>David Sun</td></tr>
+                            <tr><td>8</td><td>3</td><td>Deebo Samuel (Wsh, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>8</td><td>4</td><td>Drake Maye (NE, QB)</td><td>Ian Baker</td></tr>
+                            <tr><td>8</td><td>5</td><td>Quinshon Judkins (Cle, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>8</td><td>6</td><td>Brock Purdy (SF, QB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>8</td><td>7</td><td>Baker Mayfield (TB, QB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>8</td><td>8</td><td>Chris Godwin Jr. (TB, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>8</td><td>9</td><td>Justin Herbert (LAC, QB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>8</td><td>10</td><td>Mark Andrews (Bal, TE)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>8</td><td>11</td><td>Evan Engram (Den, TE)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>8</td><td>12</td><td>Matthew Golden (GB, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>9</td><td>1</td><td>Austin Ekeler (Wsh, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>9</td><td>2</td><td>Jordan Addison (Min, WR)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>9</td><td>3</td><td>Javonte Williams (Dal, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>9</td><td>4</td><td>Texans D/ST (Hou, D/ST)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>9</td><td>5</td><td>Stefon Diggs (NE, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>9</td><td>6</td><td>Keenan Allen (LAC, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>9</td><td>7</td><td>Ricky Pearsall (SF, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>9</td><td>8</td><td>Michael Pittman Jr. (Ind, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>9</td><td>9</td><td>Jordan Mason (Min, RB)</td><td>Ian Baker</td></tr>
+                            <tr><td>9</td><td>10</td><td>Khalil Shakir (Buf, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>9</td><td>11</td><td>Keon Coleman (Buf, WR)</td><td>David Sun</td></tr>
+                            <tr><td>9</td><td>12</td><td>Kyler Murray (Ari, QB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>10</td><td>1</td><td>Zach Charbonnet (Sea, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>10</td><td>2</td><td>Darnell Mooney (Atl, WR)</td><td>David Sun</td></tr>
+                            <tr><td>10</td><td>3</td><td>Tank Bigsby (Phi, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>10</td><td>4</td><td>Caleb Williams (Chi, QB)</td><td>Ian Baker</td></tr>
+                            <tr><td>10</td><td>5</td><td>Jayden Reed (GB, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>10</td><td>6</td><td>Tyjae Spears (Ten, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>10</td><td>7</td><td>Dak Prescott (Dal, QB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>10</td><td>8</td><td>Travis Etienne Jr. (Jax, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>10</td><td>9</td><td>Tyler Bass (Buf, K)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>10</td><td>10</td><td>Jordan Love (GB, QB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>10</td><td>11</td><td>Cam Skattebo (NYG, RB)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>10</td><td>12</td><td>Rhamondre Stevenson (NE, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>11</td><td>1</td><td>Jayden Higgins (Hou, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>11</td><td>2</td><td>Rachaad White (TB, RB)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>11</td><td>3</td><td>Tyler Allgeier (Atl, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>11</td><td>4</td><td>Jauan Jennings (SF, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>11</td><td>5</td><td>Braelon Allen (NYJ, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>11</td><td>6</td><td>Brandon Aubrey (Dal, K)</td><td>Camden Bendik</td></tr>
+                            <tr><td>11</td><td>7</td><td>Justin Fields (NYJ, QB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>11</td><td>8</td><td>Jaydon Blue (Dal, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>11</td><td>9</td><td>Trey Benson (Ari, RB)</td><td>Ian Baker</td></tr>
+                            <tr><td>11</td><td>10</td><td>Adam Thielen (Pit, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>11</td><td>11</td><td>J.J. McCarthy (Min, QB)</td><td>David Sun</td></tr>
+                            <tr><td>11</td><td>12</td><td>Kyle Pitts Sr. (Atl, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>12</td><td>1</td><td>Broncos D/ST (Den, D/ST)</td><td>Jack Johnson</td></tr>
+                            <tr><td>12</td><td>2</td><td>Brian Robinson Jr. (SF, RB)</td><td>David Sun</td></tr>
+                            <tr><td>12</td><td>3</td><td>Steelers D/ST (Pit, D/ST)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>12</td><td>4</td><td>Brandon Aiyuk (SF, WR)</td><td>Ian Baker</td></tr>
+                            <tr><td>12</td><td>5</td><td>Jaylen Wright (Mia, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>12</td><td>6</td><td>Jerome Ford (Cle, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>12</td><td>7</td><td>Tucker Kraft (GB, TE)</td><td>Camden Bendik</td></tr>
+                            <tr><td>12</td><td>8</td><td>Rashod Bateman (Bal, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>12</td><td>9</td><td>Devin Neal (NO, RB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>12</td><td>10</td><td>Tyler Loop (Bal, K)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>12</td><td>11</td><td>Dallas Goedert (Phi, TE)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>12</td><td>12</td><td>Vikings D/ST (Min, D/ST)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>13</td><td>1</td><td>Jake Bates (Det, K)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>13</td><td>2</td><td>Cameron Dicker (LAC, K)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>13</td><td>3</td><td>Josh Downs (Ind, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>13</td><td>4</td><td>Khalil Herbert (NYJ, RB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>13</td><td>5</td><td>Eagles D/ST (Phi, D/ST)</td><td>Jasper Mills</td></tr>
+                            <tr><td>13</td><td>6</td><td>Najee Harris (LAC, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>13</td><td>7</td><td>Ravens D/ST (Bal, D/ST)</td><td>Joseph Martin</td></tr>
+                            <tr><td>13</td><td>8</td><td>Chris Boswell (Pit, K)</td><td>Steven Masters</td></tr>
+                            <tr><td>13</td><td>9</td><td>Bills D/ST (Buf, D/ST)</td><td>Ian Baker</td></tr>
+                            <tr><td>13</td><td>10</td><td>Cam Ward (Ten, QB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>13</td><td>11</td><td>Chase McLaughlin (TB, K)</td><td>David Sun</td></tr>
+                            <tr><td>13</td><td>12</td><td>Colts D/ST (Ind, D/ST)</td><td>Jack Johnson</td></tr>
+                            <tr><td>14</td><td>1</td><td>Ka'imi Fairbairn (Hou, K)</td><td>Jack Johnson</td></tr>
+                            <tr><td>14</td><td>2</td><td>Jets D/ST (NYJ, D/ST)</td><td>David Sun</td></tr>
+                            <tr><td>14</td><td>3</td><td>Daniel Carlson (LV, K)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>14</td><td>4</td><td>Cam Little (Jax, K)</td><td>Ian Baker</td></tr>
+                            <tr><td>14</td><td>5</td><td>Lions D/ST (Det, D/ST)</td><td>Steven Masters</td></tr>
+                            <tr><td>14</td><td>6</td><td>Brandon McManus (GB, K)</td><td>Joseph Martin</td></tr>
+                            <tr><td>14</td><td>7</td><td>Patriots D/ST (NE, D/ST)</td><td>Camden Bendik</td></tr>
+                            <tr><td>14</td><td>8</td><td>Younghoe Koo (FA, K)</td><td>Jasper Mills</td></tr>
+                            <tr><td>14</td><td>9</td><td>Giants D/ST (NYG, D/ST)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>14</td><td>10</td><td>Seahawks D/ST (Sea, D/ST)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>14</td><td>11</td><td>Chiefs D/ST (KC, D/ST)</td><td>Daniel Lewis</td></tr>
+                            <tr><td>14</td><td>12</td><td>Jared Goff (Det, QB)</td><td>Ethan Hatter</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <!-- 2024 Draft -->
+            <div class="draft-content" id="draft-2024">
+                <h3 class="season-year">2024 Draft</h3>
+                <div class="draft-filter">
+                    <label for="team-filter-2024">Filter by Team:</label>
+                    <select id="team-filter-2024" class="team-filter-select">
+                        <option value="all">All Teams</option>
+                    </select>
+                </div>
+                
+                <div class="draft-table-wrapper">
+                    <table class="draft-table">
+                        <thead>
+                            <tr>
+                                <th class="col-round">Round</th>
+                                <th class="col-pick">Pick</th>
+                                <th class="col-player">Player</th>
+                                <th class="col-team">Team</th>
+                                <th class="col-draft-pos">Draft Pos</th>
+                                <th class="col-season-finish">Season Finish</th>
+                                <th class="col-points">Points</th>
+                                <th class="col-value">Value</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>1</td><td>Christian McCaffrey (SF, RB)</td><td>Brandon Kircher</td><td>RB 1</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>1</td><td>2</td><td>Bijan Robinson (Atl, RB)</td><td>Ethan Hatter</td><td>RB 2</td><td>RB 3</td><td>344.2</td><td>≈</td></tr>
+                            <tr><td>1</td><td>3</td><td>Breece Hall (NYJ, RB)</td><td>Steven Masters</td><td>RB 3</td><td>RB 17</td><td>241.9</td><td>✗</td></tr>
+                            <tr><td>1</td><td>4</td><td>CeeDee Lamb (Dal, WR)</td><td>Camden Bendik</td><td>WR 1</td><td>WR 8</td><td>266.9</td><td>✗</td></tr>
+                            <tr><td>1</td><td>5</td><td>Tyreek Hill (Mia, WR)</td><td>Andrew Ortiz</td><td>WR 2</td><td>WR 19</td><td>220.7</td><td>✗</td></tr>
+                            <tr><td>1</td><td>6</td><td>Amon-Ra St. Brown (Det, WR)</td><td>Jasper Mills</td><td>WR 3</td><td>WR 3</td><td>321.3</td><td>≈</td></tr>
+                            <tr><td>1</td><td>7</td><td>Ja'Marr Chase (Cin, WR)</td><td>Jack Johnson</td><td>WR 4</td><td>WR 1</td><td>411.0</td><td>✓</td></tr>
+                            <tr><td>1</td><td>8</td><td>Jonathan Taylor (Ind, RB)</td><td>Lucas Matthews</td><td>RB 4</td><td>RB 12</td><td>250.7</td><td>✗</td></tr>
+                            <tr><td>1</td><td>9</td><td>Justin Jefferson (Min, WR)</td><td>David Sun</td><td>WR 5</td><td>WR 2</td><td>322.1</td><td>✓</td></tr>
+                            <tr><td>1</td><td>10</td><td>A.J. Brown (Phi, WR)</td><td>Joseph Martin</td><td>WR 6</td><td>WR 18</td><td>220.9</td><td>✗</td></tr>
+                            <tr><td>2</td><td>1</td><td>Puka Nacua (LAR, WR)</td><td>Joseph Martin</td><td>WR 7</td><td>WR 26</td><td>209.1</td><td>✗</td></tr>
+                            <tr><td>2</td><td>2</td><td>Saquon Barkley (Phi, RB)</td><td>David Sun</td><td>RB 5</td><td>RB 2</td><td>364.8</td><td>✓</td></tr>
+                            <tr><td>2</td><td>3</td><td>Jahmyr Gibbs (Det, RB)</td><td>Lucas Matthews</td><td>RB 6</td><td>RB 1</td><td>366.9</td><td>✓</td></tr>
+                            <tr><td>2</td><td>4</td><td>Kyren Williams (LAR, RB)</td><td>Jack Johnson</td><td>RB 7</td><td>RB 7</td><td>274.1</td><td>≈</td></tr>
+                            <tr><td>2</td><td>5</td><td>Garrett Wilson (NYJ, WR)</td><td>Jasper Mills</td><td>WR 8</td><td>WR 10</td><td>253.9</td><td>≈</td></tr>
+                            <tr><td>2</td><td>6</td><td>Isiah Pacheco (KC, RB)</td><td>Andrew Ortiz</td><td>RB 8</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>2</td><td>7</td><td>Derrick Henry (Bal, RB)</td><td>Camden Bendik</td><td>RB 9</td><td>RB 4</td><td>342.4</td><td>✓</td></tr>
+                            <tr><td>2</td><td>8</td><td>Michael Pittman Jr. (Ind, WR)</td><td>Steven Masters</td><td>WR 9</td><td>WR 41</td><td>166.8</td><td>✗</td></tr>
+                            <tr><td>2</td><td>9</td><td>Travis Etienne Jr. (Jax, RB)</td><td>Ethan Hatter</td><td>RB 10</td><td>RB 36</td><td>130.2</td><td>✗</td></tr>
+                            <tr><td>2</td><td>10</td><td>Davante Adams (LAR, WR)</td><td>Brandon Kircher</td><td>WR 10</td><td>WR 14</td><td>243.8</td><td>✗</td></tr>
+                            <tr><td>3</td><td>1</td><td>Chris Olave (NO, WR)</td><td>Brandon Kircher</td><td>WR 11</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>3</td><td>2</td><td>Marvin Harrison Jr. (Ari, WR)</td><td>Ethan Hatter</td><td>WR 12</td><td>WR 30</td><td>198.5</td><td>✗</td></tr>
+                            <tr><td>3</td><td>3</td><td>Josh Allen (Buf, QB)</td><td>Steven Masters</td><td>QB 1</td><td>QB 4</td><td>452.6</td><td>✗</td></tr>
+                            <tr><td>3</td><td>4</td><td>Drake London (Atl, WR)</td><td>Camden Bendik</td><td>WR 13</td><td>WR 5</td><td>282.3</td><td>✓</td></tr>
+                            <tr><td>3</td><td>5</td><td>Travis Kelce (KC, TE)</td><td>Andrew Ortiz</td><td>TE 1</td><td>TE 5</td><td>195.9</td><td>✗</td></tr>
+                            <tr><td>3</td><td>6</td><td>Joe Mixon (Hou, RB)</td><td>Jasper Mills</td><td>RB 11</td><td>RB 14</td><td>244.4</td><td>✗</td></tr>
+                            <tr><td>3</td><td>7</td><td>Sam LaPorta (Det, TE)</td><td>Jack Johnson</td><td>TE 2</td><td>TE 8</td><td>176.1</td><td>✗</td></tr>
+                            <tr><td>3</td><td>8</td><td>Mike Evans (TB, WR)</td><td>Lucas Matthews</td><td>WR 14</td><td>WR 15</td><td>242.4</td><td>≈</td></tr>
+                            <tr><td>3</td><td>9</td><td>James Cook (Buf, RB)</td><td>David Sun</td><td>RB 12</td><td>RB 8</td><td>271.2</td><td>✓</td></tr>
+                            <tr><td>3</td><td>10</td><td>Alvin Kamara (NO, RB)</td><td>Joseph Martin</td><td>RB 13</td><td>RB 9</td><td>267.8</td><td>✓</td></tr>
+                            <tr><td>4</td><td>1</td><td>Deebo Samuel Sr. (Wsh, WR)</td><td>Joseph Martin</td><td>WR 15</td><td>WR 44</td><td>155.6</td><td>✗</td></tr>
+                            <tr><td>4</td><td>2</td><td>De'Von Achane (Mia, RB)</td><td>David Sun</td><td>RB 14</td><td>RB 5</td><td>301.9</td><td>✓</td></tr>
+                            <tr><td>4</td><td>3</td><td>Jalen Hurts (Phi, QB)</td><td>Lucas Matthews</td><td>QB 2</td><td>QB 9</td><td>367.6</td><td>✗</td></tr>
+                            <tr><td>4</td><td>4</td><td>Rachaad White (TB, RB)</td><td>Jack Johnson</td><td>RB 15</td><td>RB 23</td><td>199.6</td><td>✗</td></tr>
+                            <tr><td>4</td><td>5</td><td>Kenneth Walker III (Sea, RB)</td><td>Jasper Mills</td><td>RB 16</td><td>RB 27</td><td>181.7</td><td>✗</td></tr>
+                            <tr><td>4</td><td>6</td><td>Stefon Diggs (Hou, WR)</td><td>Andrew Ortiz</td><td>WR 16</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>4</td><td>7</td><td>Josh Jacobs (GB, RB)</td><td>Camden Bendik</td><td>RB 17</td><td>RB 6</td><td>294.6</td><td>✓</td></tr>
+                            <tr><td>4</td><td>8</td><td>DK Metcalf (Pit, WR)</td><td>Steven Masters</td><td>WR 17</td><td>WR 31</td><td>194.7</td><td>✗</td></tr>
+                            <tr><td>4</td><td>9</td><td>Nico Collins (Hou, WR)</td><td>Ethan Hatter</td><td>WR 18</td><td>WR 23</td><td>213.6</td><td>✗</td></tr>
+                            <tr><td>4</td><td>10</td><td>DeVonta Smith (Phi, WR)</td><td>Brandon Kircher</td><td>WR 19</td><td>WR 27</td><td>201.4</td><td>✗</td></tr>
+                            <tr><td>5</td><td>1</td><td>Patrick Mahomes (KC, QB)</td><td>Brandon Kircher</td><td>QB 3</td><td>QB 11</td><td>358.3</td><td>✗</td></tr>
+                            <tr><td>5</td><td>2</td><td>Cooper Kupp (Sea, WR)</td><td>Ethan Hatter</td><td>WR 20</td><td>WR 38</td><td>177.5</td><td>✗</td></tr>
+                            <tr><td>5</td><td>3</td><td>DJ Moore (Chi, WR)</td><td>Steven Masters</td><td>WR 21</td><td>WR 16</td><td>239.0</td><td>✓</td></tr>
+                            <tr><td>5</td><td>4</td><td>Jaylen Waddle (Mia, WR)</td><td>Camden Bendik</td><td>WR 22</td><td>WR 46</td><td>150.6</td><td>✗</td></tr>
+                            <tr><td>5</td><td>5</td><td>David Montgomery (Det, RB)</td><td>Andrew Ortiz</td><td>RB 18</td><td>RB 18</td><td>224.3</td><td>≈</td></tr>
+                            <tr><td>5</td><td>6</td><td>Malik Nabers (NYG, WR)</td><td>Jasper Mills</td><td>WR 23</td><td>WR 6</td><td>276.5</td><td>✓</td></tr>
+                            <tr><td>5</td><td>7</td><td>Zay Flowers (Bal, WR)</td><td>Jack Johnson</td><td>WR 24</td><td>WR 24</td><td>213.0</td><td>≈</td></tr>
+                            <tr><td>5</td><td>8</td><td>Trey McBride (Ari, TE)</td><td>Lucas Matthews</td><td>TE 3</td><td>TE 2</td><td>251.3</td><td>≈</td></tr>
+                            <tr><td>5</td><td>9</td><td>Brandon Aiyuk (SF, WR)</td><td>David Sun</td><td>WR 25</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>5</td><td>10</td><td>Aaron Jones (Min, RB)</td><td>Joseph Martin</td><td>RB 19</td><td>RB 16</td><td>242.6</td><td>✓</td></tr>
+                            <tr><td>6</td><td>1</td><td>C.J. Stroud (Hou, QB)</td><td>Joseph Martin</td><td>QB 4</td><td>QB 18</td><td>276.4</td><td>✗</td></tr>
+                            <tr><td>6</td><td>2</td><td>Anthony Richardson (Ind, QB)</td><td>David Sun</td><td>QB 5</td><td>QB 26</td><td>181.2</td><td>✗</td></tr>
+                            <tr><td>6</td><td>3</td><td>Amari Cooper (Buf, WR)</td><td>Lucas Matthews</td><td>WR 26</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>6</td><td>4</td><td>Tank Dell (Hou, WR)</td><td>Jack Johnson</td><td>WR 27</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>6</td><td>5</td><td>Mark Andrews (Bal, TE)</td><td>Jasper Mills</td><td>TE 4</td><td>TE 6</td><td>188.8</td><td>≈</td></tr>
+                            <tr><td>6</td><td>6</td><td>Tee Higgins (Cin, WR)</td><td>Andrew Ortiz</td><td>WR 28</td><td>WR 17</td><td>223.6</td><td>✓</td></tr>
+                            <tr><td>6</td><td>7</td><td>George Pickens (Pit, WR)</td><td>Camden Bendik</td><td>WR 29</td><td>WR 42</td><td>165.4</td><td>✗</td></tr>
+                            <tr><td>6</td><td>8</td><td>Dalton Kincaid (Buf, TE)</td><td>Steven Masters</td><td>TE 5</td><td>TE 30</td><td>100.8</td><td>✗</td></tr>
+                            <tr><td>6</td><td>9</td><td>Lamar Jackson (Bal, QB)</td><td>Ethan Hatter</td><td>QB 6</td><td>QB 1</td><td>534.2</td><td>✓</td></tr>
+                            <tr><td>6</td><td>10</td><td>James Conner (Ari, RB)</td><td>Brandon Kircher</td><td>RB 20</td><td>RB 10</td><td>256.8</td><td>✓</td></tr>
+                            <tr><td>7</td><td>1</td><td>Kyle Pitts (Atl, TE)</td><td>Brandon Kircher</td><td>TE 6</td><td>TE 15</td><td>131.7</td><td>✗</td></tr>
+                            <tr><td>7</td><td>2</td><td>Evan Engram (Den, TE)</td><td>Ethan Hatter</td><td>TE 7</td><td>TE 33</td><td>90.0</td><td>✗</td></tr>
+                            <tr><td>7</td><td>3</td><td>Rhamondre Stevenson (NE, RB)</td><td>Steven Masters</td><td>RB 21</td><td>RB 28</td><td>176.4</td><td>✗</td></tr>
+                            <tr><td>7</td><td>4</td><td>Dak Prescott (Dal, QB)</td><td>Camden Bendik</td><td>QB 7</td><td>QB 31</td><td>149.9</td><td>✗</td></tr>
+                            <tr><td>7</td><td>5</td><td>D'Andre Swift (Chi, RB)</td><td>Andrew Ortiz</td><td>RB 22</td><td>RB 19</td><td>216.0</td><td>✓</td></tr>
+                            <tr><td>7</td><td>6</td><td>Jonathon Brooks (Car, RB)</td><td>Jasper Mills</td><td>RB 23</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>7</td><td>7</td><td>Zamir White (LV, RB)</td><td>Jack Johnson</td><td>RB 24</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>7</td><td>8</td><td>Terry McLaurin (Wsh, WR)</td><td>Lucas Matthews</td><td>WR 30</td><td>WR 7</td><td>271.3</td><td>✓</td></tr>
+                            <tr><td>7</td><td>9</td><td>George Kittle (SF, TE)</td><td>David Sun</td><td>TE 8</td><td>TE 3</td><td>238.6</td><td>✓</td></tr>
+                            <tr><td>7</td><td>10</td><td>David Njoku (Cle, TE)</td><td>Joseph Martin</td><td>TE 9</td><td>TE 11</td><td>148.5</td><td>≈</td></tr>
+                            <tr><td>8</td><td>1</td><td>Calvin Ridley (Ten, WR)</td><td>Joseph Martin</td><td>WR 31</td><td>WR 28</td><td>200.7</td><td>✓</td></tr>
+                            <tr><td>8</td><td>2</td><td>Chris Godwin (TB, WR)</td><td>David Sun</td><td>WR 32</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>8</td><td>3</td><td>Brian Robinson Jr. (Wsh, RB)</td><td>Lucas Matthews</td><td>RB 25</td><td>RB 29</td><td>161.8</td><td>✗</td></tr>
+                            <tr><td>8</td><td>4</td><td>Jordan Love (GB, QB)</td><td>Jack Johnson</td><td>QB 8</td><td>QB 17</td><td>298.0</td><td>✗</td></tr>
+                            <tr><td>8</td><td>5</td><td>Kyler Murray (Ari, QB)</td><td>Jasper Mills</td><td>QB 9</td><td>QB 10</td><td>363.5</td><td>≈</td></tr>
+                            <tr><td>8</td><td>6</td><td>Joe Burrow (Cin, QB)</td><td>Andrew Ortiz</td><td>QB 10</td><td>QB 2</td><td>496.1</td><td>✓</td></tr>
+                            <tr><td>8</td><td>7</td><td>Rashee Rice (KC, WR)</td><td>Camden Bendik</td><td>WR 33</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>8</td><td>8</td><td>Najee Harris (LAC, RB)</td><td>Steven Masters</td><td>RB 26</td><td>RB 20</td><td>206.1</td><td>✓</td></tr>
+                            <tr><td>8</td><td>9</td><td>Keenan Allen (Chi, WR)</td><td>Ethan Hatter</td><td>WR 34</td><td>WR 34</td><td>185.3</td><td>≈</td></tr>
+                            <tr><td>8</td><td>10</td><td>Tony Pollard (Ten, RB)</td><td>Brandon Kircher</td><td>RB 27</td><td>RB 21</td><td>202.2</td><td>✓</td></tr>
+                            <tr><td>9</td><td>1</td><td>Christian Watson (GB, WR)</td><td>Brandon Kircher</td><td>WR 35</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>9</td><td>2</td><td>Jayden Reed (GB, WR)</td><td>Ethan Hatter</td><td>WR 36</td><td>WR 29</td><td>199.5</td><td>✓</td></tr>
+                            <tr><td>9</td><td>3</td><td>Zack Moss (Cin, RB)</td><td>Steven Masters</td><td>RB 28</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>9</td><td>4</td><td>Tyjae Spears (Ten, RB)</td><td>Camden Bendik</td><td>RB 29</td><td>RB 42</td><td>113.6</td><td>✗</td></tr>
+                            <tr><td>9</td><td>5</td><td>Ezekiel Elliott (FA, RB)</td><td>Andrew Ortiz</td><td>RB 30</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>9</td><td>6</td><td>Raheem Mostert (LV, RB)</td><td>Jasper Mills</td><td>RB 31</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>9</td><td>7</td><td>Christian Kirk (Hou, WR)</td><td>Jack Johnson</td><td>WR 37</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>9</td><td>8</td><td>Jaxon Smith-Njigba (Sea, WR)</td><td>Lucas Matthews</td><td>WR 38</td><td>WR 9</td><td>254.6</td><td>✓</td></tr>
+                            <tr><td>9</td><td>9</td><td>Jaylen Warren (Pit, RB)</td><td>David Sun</td><td>RB 32</td><td>RB 39</td><td>124.1</td><td>✗</td></tr>
+                            <tr><td>9</td><td>10</td><td>Devin Singletary (NYG, RB)</td><td>Joseph Martin</td><td>RB 33</td><td>RB 46</td><td>96.6</td><td>✗</td></tr>
+                            <tr><td>10</td><td>1</td><td>49ers D/ST (SF, D/ST)</td><td>Joseph Martin</td><td>D/ST 1</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>10</td><td>2</td><td>Diontae Johnson (Bal, WR)</td><td>David Sun</td><td>WR 39</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>10</td><td>3</td><td>Rome Odunze (Chi, WR)</td><td>Lucas Matthews</td><td>WR 40</td><td>WR 49</td><td>145.9</td><td>✗</td></tr>
+                            <tr><td>10</td><td>4</td><td>DeAndre Hopkins (Bal, WR)</td><td>Jack Johnson</td><td>WR 41</td><td>WR 48</td><td>147.0</td><td>✗</td></tr>
+                            <tr><td>10</td><td>5</td><td>Nick Chubb (Cle, RB)</td><td>Jasper Mills</td><td>RB 34</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>10</td><td>6</td><td>Xavier Worthy (KC, WR)</td><td>Andrew Ortiz</td><td>WR 42</td><td>WR 33</td><td>188.2</td><td>✓</td></tr>
+                            <tr><td>10</td><td>7</td><td>Javonte Williams (Dal, RB)</td><td>Camden Bendik</td><td>RB 35</td><td>RB 30</td><td>157.9</td><td>✓</td></tr>
+                            <tr><td>10</td><td>8</td><td>Hollywood Brown (KC, WR)</td><td>Steven Masters</td><td>WR 43</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>10</td><td>9</td><td>Austin Ekeler (Wsh, RB)</td><td>Ethan Hatter</td><td>RB 36</td><td>RB 34</td><td>132.3</td><td>≈</td></tr>
+                            <tr><td>10</td><td>10</td><td>Jordan Addison (Min, WR)</td><td>Brandon Kircher</td><td>WR 44</td><td>WR 22</td><td>214.5</td><td>✓</td></tr>
+                            <tr><td>11</td><td>1</td><td>Jerome Ford (Cle, RB)</td><td>Brandon Kircher</td><td>RB 37</td><td>RB 33</td><td>135.0</td><td>✓</td></tr>
+                            <tr><td>11</td><td>2</td><td>Ladd McConkey (LAC, WR)</td><td>Ethan Hatter</td><td>WR 45</td><td>WR 13</td><td>243.9</td><td>✓</td></tr>
+                            <tr><td>11</td><td>3</td><td>Jameson Williams (Det, WR)</td><td>Steven Masters</td><td>WR 46</td><td>WR 21</td><td>218.2</td><td>✓</td></tr>
+                            <tr><td>11</td><td>4</td><td>T.J. Hockenson (Min, TE)</td><td>Camden Bendik</td><td>TE 10</td><td>TE 34</td><td>87.0</td><td>✗</td></tr>
+                            <tr><td>11</td><td>5</td><td>Caleb Williams (Chi, QB)</td><td>Andrew Ortiz</td><td>QB 11</td><td>QB 16</td><td>311.0</td><td>✗</td></tr>
+                            <tr><td>11</td><td>6</td><td>Keon Coleman (Buf, WR)</td><td>Jasper Mills</td><td>WR 47</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>11</td><td>7</td><td>Browns D/ST (Cle, D/ST)</td><td>Jack Johnson</td><td>D/ST 2</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>11</td><td>8</td><td>Ravens D/ST (Bal, D/ST)</td><td>Lucas Matthews</td><td>D/ST 3</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>11</td><td>9</td><td>Courtland Sutton (Den, WR)</td><td>David Sun</td><td>WR 48</td><td>WR 12</td><td>244.0</td><td>✓</td></tr>
+                            <tr><td>11</td><td>10</td><td>Gus Edwards (FA, RB)</td><td>Joseph Martin</td><td>RB 38</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>12</td><td>1</td><td>Brock Purdy (SF, QB)</td><td>Joseph Martin</td><td>QB 12</td><td>QB 15</td><td>325.4</td><td>✗</td></tr>
+                            <tr><td>12</td><td>2</td><td>Blake Corum (LAR, RB)</td><td>David Sun</td><td>RB 39</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>12</td><td>3</td><td>Justin Herbert (LAC, QB)</td><td>Lucas Matthews</td><td>QB 13</td><td>QB 12</td><td>350.9</td><td>≈</td></tr>
+                            <tr><td>12</td><td>4</td><td>Jets D/ST (NYJ, D/ST)</td><td>Jack Johnson</td><td>D/ST 4</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>12</td><td>5</td><td>Jayden Daniels (Wsh, QB)</td><td>Jasper Mills</td><td>QB 14</td><td>QB 6</td><td>428.0</td><td>✓</td></tr>
+                            <tr><td>12</td><td>6</td><td>Cowboys D/ST (Dal, D/ST)</td><td>Andrew Ortiz</td><td>D/ST 5</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>12</td><td>7</td><td>Mike Williams (LAC, WR)</td><td>Camden Bendik</td><td>WR 49</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>12</td><td>8</td><td>Jerry Jeudy (Cle, WR)</td><td>Steven Masters</td><td>WR 50</td><td>WR 11</td><td>244.4</td><td>✓</td></tr>
+                            <tr><td>12</td><td>9</td><td>Brandon Aubrey (Dal, K)</td><td>Ethan Hatter</td><td>K 1</td><td>K 1</td><td>195.9</td><td>≈</td></tr>
+                            <tr><td>12</td><td>10</td><td>Zach Charbonnet (Sea, RB)</td><td>Brandon Kircher</td><td>RB 40</td><td>RB 25</td><td>188.4</td><td>✓</td></tr>
+                            <tr><td>13</td><td>1</td><td>Justin Tucker (Bal, K)</td><td>Brandon Kircher</td><td>K 2</td><td>K 13</td><td>137.3</td><td>✗</td></tr>
+                            <tr><td>13</td><td>2</td><td>Chiefs D/ST (KC, D/ST)</td><td>Ethan Hatter</td><td>D/ST 6</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>13</td><td>3</td><td>Evan McPherson (Cin, K)</td><td>Steven Masters</td><td>K 3</td><td>K 29</td><td>88.4</td><td>✗</td></tr>
+                            <tr><td>13</td><td>4</td><td>Steelers D/ST (Pit, D/ST)</td><td>Camden Bendik</td><td>D/ST 7</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>13</td><td>5</td><td>Brock Bowers (LV, TE)</td><td>Andrew Ortiz</td><td>TE 11</td><td>TE 1</td><td>264.7</td><td>✓</td></tr>
+                            <tr><td>13</td><td>6</td><td>Saints D/ST (NO, D/ST)</td><td>Jasper Mills</td><td>D/ST 8</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>13</td><td>7</td><td>Ka'imi Fairbairn (Hou, K)</td><td>Jack Johnson</td><td>K 4</td><td>K 4</td><td>170.4</td><td>≈</td></tr>
+                            <tr><td>13</td><td>8</td><td>Jake Elliott (Phi, K)</td><td>Lucas Matthews</td><td>K 5</td><td>K 15</td><td>134.1</td><td>✗</td></tr>
+                            <tr><td>13</td><td>9</td><td>Lions D/ST (Det, D/ST)</td><td>David Sun</td><td>D/ST 9</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>13</td><td>10</td><td>Jake Ferguson (Dal, TE)</td><td>Joseph Martin</td><td>TE 12</td><td>TE 25</td><td>104.4</td><td>✗</td></tr>
+                            <tr><td>14</td><td>1</td><td>Jake Moody (SF, K)</td><td>Joseph Martin</td><td>K 6</td><td>K 26</td><td>102.4</td><td>✗</td></tr>
+                            <tr><td>14</td><td>2</td><td>Younghoe Koo (Atl, K)</td><td>David Sun</td><td>K 7</td><td>K 24</td><td>106.3</td><td>✗</td></tr>
+                            <tr><td>14</td><td>3</td><td>Cole Kmet (Chi, TE)</td><td>Lucas Matthews</td><td>TE 13</td><td>TE 19</td><td>120.4</td><td>✗</td></tr>
+                            <tr><td>14</td><td>4</td><td>Rico Dowdle (Car, RB)</td><td>Jack Johnson</td><td>RB 41</td><td>RB 22</td><td>199.8</td><td>✓</td></tr>
+                            <tr><td>14</td><td>5</td><td>Harrison Butker (KC, K)</td><td>Jasper Mills</td><td>K 8</td><td>K 28</td><td>94.7</td><td>✗</td></tr>
+                            <tr><td>14</td><td>6</td><td>Daniel Carlson (LV, K)</td><td>Andrew Ortiz</td><td>K 9</td><td>K 10</td><td>142.9</td><td>≈</td></tr>
+                            <tr><td>14</td><td>7</td><td>Cameron Dicker (LAC, K)</td><td>Camden Bendik</td><td>K 10</td><td>K 3</td><td>180.9</td><td>✓</td></tr>
+                            <tr><td>14</td><td>8</td><td>Dolphins D/ST (Mia, D/ST)</td><td>Steven Masters</td><td>D/ST 10</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>14</td><td>9</td><td>Trey Benson (Ari, RB)</td><td>Ethan Hatter</td><td>RB 42</td><td>—</td><td>—</td><td>—</td></tr>
+                            <tr><td>14</td><td>10</td><td>Chargers D/ST (LAC, D/ST)</td><td>Brandon Kircher</td><td>D/ST 11</td><td>—</td><td>—</td><td>—</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="draft-content" id="draft-2023">
+                <h3 class="season-year">2023 Draft</h3>
+                <div class="draft-filter">
+                    <label for="team-filter-2023">Filter by Team:</label>
+                    <select id="team-filter-2023" class="team-filter-select">
+                        <option value="all">All Teams</option>
+                    </select>
+                </div>
+                
+                <div class="draft-table-wrapper">
+                    <table class="draft-table">
+                        <thead>
+                            <tr>
+                                <th class="col-round">Round</th>
+                                <th class="col-pick">Pick</th>
+                                <th class="col-player">Player</th>
+                                <th class="col-team">Team</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>1</td><td>Justin Jefferson (Min, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>1</td><td>2</td><td>Christian McCaffrey (SF, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>1</td><td>3</td><td>Ja'Marr Chase (Cin, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>1</td><td>4</td><td>Travis Kelce (KC, TE)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>1</td><td>5</td><td>Austin Ekeler (Wsh, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>1</td><td>6</td><td>Tyreek Hill (Mia, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>1</td><td>7</td><td>Bijan Robinson (Atl, RB)</td><td>David Sun</td></tr>
+                            <tr><td>1</td><td>8</td><td>Davante Adams (LV, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>1</td><td>9</td><td>Saquon Barkley (Phi, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>1</td><td>10</td><td>Tony Pollard (Ten, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>2</td><td>1</td><td>Stefon Diggs (Buf, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>2</td><td>2</td><td>Josh Allen (Buf, QB)</td><td>Steven Masters</td></tr>
+                            <tr><td>2</td><td>3</td><td>Nick Chubb (Cle, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>2</td><td>4</td><td>Garrett Wilson (NYJ, WR)</td><td>David Sun</td></tr>
+                            <tr><td>2</td><td>5</td><td>Cooper Kupp (LAR, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>2</td><td>6</td><td>Derrick Henry (Bal, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>2</td><td>7</td><td>Amon-Ra St. Brown (Det, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>2</td><td>8</td><td>CeeDee Lamb (Dal, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>2</td><td>9</td><td>A.J. Brown (Phi, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>2</td><td>10</td><td>Josh Jacobs (GB, RB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>3</td><td>1</td><td>Patrick Mahomes (KC, QB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>3</td><td>2</td><td>Jaylen Waddle (Mia, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>3</td><td>3</td><td>Jalen Hurts (Phi, QB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>3</td><td>4</td><td>Joe Mixon (Hou, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>3</td><td>5</td><td>Lamar Jackson (Bal, QB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>3</td><td>6</td><td>Chris Olave (NO, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>3</td><td>7</td><td>DeVonta Smith (Phi, WR)</td><td>David Sun</td></tr>
+                            <tr><td>3</td><td>8</td><td>DK Metcalf (Sea, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>3</td><td>9</td><td>Tee Higgins (Cin, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>3</td><td>10</td><td>Najee Harris (Pit, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>4</td><td>1</td><td>Calvin Ridley (Ten, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>4</td><td>2</td><td>Travis Etienne Jr. (Jax, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>4</td><td>3</td><td>Rhamondre Stevenson (NE, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>4</td><td>4</td><td>Jahmyr Gibbs (Det, RB)</td><td>David Sun</td></tr>
+                            <tr><td>4</td><td>5</td><td>Mark Andrews (Bal, TE)</td><td>Jasper Mills</td></tr>
+                            <tr><td>4</td><td>6</td><td>Aaron Jones (Min, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>4</td><td>7</td><td>Keenan Allen (Chi, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>4</td><td>8</td><td>Dameon Pierce (Hou, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>4</td><td>9</td><td>Joe Burrow (Cin, QB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>4</td><td>10</td><td>DeAndre Hopkins (Ten, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>5</td><td>1</td><td>Amari Cooper (Cle, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>5</td><td>2</td><td>Deebo Samuel (SF, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>5</td><td>3</td><td>Kenneth Walker III (Sea, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>5</td><td>4</td><td>Alexander Mattison (LV, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>5</td><td>5</td><td>Christian Watson (GB, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>5</td><td>6</td><td>Rachaad White (TB, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>5</td><td>7</td><td>Justin Fields (Pit, QB)</td><td>David Sun</td></tr>
+                            <tr><td>5</td><td>8</td><td>Breece Hall (NYJ, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>5</td><td>9</td><td>T.J. Hockenson (Min, TE)</td><td>Steven Masters</td></tr>
+                            <tr><td>5</td><td>10</td><td>Darren Waller (NYG, TE)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>6</td><td>1</td><td>Justin Herbert (LAC, QB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>6</td><td>2</td><td>Diontae Johnson (Car, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>6</td><td>3</td><td>Jonathan Taylor (Ind, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>6</td><td>4</td><td>James Conner (Ari, RB)</td><td>David Sun</td></tr>
+                            <tr><td>6</td><td>5</td><td>Miles Sanders (Car, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>6</td><td>6</td><td>Alvin Kamara (NO, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>6</td><td>7</td><td>Mike Evans (TB, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>6</td><td>8</td><td>Mike Williams (NYJ, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>6</td><td>9</td><td>Cam Akers (Min, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>6</td><td>10</td><td>James Cook (Buf, RB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>7</td><td>1</td><td>George Kittle (SF, TE)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>7</td><td>2</td><td>Dallas Goedert (Phi, TE)</td><td>Joseph Martin</td></tr>
+                            <tr><td>7</td><td>3</td><td>Chris Godwin (TB, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>7</td><td>4</td><td>Tyler Lockett (Sea, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>7</td><td>5</td><td>DJ Moore (Chi, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>7</td><td>6</td><td>David Montgomery (Det, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>7</td><td>7</td><td>Kyle Pitts (Atl, TE)</td><td>David Sun</td></tr>
+                            <tr><td>7</td><td>8</td><td>Trevor Lawrence (Jax, QB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>7</td><td>9</td><td>Javonte Williams (Den, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>7</td><td>10</td><td>Dalvin Cook (Bal, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>8</td><td>1</td><td>Jerry Jeudy (Cle, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>8</td><td>2</td><td>Terry McLaurin (Wsh, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>8</td><td>3</td><td>Michael Pittman Jr. (Ind, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>8</td><td>4</td><td>Brandon Aiyuk (SF, WR)</td><td>David Sun</td></tr>
+                            <tr><td>8</td><td>5</td><td>Isiah Pacheco (KC, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>8</td><td>6</td><td>Drake London (Atl, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>8</td><td>7</td><td>George Pickens (Pit, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>8</td><td>8</td><td>J.K. Dobbins (Bal, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>8</td><td>9</td><td>Christian Kirk (Jax, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>8</td><td>10</td><td>Brandin Cooks (Dal, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>9</td><td>1</td><td>Jakobi Meyers (LV, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>9</td><td>2</td><td>AJ Dillon (GB, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>9</td><td>3</td><td>Pat Freiermuth (Pit, TE)</td><td>Camden Bendik</td></tr>
+                            <tr><td>9</td><td>4</td><td>Deshaun Watson (Cle, QB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>9</td><td>5</td><td>Evan Engram (Jax, TE)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>9</td><td>6</td><td>Marquise Brown (KC, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>9</td><td>7</td><td>Jaxon Smith-Njigba (Sea, WR)</td><td>David Sun</td></tr>
+                            <tr><td>9</td><td>8</td><td>Courtland Sutton (Den, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>9</td><td>9</td><td>D'Andre Swift (Chi, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>9</td><td>10</td><td>Khalil Herbert (Chi, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>10</td><td>1</td><td>Jahan Dotson (Wsh, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>10</td><td>2</td><td>Michael Thomas (NO, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>10</td><td>3</td><td>Cole Kmet (Chi, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>10</td><td>4</td><td>Antonio Gibson (NE, RB)</td><td>David Sun</td></tr>
+                            <tr><td>10</td><td>5</td><td>Jordan Addison (Min, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>10</td><td>6</td><td>Skyy Moore (KC, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>10</td><td>7</td><td>Brian Robinson Jr. (Wsh, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>10</td><td>8</td><td>Jamaal Williams (NO, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>10</td><td>9</td><td>Raheem Mostert (Mia, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>10</td><td>10</td><td>Ezekiel Elliott (NE, RB)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>11</td><td>1</td><td>JuJu Smith-Schuster (NE, WR)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>11</td><td>2</td><td>49ers D/ST (SF, D/ST)</td><td>Joseph Martin</td></tr>
+                            <tr><td>11</td><td>3</td><td>Justin Tucker (Bal, K)</td><td>Camden Bendik</td></tr>
+                            <tr><td>11</td><td>4</td><td>David Njoku (Cle, TE)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>11</td><td>5</td><td>Treylon Burks (Ten, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>11</td><td>6</td><td>Kirk Cousins (Atl, QB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>11</td><td>7</td><td>Zay Flowers (Bal, WR)</td><td>David Sun</td></tr>
+                            <tr><td>11</td><td>8</td><td>Younghoe Koo (Atl, K)</td><td>Jack Johnson</td></tr>
+                            <tr><td>11</td><td>9</td><td>Gabe Davis (Jax, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>11</td><td>10</td><td>Quentin Johnston (LAC, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>12</td><td>1</td><td>Zach Charbonnet (Sea, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>12</td><td>2</td><td>Daniel Carlson (LV, K)</td><td>Steven Masters</td></tr>
+                            <tr><td>12</td><td>3</td><td>Steelers D/ST (Pit, D/ST)</td><td>Jack Johnson</td></tr>
+                            <tr><td>12</td><td>4</td><td>Anthony Richardson (Ind, QB)</td><td>David Sun</td></tr>
+                            <tr><td>12</td><td>5</td><td>Samaje Perine (Den, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>12</td><td>6</td><td>Odell Beckham Jr. (FA, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>12</td><td>7</td><td>Dak Prescott (Dal, QB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>12</td><td>8</td><td>Tua Tagovailoa (Mia, QB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>12</td><td>9</td><td>Daniel Jones (NYG, QB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>12</td><td>10</td><td>Saints D/ST (NO, D/ST)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>13</td><td>1</td><td>Evan McPherson (Cin, K)</td><td>Lucas Matthews</td></tr>
+                            <tr><td>13</td><td>2</td><td>Rondale Moore (Atl, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>13</td><td>3</td><td>Cowboys D/ST (Dal, D/ST)</td><td>Camden Bendik</td></tr>
+                            <tr><td>13</td><td>4</td><td>Bills D/ST (Buf, D/ST)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>13</td><td>5</td><td>Dolphins D/ST (Mia, D/ST)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>13</td><td>6</td><td>Commanders D/ST (Wsh, D/ST)</td><td>Jasper Mills</td></tr>
+                            <tr><td>13</td><td>7</td><td>Patriots D/ST (NE, D/ST)</td><td>David Sun</td></tr>
+                            <tr><td>13</td><td>8</td><td>Eagles D/ST (Phi, D/ST)</td><td>Jack Johnson</td></tr>
+                            <tr><td>13</td><td>9</td><td>Hunter Renfrow (LV, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>13</td><td>10</td><td>Jason Myers (Sea, K)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>14</td><td>1</td><td>Jets D/ST (NYJ, D/ST)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>14</td><td>2</td><td>Ravens D/ST (Bal, D/ST)</td><td>Steven Masters</td></tr>
+                            <tr><td>14</td><td>3</td><td>Zach Ertz (Wsh, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>14</td><td>4</td><td>Tyler Bass (Buf, K)</td><td>David Sun</td></tr>
+                            <tr><td>14</td><td>5</td><td>Harrison Butker (KC, K)</td><td>Jasper Mills</td></tr>
+                            <tr><td>14</td><td>6</td><td>Graham Gano (NYG, K)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>14</td><td>7</td><td>Jake Elliott (Phi, K)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>14</td><td>8</td><td>Elijah Mitchell (SF, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>14</td><td>9</td><td>Matt Gay (Ind, K)</td><td>Joseph Martin</td></tr>
+                            <tr><td>14</td><td>10</td><td>Aaron Rodgers (NYJ, QB)</td><td>Lucas Matthews</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="draft-content" id="draft-2022">
+                <h3 class="season-year">2022 Draft</h3>
+                <div class="draft-filter">
+                    <label for="team-filter-2022">Filter by Team:</label>
+                    <select id="team-filter-2022" class="team-filter-select">
+                        <option value="all">All Teams</option>
+                    </select>
+                </div>
+                
+                <div class="draft-table-wrapper">
+                    <table class="draft-table">
+                        <thead>
+                            <tr>
+                                <th class="col-round">Round</th>
+                                <th class="col-pick">Pick</th>
+                                <th class="col-player">Player</th>
+                                <th class="col-team">Team</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>1</td><td>Christian McCaffrey (SF, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>1</td><td>2</td><td>Jonathan Taylor (Ind, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>1</td><td>3</td><td>Austin Ekeler (LAC, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>1</td><td>4</td><td>Derrick Henry (Ten, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>1</td><td>5</td><td>Cooper Kupp (LAR, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>1</td><td>6</td><td>Najee Harris (Pit, RB)</td><td>David Sun</td></tr>
+                            <tr><td>1</td><td>7</td><td>Justin Jefferson (Min, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>1</td><td>8</td><td>Ja'Marr Chase (Cin, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>1</td><td>9</td><td>Davante Adams (LV, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>1</td><td>10</td><td>Alvin Kamara (NO, RB)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>2</td><td>1</td><td>Dalvin Cook (Min, RB)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>2</td><td>2</td><td>Stefon Diggs (Buf, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>2</td><td>3</td><td>D'Andre Swift (Det, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>2</td><td>4</td><td>Aaron Jones (GB, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>2</td><td>5</td><td>Joe Mixon (Cin, RB)</td><td>David Sun</td></tr>
+                            <tr><td>2</td><td>6</td><td>Deebo Samuel (SF, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>2</td><td>7</td><td>Travis Kelce (KC, TE)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>2</td><td>8</td><td>James Conner (Ari, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>2</td><td>9</td><td>Mark Andrews (Bal, TE)</td><td>Joseph Martin</td></tr>
+                            <tr><td>2</td><td>10</td><td>CeeDee Lamb (Dal, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>3</td><td>1</td><td>Leonard Fournette (FA, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>3</td><td>2</td><td>Tyreek Hill (Mia, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>3</td><td>3</td><td>Javonte Williams (Den, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>3</td><td>4</td><td>Mike Evans (TB, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>3</td><td>5</td><td>Cam Akers (LAR, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>3</td><td>6</td><td>Saquon Barkley (NYG, RB)</td><td>David Sun</td></tr>
+                            <tr><td>3</td><td>7</td><td>Keenan Allen (LAC, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>3</td><td>8</td><td>Nick Chubb (Cle, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>3</td><td>9</td><td>Diontae Johnson (Pit, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>3</td><td>10</td><td>Michael Pittman Jr. (Ind, WR)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>4</td><td>1</td><td>Tee Higgins (Cin, WR)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>4</td><td>2</td><td>Josh Allen (Buf, QB)</td><td>Steven Masters</td></tr>
+                            <tr><td>4</td><td>3</td><td>David Montgomery (Det, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>4</td><td>4</td><td>Kyle Pitts (Atl, TE)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>4</td><td>5</td><td>A.J. Brown (Phi, WR)</td><td>David Sun</td></tr>
+                            <tr><td>4</td><td>6</td><td>Terry McLaurin (Wsh, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>4</td><td>7</td><td>Ezekiel Elliott (FA, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>4</td><td>8</td><td>Jaylen Waddle (Mia, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>4</td><td>9</td><td>Mike Williams (LAC, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>4</td><td>10</td><td>Jerry Jeudy (Den, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>5</td><td>1</td><td>Elijah Mitchell (SF, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>5</td><td>2</td><td>Josh Jacobs (LV, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>5</td><td>3</td><td>DJ Moore (Chi, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>5</td><td>4</td><td>Marquise Brown (Ari, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>5</td><td>5</td><td>Breece Hall (NYJ, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>5</td><td>6</td><td>Courtland Sutton (Den, WR)</td><td>David Sun</td></tr>
+                            <tr><td>5</td><td>7</td><td>Travis Etienne Jr. (Jax, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>5</td><td>8</td><td>Amon-Ra St. Brown (Det, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>5</td><td>9</td><td>J.K. Dobbins (Bal, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>5</td><td>10</td><td>Patrick Mahomes (KC, QB)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>6</td><td>1</td><td>Chris Godwin (TB, WR)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>6</td><td>2</td><td>George Kittle (SF, TE)</td><td>Steven Masters</td></tr>
+                            <tr><td>6</td><td>3</td><td>Darren Waller (NYG, TE)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>6</td><td>4</td><td>Justin Herbert (LAC, QB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>6</td><td>5</td><td>DK Metcalf (Sea, WR)</td><td>David Sun</td></tr>
+                            <tr><td>6</td><td>6</td><td>Lamar Jackson (Bal, QB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>6</td><td>7</td><td>Allen Robinson II (LAR, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>6</td><td>8</td><td>Kyler Murray (Ari, QB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>6</td><td>9</td><td>Brandin Cooks (Dal, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>6</td><td>10</td><td>Dak Prescott (Dal, QB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>7</td><td>1</td><td>Clyde Edwards-Helaire (KC, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>7</td><td>2</td><td>Tom Brady (TB, QB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>7</td><td>3</td><td>Gabe Davis (Buf, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>7</td><td>4</td><td>Michael Thomas (NO, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>7</td><td>5</td><td>T.J. Hockenson (Min, TE)</td><td>Jasper Mills</td></tr>
+                            <tr><td>7</td><td>6</td><td>Jalen Hurts (Phi, QB)</td><td>David Sun</td></tr>
+                            <tr><td>7</td><td>7</td><td>Hunter Renfrow (LV, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>7</td><td>8</td><td>Joe Burrow (Cin, QB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>7</td><td>9</td><td>Miles Sanders (Car, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>7</td><td>10</td><td>Darnell Mooney (Chi, WR)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>8</td><td>1</td><td>Kareem Hunt (Cle, RB)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>8</td><td>2</td><td>Amari Cooper (Cle, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>8</td><td>3</td><td>Adam Thielen (FA, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>8</td><td>4</td><td>JuJu Smith-Schuster (NE, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>8</td><td>5</td><td>Dalton Schultz (Hou, TE)</td><td>David Sun</td></tr>
+                            <tr><td>8</td><td>6</td><td>Dameon Pierce (Hou, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>8</td><td>7</td><td>Aaron Rodgers (GB, QB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>8</td><td>8</td><td>Elijah Moore (NYJ, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>8</td><td>9</td><td>Devin Singletary (Hou, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>8</td><td>10</td><td>DeVonta Smith (Phi, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>9</td><td>1</td><td>Tony Pollard (Dal, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>9</td><td>2</td><td>Cordarrelle Patterson (Atl, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>9</td><td>3</td><td>Dallas Goedert (Phi, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>9</td><td>4</td><td>Chase Edmonds (TB, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>9</td><td>5</td><td>Drake London (Atl, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>9</td><td>6</td><td>Antonio Gibson (Wsh, RB)</td><td>David Sun</td></tr>
+                            <tr><td>9</td><td>7</td><td>Damien Harris (Buf, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>9</td><td>8</td><td>Rashod Bateman (Bal, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>9</td><td>9</td><td>James Robinson (NE, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>9</td><td>10</td><td>DeAndre Hopkins (Ari, WR)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>10</td><td>1</td><td>AJ Dillon (GB, RB)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>10</td><td>2</td><td>Brandon Aiyuk (SF, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>10</td><td>3</td><td>Rashaad Penny (Phi, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>10</td><td>4</td><td>Kadarius Toney (KC, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>10</td><td>5</td><td>Allen Lazard (NYJ, WR)</td><td>David Sun</td></tr>
+                            <tr><td>10</td><td>6</td><td>Tyler Lockett (Sea, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>10</td><td>7</td><td>Christian Kirk (Jax, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>10</td><td>8</td><td>Zach Ertz (Ari, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>10</td><td>9</td><td>Chase Claypool (Chi, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>10</td><td>10</td><td>Pat Freiermuth (Pit, TE)</td><td>Camden Bendik</td></tr>
+                            <tr><td>11</td><td>1</td><td>Robert Woods (FA, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>11</td><td>2</td><td>Trey Lance (SF, QB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>11</td><td>3</td><td>Russell Wilson (Den, QB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>11</td><td>4</td><td>Melvin Gordon III (FA, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>11</td><td>5</td><td>Skyy Moore (KC, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>11</td><td>6</td><td>Chris Olave (NO, WR)</td><td>David Sun</td></tr>
+                            <tr><td>11</td><td>7</td><td>James Cook (Buf, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>11</td><td>8</td><td>Garrett Wilson (NYJ, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>11</td><td>9</td><td>Kenneth Walker III (Sea, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>11</td><td>10</td><td>Michael Carter (NYJ, RB)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>12</td><td>1</td><td>Matthew Stafford (LAR, QB)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>12</td><td>2</td><td>Nyheim Hines (Buf, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>12</td><td>3</td><td>Rhamondre Stevenson (NE, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>12</td><td>4</td><td>Rams D/ST (LAR, D/ST)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>12</td><td>5</td><td>Bills D/ST (Buf, D/ST)</td><td>David Sun</td></tr>
+                            <tr><td>12</td><td>6</td><td>Raheem Mostert (Mia, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>12</td><td>7</td><td>Marquez Valdes-Scantling (KC, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>12</td><td>8</td><td>Evan McPherson (Cin, K)</td><td>Jack Johnson</td></tr>
+                            <tr><td>12</td><td>9</td><td>J.D. McKissic (FA, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>12</td><td>10</td><td>Justin Tucker (Bal, K)</td><td>Camden Bendik</td></tr>
+                            <tr><td>13</td><td>1</td><td>Alexander Mattison (Min, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>13</td><td>2</td><td>49ers D/ST (SF, D/ST)</td><td>Joseph Martin</td></tr>
+                            <tr><td>13</td><td>3</td><td>Colts D/ST (Ind, D/ST)</td><td>Jack Johnson</td></tr>
+                            <tr><td>13</td><td>4</td><td>Matt Gay (Ind, K)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>13</td><td>5</td><td>Jarvis Landry (NO, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>13</td><td>6</td><td>Kenny Golladay (FA, WR)</td><td>David Sun</td></tr>
+                            <tr><td>13</td><td>7</td><td>Dawson Knox (Buf, TE)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>13</td><td>8</td><td>Derek Carr (NO, QB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>13</td><td>9</td><td>Tyler Bass (Buf, K)</td><td>Steven Masters</td></tr>
+                            <tr><td>13</td><td>10</td><td>Cole Kmet (Chi, TE)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>14</td><td>1</td><td>Saints D/ST (NO, D/ST)</td><td>Trey Melnyk</td></tr>
+                            <tr><td>14</td><td>2</td><td>Cowboys D/ST (Dal, D/ST)</td><td>Steven Masters</td></tr>
+                            <tr><td>14</td><td>3</td><td>Daniel Carlson (LV, K)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>14</td><td>4</td><td>Jamaal Williams (NO, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>14</td><td>5</td><td>Harrison Butker (KC, K)</td><td>David Sun</td></tr>
+                            <tr><td>14</td><td>6</td><td>Matt Prater (Ari, K)</td><td>Jasper Mills</td></tr>
+                            <tr><td>14</td><td>7</td><td>Buccaneers D/ST (TB, D/ST)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>14</td><td>8</td><td>Steelers D/ST (Pit, D/ST)</td><td>Jack Johnson</td></tr>
+                            <tr><td>14</td><td>9</td><td>Nick Folk (NE, K)</td><td>Joseph Martin</td></tr>
+                            <tr><td>14</td><td>10</td><td>Deshaun Watson (Cle, QB)</td><td>Camden Bendik</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="draft-content" id="draft-2021">
+                <h3 class="season-year">2021 Draft</h3>
+                <div class="draft-filter">
+                    <label for="team-filter-2021">Filter by Team:</label>
+                    <select id="team-filter-2021" class="team-filter-select">
+                        <option value="all">All Teams</option>
+                    </select>
+                </div>
+                
+                <div class="draft-table-wrapper">
+                    <table class="draft-table">
+                        <thead>
+                            <tr>
+                                <th class="col-round">Round</th>
+                                <th class="col-pick">Pick</th>
+                                <th class="col-player">Player</th>
+                                <th class="col-team">Team</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>1</td><td>Christian McCaffrey (Car, RB)</td><td>David Sun</td></tr>
+                            <tr><td>1</td><td>2</td><td>Dalvin Cook (Min, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>1</td><td>3</td><td>Alvin Kamara (NO, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>1</td><td>4</td><td>Derrick Henry (Ten, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>1</td><td>5</td><td>Saquon Barkley (NYG, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>1</td><td>6</td><td>Ezekiel Elliott (Dal, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>1</td><td>7</td><td>Travis Kelce (KC, TE)</td><td>Joseph Martin</td></tr>
+                            <tr><td>1</td><td>8</td><td>Jonathan Taylor (Ind, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>1</td><td>9</td><td>Davante Adams (GB, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>1</td><td>10</td><td>Tyreek Hill (KC, WR)</td><td>Nate Webster</td></tr>
+                            <tr><td>2</td><td>1</td><td>Aaron Jones (GB, RB)</td><td>Nate Webster</td></tr>
+                            <tr><td>2</td><td>2</td><td>Austin Ekeler (LAC, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>2</td><td>3</td><td>Calvin Ridley (Atl, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>2</td><td>4</td><td>Nick Chubb (Cle, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>2</td><td>5</td><td>Stefon Diggs (Buf, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>2</td><td>6</td><td>Najee Harris (Pit, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>2</td><td>7</td><td>Antonio Gibson (Wsh, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>2</td><td>8</td><td>DeAndre Hopkins (Ari, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>2</td><td>9</td><td>DK Metcalf (Sea, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>2</td><td>10</td><td>Justin Jefferson (Min, WR)</td><td>David Sun</td></tr>
+                            <tr><td>3</td><td>1</td><td>Patrick Mahomes (KC, QB)</td><td>David Sun</td></tr>
+                            <tr><td>3</td><td>2</td><td>Darren Waller (LV, TE)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>3</td><td>3</td><td>Terry McLaurin (Wsh, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>3</td><td>4</td><td>Keenan Allen (LAC, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>3</td><td>5</td><td>A.J. Brown (Ten, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>3</td><td>6</td><td>George Kittle (SF, TE)</td><td>Jasper Mills</td></tr>
+                            <tr><td>3</td><td>7</td><td>Joe Mixon (Cin, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>3</td><td>8</td><td>Clyde Edwards-Helaire (KC, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>3</td><td>9</td><td>Allen Robinson II (Chi, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>3</td><td>10</td><td>Chris Carson (Sea, RB)</td><td>Nate Webster</td></tr>
+                            <tr><td>4</td><td>1</td><td>David Montgomery (Chi, RB)</td><td>Nate Webster</td></tr>
+                            <tr><td>4</td><td>2</td><td>James Robinson (Jax, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>4</td><td>3</td><td>Robert Woods (LAR, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>4</td><td>4</td><td>CeeDee Lamb (Dal, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>4</td><td>5</td><td>Josh Allen (Buf, QB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>4</td><td>6</td><td>Amari Cooper (Dal, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>4</td><td>7</td><td>Mike Evans (TB, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>4</td><td>8</td><td>Josh Jacobs (LV, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>4</td><td>9</td><td>Miles Sanders (Phi, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>4</td><td>10</td><td>D'Andre Swift (Det, RB)</td><td>David Sun</td></tr>
+                            <tr><td>5</td><td>1</td><td>Julio Jones (Ten, WR)</td><td>David Sun</td></tr>
+                            <tr><td>5</td><td>2</td><td>Cooper Kupp (LAR, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>5</td><td>3</td><td>Gus Edwards (Bal, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>5</td><td>4</td><td>Tyler Lockett (Sea, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>5</td><td>5</td><td>Kyler Murray (Ari, QB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>5</td><td>6</td><td>Chris Godwin (TB, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>5</td><td>7</td><td>Brandon Aiyuk (SF, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>5</td><td>8</td><td>DJ Moore (Car, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>5</td><td>9</td><td>Myles Gaskin (Mia, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>5</td><td>10</td><td>Diontae Johnson (Pit, WR)</td><td>Nate Webster</td></tr>
+                            <tr><td>6</td><td>1</td><td>Mark Andrews (Bal, TE)</td><td>Nate Webster</td></tr>
+                            <tr><td>6</td><td>2</td><td>Aaron Rodgers (GB, QB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>6</td><td>3</td><td>Javonte Williams (Den, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>6</td><td>4</td><td>Dak Prescott (Dal, QB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>6</td><td>5</td><td>Adam Thielen (Min, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>6</td><td>6</td><td>Kareem Hunt (Cle, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>6</td><td>7</td><td>T.J. Hockenson (Det, TE)</td><td>Camden Bendik</td></tr>
+                            <tr><td>6</td><td>8</td><td>Lamar Jackson (Bal, QB)</td><td>Steven Masters</td></tr>
+                            <tr><td>6</td><td>9</td><td>Odell Beckham Jr. (LAR, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>6</td><td>10</td><td>Brandin Cooks (Hou, WR)</td><td>David Sun</td></tr>
+                            <tr><td>7</td><td>1</td><td>Kyle Pitts (Atl, TE)</td><td>David Sun</td></tr>
+                            <tr><td>7</td><td>2</td><td>Russell Wilson (Sea, QB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>7</td><td>3</td><td>Kenny Golladay (NYG, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>7</td><td>4</td><td>Justin Herbert (LAC, QB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>7</td><td>5</td><td>Chase Edmonds (Ari, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>7</td><td>6</td><td>Damien Harris (NE, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>7</td><td>7</td><td>Mike Davis (Atl, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>7</td><td>8</td><td>Darrell Henderson Jr. (LAR, RB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>7</td><td>9</td><td>Jerry Jeudy (Den, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>7</td><td>10</td><td>Tee Higgins (Cin, WR)</td><td>Nate Webster</td></tr>
+                            <tr><td>8</td><td>1</td><td>Chase Claypool (Pit, WR)</td><td>Nate Webster</td></tr>
+                            <tr><td>8</td><td>2</td><td>Kenyan Drake (LV, RB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>8</td><td>3</td><td>Logan Thomas (Wsh, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>8</td><td>4</td><td>Robby Anderson (Car, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>8</td><td>5</td><td>William Fuller V (Mia, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>8</td><td>6</td><td>JuJu Smith-Schuster (Pit, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>8</td><td>7</td><td>Courtland Sutton (Den, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>8</td><td>8</td><td>Laviska Shenault Jr. (Jax, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>8</td><td>9</td><td>Ja'Marr Chase (Cin, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>8</td><td>10</td><td>Corey Davis (NYJ, WR)</td><td>David Sun</td></tr>
+                            <tr><td>9</td><td>1</td><td>Michael Thomas (NO, WR)</td><td>David Sun</td></tr>
+                            <tr><td>9</td><td>2</td><td>Sony Michel (LAR, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>9</td><td>3</td><td>Zack Moss (Buf, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>9</td><td>4</td><td>Raheem Mostert (SF, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>9</td><td>5</td><td>DeVonta Smith (Phi, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>9</td><td>6</td><td>Leonard Fournette (TB, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>9</td><td>7</td><td>Marvin Jones Jr. (Jax, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>9</td><td>8</td><td>Ryan Tannehill (Ten, QB)</td><td>Jack Johnson</td></tr>
+                            <tr><td>9</td><td>9</td><td>Robert Tonyan (GB, TE)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>9</td><td>10</td><td>Trey Sermon (SF, RB)</td><td>Nate Webster</td></tr>
+                            <tr><td>10</td><td>1</td><td>Ronald Jones II (TB, RB)</td><td>Nate Webster</td></tr>
+                            <tr><td>10</td><td>2</td><td>Marquez Callaway (NO, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>10</td><td>3</td><td>Buccaneers D/ST (TB, D/ST)</td><td>Jack Johnson</td></tr>
+                            <tr><td>10</td><td>4</td><td>Melvin Gordon III (Den, RB)</td><td>Joseph Martin</td></tr>
+                            <tr><td>10</td><td>5</td><td>Antonio Brown (FA, WR)</td><td>Jasper Mills</td></tr>
+                            <tr><td>10</td><td>6</td><td>Michael Carter (NYJ, RB)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>10</td><td>7</td><td>Marquise Brown (Bal, WR)</td><td>Camden Bendik</td></tr>
+                            <tr><td>10</td><td>8</td><td>Dallas Goedert (Phi, TE)</td><td>Steven Masters</td></tr>
+                            <tr><td>10</td><td>9</td><td>James Conner (Ari, RB)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>10</td><td>10</td><td>Jamaal Williams (Det, RB)</td><td>David Sun</td></tr>
+                            <tr><td>11</td><td>1</td><td>Commanders D/ST (Wsh, D/ST)</td><td>David Sun</td></tr>
+                            <tr><td>11</td><td>2</td><td>Michael Gallup (Dal, WR)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>11</td><td>3</td><td>AJ Dillon (GB, RB)</td><td>Steven Masters</td></tr>
+                            <tr><td>11</td><td>4</td><td>Nyheim Hines (Ind, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>11</td><td>5</td><td>Justin Tucker (Bal, K)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>11</td><td>6</td><td>David Johnson (Hou, RB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>11</td><td>7</td><td>Tyler Boyd (Cin, WR)</td><td>Joseph Martin</td></tr>
+                            <tr><td>11</td><td>8</td><td>Jason Sanders (Mia, K)</td><td>Jack Johnson</td></tr>
+                            <tr><td>11</td><td>9</td><td>Jaylen Waddle (Mia, WR)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>11</td><td>10</td><td>Jalen Hurts (Phi, QB)</td><td>Nate Webster</td></tr>
+                            <tr><td>12</td><td>1</td><td>Deebo Samuel (SF, WR)</td><td>Nate Webster</td></tr>
+                            <tr><td>12</td><td>2</td><td>Tom Brady (TB, QB)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>12</td><td>3</td><td>Noah Fant (Den, TE)</td><td>Jack Johnson</td></tr>
+                            <tr><td>12</td><td>4</td><td>Jonnu Smith (NE, TE)</td><td>Joseph Martin</td></tr>
+                            <tr><td>12</td><td>5</td><td>Matthew Stafford (LAR, QB)</td><td>Jasper Mills</td></tr>
+                            <tr><td>12</td><td>6</td><td>DJ Chark Jr. (Jax, WR)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>12</td><td>7</td><td>J.D. McKissic (Wsh, RB)</td><td>Camden Bendik</td></tr>
+                            <tr><td>12</td><td>8</td><td>Michael Pittman Jr. (Ind, WR)</td><td>Steven Masters</td></tr>
+                            <tr><td>12</td><td>9</td><td>Tyler Higbee (LAR, TE)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>12</td><td>10</td><td>Harrison Butker (KC, K)</td><td>David Sun</td></tr>
+                            <tr><td>13</td><td>1</td><td>Henry Ruggs III (FA, WR)</td><td>David Sun</td></tr>
+                            <tr><td>13</td><td>2</td><td>Rams D/ST (LAR, D/ST)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>13</td><td>3</td><td>Younghoe Koo (Atl, K)</td><td>Steven Masters</td></tr>
+                            <tr><td>13</td><td>4</td><td>Evan McPherson (Cin, K)</td><td>Camden Bendik</td></tr>
+                            <tr><td>13</td><td>5</td><td>Mike Gesicki (Mia, TE)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>13</td><td>6</td><td>49ers D/ST (SF, D/ST)</td><td>Jasper Mills</td></tr>
+                            <tr><td>13</td><td>7</td><td>Ravens D/ST (Bal, D/ST)</td><td>Joseph Martin</td></tr>
+                            <tr><td>13</td><td>8</td><td>Jarvis Landry (Cle, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>13</td><td>9</td><td>Steelers D/ST (Pit, D/ST)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>13</td><td>10</td><td>Colts D/ST (Ind, D/ST)</td><td>Nate Webster</td></tr>
+                            <tr><td>14</td><td>1</td><td>Greg Zuerlein (Dal, K)</td><td>Nate Webster</td></tr>
+                            <tr><td>14</td><td>2</td><td>Daniel Carlson (LV, K)</td><td>Andrew Ortiz</td></tr>
+                            <tr><td>14</td><td>3</td><td>Curtis Samuel (Wsh, WR)</td><td>Jack Johnson</td></tr>
+                            <tr><td>14</td><td>4</td><td>Tyler Bass (Buf, K)</td><td>Joseph Martin</td></tr>
+                            <tr><td>14</td><td>5</td><td>Rodrigo Blankenship (Ind, K)</td><td>Jasper Mills</td></tr>
+                            <tr><td>14</td><td>6</td><td>Browns D/ST (Cle, D/ST)</td><td>Brandon Kircher</td></tr>
+                            <tr><td>14</td><td>7</td><td>Dolphins D/ST (Mia, D/ST)</td><td>Camden Bendik</td></tr>
+                            <tr><td>14</td><td>8</td><td>Bills D/ST (Buf, D/ST)</td><td>Steven Masters</td></tr>
+                            <tr><td>14</td><td>9</td><td>Matt Gay (LAR, K)</td><td>Ethan Hatter</td></tr>
+                            <tr><td>14</td><td>10</td><td>Joe Burrow (Cin, QB)</td><td>David Sun</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
         <!-- History Section -->
         <section id="history" class="section">
             <div class="section-header">
@@ -1413,60 +2289,67 @@
                 <div class="timeline-year">
                     <div class="year-label">2016</div>
                     <div class="year-events">
-                        <div class="event founding"><span class="event-icon">*</span> League founded by <a href="profiles/brandon-kircher.html" class="name-link">Brandon Kircher</a></div>
-                        <div class="event"><span class="event-icon">//</span> <a href="profiles/brandon-kircher.html" class="name-link">Brandon Kircher</a> appointed Commissioner</div>
+                        <div class="event founding"><span class="event-icon">*</span><span>League founded by <a href="profiles/brandon-kircher.html" class="name-link">Brandon Kircher</a></span></div>
+                        <div class="event"><span class="event-icon">//</span><span><a href="profiles/brandon-kircher.html" class="name-link">Brandon Kircher</a> appointed Commissioner</span></div>
                     </div>
                 </div>
                 
                 <div class="timeline-year">
                     <div class="year-label">2017</div>
                     <div class="year-events">
-                        <div class="event"><span class="event-icon">+</span> Fractional point scoring added</div>
+                        <div class="event"><span class="event-icon">+</span><span>Fractional point scoring added</span></div>
                     </div>
                 </div>
                 
                 <div class="timeline-year scandal-year">
                     <div class="year-label">2018</div>
                     <div class="year-events">
-                        <div class="event scandal"><span class="event-icon">!</span> <strong>KIRCHERGATE</strong> — Commissioner failed to pay winner</div>
-                        <div class="event"><span class="event-icon">x</span> Commissioner <a href="profiles/brandon-kircher.html" class="name-link">Kircher</a> impeached</div>
-                        <div class="event"><span class="event-icon">//</span> <a href="profiles/steven-masters.html" class="name-link">Steven Masters</a> appointed Commissioner</div>
-                        <div class="event"><span class="event-icon">+</span> Scoring changed to Quarter PPR</div>
+                        <div class="event scandal"><span class="event-icon">!</span><span><strong>KIRCHERGATE</strong> — Commissioner failed to pay winner</span></div>
+                        <div class="event"><span class="event-icon">x</span><span>Commissioner <a href="profiles/brandon-kircher.html" class="name-link">Kircher</a> impeached</span></div>
+                        <div class="event"><span class="event-icon">//</span><span><a href="profiles/steven-masters.html" class="name-link">Steven Masters</a> appointed Commissioner</span></div>
+                        <div class="event"><span class="event-icon">+</span><span>Scoring changed to Quarter PPR</span></div>
                     </div>
                 </div>
                 
                 <div class="timeline-year scandal-year">
                     <div class="year-label">2019</div>
                     <div class="year-events">
-                        <div class="event scandal"><span class="event-icon">!</span> <strong>Baron Gaunt banned</strong> — Failed to pay buy-in, bragged about it to <a href="profiles/jasper-mills.html" class="name-link">Jasper</a></div>
+                        <div class="event scandal"><span class="event-icon">!</span><span><strong>Baron Gaunt banned</strong> — Failed to pay buy-in, bragged about it to <a href="profiles/jasper-mills.html" class="name-link">Jasper</a></span></div>
                     </div>
                 </div>
                 
                 <div class="timeline-year">
                     <div class="year-label">2020</div>
                     <div class="year-events">
-                        <div class="event"><span class="event-icon">+</span> Scoring changed to Half PPR</div>
+                        <div class="event"><span class="event-icon">+</span><span>Scoring changed to Half PPR</span></div>
                     </div>
                 </div>
                 
                 <div class="timeline-year">
                     <div class="year-label">2021</div>
                     <div class="year-events">
-                        <div class="event"><span class="event-icon">+</span> Scoring changed to Full PPR</div>
                     </div>
                 </div>
                 
                 <div class="timeline-year">
                     <div class="year-label">2022</div>
                     <div class="year-events">
-                        <div class="event"><span class="event-icon">~</span> Duck Race used for draft order</div>
+                        <div class="event"><span class="event-icon">+</span><span>Scoring changed to Full PPR</span></div>
+                        <div class="event"><span class="event-icon">~</span><span>Duck Race used for draft order</span></div>
+                    </div>
+                </div>
+                
+                <div class="timeline-year">
+                    <div class="year-label">2023</div>
+                    <div class="year-events">
+                        <div class="event"><span class="event-icon">~</span><span>Duck Race used for draft order</span></div>
                     </div>
                 </div>
                 
                 <div class="timeline-year">
                     <div class="year-label">2025</div>
                     <div class="year-events">
-                        <div class="event"><span class="event-icon">+</span> League expanded from 10 to 12 teams</div>
+                        <div class="event"><span class="event-icon">+</span><span>League expanded from 10 to 12 teams</span></div>
                     </div>
                 </div>
             </div>
@@ -1641,10 +2524,10 @@
 
     <script>
         // Season tabs functionality
-        document.querySelectorAll('.season-tab').forEach(tab => {
+        document.querySelectorAll('.season-tab[data-season]').forEach(tab => {
             tab.addEventListener('click', () => {
-                // Remove active from all tabs and content
-                document.querySelectorAll('.season-tab').forEach(t => t.classList.remove('active'));
+                // Remove active from all season tabs and content
+                document.querySelectorAll('.season-tab[data-season]').forEach(t => t.classList.remove('active'));
                 document.querySelectorAll('.season-content').forEach(c => c.classList.remove('active'));
                 
                 // Add active to clicked tab and corresponding content
@@ -1653,6 +2536,62 @@
                 document.getElementById('season-' + season).classList.add('active');
             });
         });
+        
+        // Draft tabs functionality
+        document.querySelectorAll('.season-tab[data-draft]').forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active from all draft tabs and content
+                document.querySelectorAll('.season-tab[data-draft]').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.draft-content').forEach(c => c.classList.remove('active'));
+                
+                // Add active to clicked tab and corresponding content
+                tab.classList.add('active');
+                const draft = tab.dataset.draft;
+                document.getElementById('draft-' + draft).classList.add('active');
+            });
+        });
+        
+        // Initialize team filters for draft tables
+        document.querySelectorAll('.draft-content').forEach(draftContent => {
+            const table = draftContent.querySelector('.draft-table');
+            if (!table) return;
+            
+            const filterSelect = draftContent.querySelector('.team-filter-select');
+            if (!filterSelect) return;
+            
+            // Get unique team names from table
+            const teamNames = new Set();
+            table.querySelectorAll('tbody tr').forEach(row => {
+                const teamName = row.cells[3].textContent.trim();
+                if (teamName) {
+                    teamNames.add(teamName);
+                }
+            });
+            
+            // Sort team names and add to dropdown
+            Array.from(teamNames).sort().forEach(name => {
+                const option = document.createElement('option');
+                option.value = name;
+                option.textContent = name;
+                filterSelect.appendChild(option);
+            });
+            
+            // Add filter functionality
+            filterSelect.addEventListener('change', () => {
+                const selectedTeam = filterSelect.value;
+                const rows = table.querySelectorAll('tbody tr');
+                
+                rows.forEach(row => {
+                    const teamName = row.cells[3].textContent.trim();
+                    if (selectedTeam === 'all' || teamName === selectedTeam) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
     </script>
 </body>
 </html>

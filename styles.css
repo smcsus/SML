@@ -883,6 +883,184 @@ body {
 }
 
 /* ============================================
+   Draft Recaps Section
+   ============================================ */
+
+.draft-content {
+    display: none;
+}
+
+.draft-content.active {
+    display: block;
+}
+
+.draft-filter {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border-radius: 4px;
+}
+
+.draft-filter label {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.team-filter-select {
+    flex: 1;
+    max-width: 300px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    background-color: var(--bg-accent);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23d4a940' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    border: 1px solid rgba(212, 169, 64, 0.2);
+    border-radius: 4px;
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.team-filter-select:hover {
+    border-color: var(--accent);
+    background-color: rgba(212, 169, 64, 0.1);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23d4a940' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+}
+
+.team-filter-select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 2px rgba(212, 169, 64, 0.2);
+    background-color: var(--bg-accent);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23d4a940' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+}
+
+.team-filter-select option {
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+    padding: 0.5rem;
+}
+
+.draft-table-wrapper {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+}
+
+.draft-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.draft-table thead {
+    background: var(--bg-accent);
+}
+
+.draft-table th {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--bg-accent);
+    cursor: default;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+.draft-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--bg-accent);
+    color: var(--text-secondary);
+}
+
+.draft-table tbody tr:hover {
+    background: rgba(212, 169, 64, 0.05);
+}
+
+.draft-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.col-round {
+    width: 80px;
+}
+
+.col-pick {
+    width: 60px;
+}
+
+.col-player {
+    min-width: 200px;
+}
+
+.col-team {
+    min-width: 150px;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.col-draft-pos {
+    min-width: 100px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.col-season-finish {
+    min-width: 120px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.col-points {
+    min-width: 80px;
+    text-align: right;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.col-value {
+    min-width: 60px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.col-value .value-good {
+    color: #10b981; /* green */
+}
+
+.col-value .value-bad {
+    color: #ef4444; /* red */
+}
+
+.col-value .value-push {
+    color: var(--text-muted);
+}
+
+/* ============================================
    Footer
    ============================================ */
 
