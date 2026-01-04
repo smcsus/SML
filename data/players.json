@@ -1,0 +1,2752 @@
+{
+  "players": {
+    "jamarrchase": {
+      "name": "Ja'Marr Chase",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "CIN",
+        "2024": "CIN",
+        "2023": "CIN",
+        "2022": "CIN"
+      }
+    },
+    "bijanrobinson": {
+      "name": "Bijan Robinson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "ATL",
+        "2024": "ATL",
+        "2023": "ATL"
+      }
+    },
+    "saquonbarkley": {
+      "name": "Saquon Barkley",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "PHI",
+        "2024": "PHI",
+        "2023": "PHI",
+        "2022": "NYG"
+      }
+    },
+    "jahmyrgibbs": {
+      "name": "Jahmyr Gibbs",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "DET",
+        "2024": "DET",
+        "2023": "DET"
+      }
+    },
+    "justinjefferson": {
+      "name": "Justin Jefferson",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "MIN",
+        "2024": "MIN",
+        "2023": "MIN",
+        "2022": "MIN"
+      }
+    },
+    "ceedeelamb": {
+      "name": "CeeDee Lamb",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "DAL",
+        "2024": "DAL",
+        "2023": "DAL",
+        "2022": "DAL"
+      }
+    },
+    "christianmccaffrey": {
+      "name": "Christian McCaffrey",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "SFO",
+        "2024": "SFO",
+        "2023": "SFO",
+        "2022": "SFO"
+      }
+    },
+    "maliknabers": {
+      "name": "Malik Nabers",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "NYG",
+        "2024": "NYG"
+      }
+    },
+    "amonrastbrown": {
+      "name": "Amon-Ra St. Brown",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "DET",
+        "2024": "DET",
+        "2023": "DET",
+        "2022": "DET"
+      }
+    },
+    "ashtonjeanty": {
+      "name": "Ashton Jeanty",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "LVR"
+      }
+    },
+    "nicocollins": {
+      "name": "Nico Collins",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "HOU",
+        "2024": "HOU"
+      }
+    },
+    "devonachane": {
+      "name": "De'Von Achane",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "MIA",
+        "2024": "MIA"
+      }
+    },
+    "brianthomas": {
+      "name": "Brian Thomas Jr.",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "JAX"
+      }
+    },
+    "derrickhenry": {
+      "name": "Derrick Henry",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "TEN",
+        "2024": "TEN",
+        "2023": "TEN",
+        "2022": "TEN"
+      }
+    },
+    "pukanacua": {
+      "name": "Puka Nacua",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "LAR",
+        "2024": "LAR"
+      }
+    },
+    "drakelondon": {
+      "name": "Drake London",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "ATL",
+        "2024": "ATL",
+        "2023": "ATL",
+        "2022": "ATL"
+      }
+    },
+    "joshjacobs": {
+      "name": "Josh Jacobs",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "LVR",
+        "2024": "LVR",
+        "2023": "LVR",
+        "2022": "LVR"
+      }
+    },
+    "ajbrown": {
+      "name": "A.J. Brown",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "PHI",
+        "2024": "PHI",
+        "2023": "PHI",
+        "2022": "PHI"
+      }
+    },
+    "jonathantaylor": {
+      "name": "Jonathan Taylor",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "IND",
+        "2024": "IND",
+        "2023": "IND",
+        "2022": "IND"
+      }
+    },
+    "brockbowers": {
+      "name": "Brock Bowers",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "LVR",
+        "2024": "LVR"
+      }
+    },
+    "teehiggins": {
+      "name": "Tee Higgins",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "CIN",
+        "2024": "CIN",
+        "2023": "CIN",
+        "2022": "CIN"
+      }
+    },
+    "chasebrown": {
+      "name": "Chase Brown",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "CIN"
+      }
+    },
+    "buckyirving": {
+      "name": "Bucky Irving",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "TAM"
+      }
+    },
+    "davanteadams": {
+      "name": "Davante Adams",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "LAR",
+        "2024": "LVR",
+        "2023": "LVR",
+        "2022": "LVR"
+      }
+    },
+    "joshallen": {
+      "name": "Josh Allen",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "BUF",
+        "2024": "BUF",
+        "2023": "BUF",
+        "2022": "BUF"
+      }
+    },
+    "laddmcconkey": {
+      "name": "Ladd McConkey",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "LAC",
+        "2024": "LAC"
+      }
+    },
+    "kyrenwilliams": {
+      "name": "Kyren Williams",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "LAR",
+        "2024": "LAR"
+      }
+    },
+    "jaxonsmithnjigba": {
+      "name": "Jaxon Smith-Njigba",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "SEA",
+        "2024": "SEA",
+        "2023": "SEA"
+      }
+    },
+    "omarionhampton": {
+      "name": "Omarion Hampton",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "LAC"
+      }
+    },
+    "tyreekhill": {
+      "name": "Tyreek Hill",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "MIA",
+        "2024": "MIA",
+        "2023": "MIA",
+        "2022": "MIA"
+      }
+    },
+    "jamescook": {
+      "name": "James Cook III",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "BUF",
+        "2024": "BUF",
+        "2023": "BUF",
+        "2022": "BUF"
+      }
+    },
+    "treymcbride": {
+      "name": "Trey McBride",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "ARI",
+        "2024": "ARI"
+      }
+    },
+    "chubahubbard": {
+      "name": "Chuba Hubbard",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "CAR"
+      }
+    },
+    "alvinkamara": {
+      "name": "Alvin Kamara",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NOR",
+        "2024": "NOR",
+        "2023": "NOR",
+        "2022": "NOR"
+      }
+    },
+    "lamarjackson": {
+      "name": "Lamar Jackson",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "BAL",
+        "2024": "BAL",
+        "2023": "BAL",
+        "2022": "BAL"
+      }
+    },
+    "kennethwalker": {
+      "name": "Kenneth Walker III",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "SEA",
+        "2024": "SEA",
+        "2023": "SEA",
+        "2022": "SEA"
+      }
+    },
+    "marvinharrison": {
+      "name": "Marvin Harrison Jr.",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "ARI",
+        "2024": "ARI"
+      }
+    },
+    "terrymclaurin": {
+      "name": "Terry McLaurin",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "WAS",
+        "2024": "WAS",
+        "2023": "WAS",
+        "2022": "WAS"
+      }
+    },
+    "jaydendaniels": {
+      "name": "Jayden Daniels",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "WAS",
+        "2024": "WAS"
+      }
+    },
+    "treveyonhenderson": {
+      "name": "TreVeyon Henderson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NWE"
+      }
+    },
+    "garrettwilson": {
+      "name": "Garrett Wilson",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "NYJ",
+        "2024": "NYJ",
+        "2023": "NYJ",
+        "2022": "NYJ"
+      }
+    },
+    "georgekittle": {
+      "name": "George Kittle",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "SFO",
+        "2024": "SFO",
+        "2023": "SFO",
+        "2022": "SFO"
+      }
+    },
+    "rasheerice": {
+      "name": "Rashee Rice",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "KAN",
+        "2024": "KAN"
+      }
+    },
+    "joeburrow": {
+      "name": "Joe Burrow",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "CIN",
+        "2024": "CIN",
+        "2023": "CIN",
+        "2022": "CIN"
+      }
+    },
+    "mikeevans": {
+      "name": "Mike Evans",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "TAM",
+        "2024": "TAM",
+        "2023": "TAM",
+        "2022": "TAM"
+      }
+    },
+    "dkmetcalf": {
+      "name": "DK Metcalf",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "PIT",
+        "2024": "SEA",
+        "2023": "SEA",
+        "2022": "SEA"
+      }
+    },
+    "xavierworthy": {
+      "name": "Xavier Worthy",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "KAN",
+        "2024": "KAN"
+      }
+    },
+    "jamesconner": {
+      "name": "James Conner",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "ARI",
+        "2024": "ARI",
+        "2023": "ARI",
+        "2022": "ARI"
+      }
+    },
+    "breecehall": {
+      "name": "Breece Hall",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NYJ",
+        "2024": "NYJ",
+        "2023": "NYJ",
+        "2022": "NYJ"
+      }
+    },
+    "jalenhurts": {
+      "name": "Jalen Hurts",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "PHI",
+        "2024": "PHI",
+        "2023": "PHI",
+        "2022": "PHI"
+      }
+    },
+    "djmoore": {
+      "name": "DJ Moore",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "CHI",
+        "2024": "CHI",
+        "2023": "CHI",
+        "2022": "CHI"
+      }
+    },
+    "dandreswift": {
+      "name": "D'Andre Swift",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "CHI",
+        "2024": "CHI",
+        "2023": "CHI",
+        "2022": "DET"
+      }
+    },
+    "courtlandsutton": {
+      "name": "Courtland Sutton",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "DEN",
+        "2024": "DEN",
+        "2023": "DEN",
+        "2022": "DEN"
+      }
+    },
+    "aaronjones": {
+      "name": "Aaron Jones Sr.",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "MIN",
+        "2024": "MIN",
+        "2023": "MIN",
+        "2022": "GNB"
+      }
+    },
+    "zayflowers": {
+      "name": "Zay Flowers",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "BAL",
+        "2024": "BAL",
+        "2023": "BAL"
+      }
+    },
+    "patrickmahomes": {
+      "name": "Patrick Mahomes",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "KAN",
+        "2024": "KAN",
+        "2023": "KAN",
+        "2022": "KAN"
+      }
+    },
+    "davidmontgomery": {
+      "name": "David Montgomery",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "DET",
+        "2024": "DET",
+        "2023": "DET",
+        "2022": "DET"
+      }
+    },
+    "jamesonwilliams": {
+      "name": "Jameson Williams",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "DET",
+        "2024": "DET"
+      }
+    },
+    "calvinridley": {
+      "name": "Calvin Ridley",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "TEN",
+        "2024": "TEN",
+        "2023": "TEN"
+      }
+    },
+    "samlaporta": {
+      "name": "Sam LaPorta",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "DET",
+        "2024": "DET"
+      }
+    },
+    "isiahpacheco": {
+      "name": "Isiah Pacheco",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "KAN",
+        "2024": "KAN",
+        "2023": "KAN"
+      }
+    },
+    "tjhockenson": {
+      "name": "T.J. Hockenson",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "MIN",
+        "2024": "MIN",
+        "2023": "MIN",
+        "2022": "MIN"
+      }
+    },
+    "jacorycroskeymerritt": {
+      "name": "Jacory Croskey-Merritt",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "WAS"
+      }
+    },
+    "tetairoamcmillan": {
+      "name": "Tetairoa McMillan",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "CAR"
+      }
+    },
+    "joemixon": {
+      "name": "Joe Mixon",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "CIN",
+        "2024": "CIN",
+        "2023": "CIN",
+        "2022": "CIN"
+      }
+    },
+    "georgepickens": {
+      "name": "George Pickens",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "DAL",
+        "2024": "PIT",
+        "2023": "PIT"
+      }
+    },
+    "cooperkupp": {
+      "name": "Cooper Kupp",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "SEA",
+        "2024": "SEA",
+        "2023": "LAR",
+        "2022": "LAR"
+      }
+    },
+    "rjharvey": {
+      "name": "RJ Harvey",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "DEN"
+      }
+    },
+    "jaylenwaddle": {
+      "name": "Jaylen Waddle",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "MIA",
+        "2024": "MIA",
+        "2023": "MIA",
+        "2022": "MIA"
+      }
+    },
+    "jerryjeudy": {
+      "name": "Jerry Jeudy",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "CLE",
+        "2024": "CLE",
+        "2023": "CLE",
+        "2022": "DEN"
+      }
+    },
+    "devontasmith": {
+      "name": "DeVonta Smith",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "PHI",
+        "2024": "PHI",
+        "2023": "PHI",
+        "2022": "PHI"
+      }
+    },
+    "travishunter": {
+      "name": "Travis Hunter",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "JAX"
+      }
+    },
+    "traviskelce": {
+      "name": "Travis Kelce",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "KAN",
+        "2024": "KAN",
+        "2023": "KAN",
+        "2022": "KAN"
+      }
+    },
+    "chrisolave": {
+      "name": "Chris Olave",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "NOR",
+        "2024": "NOR",
+        "2023": "NOR",
+        "2022": "NOR"
+      }
+    },
+    "jakobimeyers": {
+      "name": "Jakobi Meyers",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "JAX",
+        "2023": "LVR"
+      }
+    },
+    "davidnjoku": {
+      "name": "David Njoku",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "CLE",
+        "2024": "CLE",
+        "2023": "CLE"
+      }
+    },
+    "tonypollard": {
+      "name": "Tony Pollard",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "TEN",
+        "2024": "TEN",
+        "2023": "TEN",
+        "2022": "DAL"
+      }
+    },
+    "tyronetracy": {
+      "name": "Tyrone Tracy Jr.",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NYG"
+      }
+    },
+    "kalebjohnson": {
+      "name": "Kaleb Johnson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "PIT"
+      }
+    },
+    "emekaegbuka": {
+      "name": "Emeka Egbuka",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "TAM"
+      }
+    },
+    "tylerwarren": {
+      "name": "Tyler Warren",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "IND"
+      }
+    },
+    "colstonloveland": {
+      "name": "Colston Loveland",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "CHI"
+      }
+    },
+    "jaylenwarren": {
+      "name": "Jaylen Warren",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "PIT",
+        "2024": "PIT"
+      }
+    },
+    "romeodunze": {
+      "name": "Rome Odunze",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "CHI",
+        "2024": "CHI"
+      }
+    },
+    "bonix": {
+      "name": "Bo Nix",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "DEN"
+      }
+    },
+    "jkdobbins": {
+      "name": "J.K. Dobbins",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "DEN",
+        "2023": "BAL",
+        "2022": "BAL"
+      }
+    },
+    "deebosamuel": {
+      "name": "Deebo Samuel",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "WAS",
+        "2024": "WAS",
+        "2023": "SFO",
+        "2022": "SFO"
+      }
+    },
+    "drakemaye": {
+      "name": "Drake Maye",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "NWE"
+      }
+    },
+    "quinshonjudkins": {
+      "name": "Quinshon Judkins",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "CLE"
+      }
+    },
+    "brockpurdy": {
+      "name": "Brock Purdy",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "SFO",
+        "2024": "SFO"
+      }
+    },
+    "bakermayfield": {
+      "name": "Baker Mayfield",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "TAM"
+      }
+    },
+    "chrisgodwin": {
+      "name": "Chris Godwin Jr.",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "TAM",
+        "2024": "TAM",
+        "2023": "TAM",
+        "2022": "TAM"
+      }
+    },
+    "justinherbert": {
+      "name": "Justin Herbert",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "LAC",
+        "2024": "LAC",
+        "2023": "LAC",
+        "2022": "LAC"
+      }
+    },
+    "markandrews": {
+      "name": "Mark Andrews",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "BAL",
+        "2024": "BAL",
+        "2023": "BAL",
+        "2022": "BAL"
+      }
+    },
+    "evanengram": {
+      "name": "Evan Engram",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "DEN",
+        "2024": "DEN",
+        "2023": "JAX"
+      }
+    },
+    "matthewgolden": {
+      "name": "Matthew Golden",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "GNB"
+      }
+    },
+    "austinekeler": {
+      "name": "Austin Ekeler",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "LAC",
+        "2024": "LAC",
+        "2023": "LAC",
+        "2022": "LAC"
+      }
+    },
+    "jordanaddison": {
+      "name": "Jordan Addison",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "MIN",
+        "2024": "MIN",
+        "2023": "MIN"
+      }
+    },
+    "javontewilliams": {
+      "name": "Javonte Williams",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "DAL",
+        "2024": "DAL",
+        "2023": "DEN",
+        "2022": "DEN"
+      }
+    },
+    "texansdst": {
+      "name": "Texans D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "HOU"
+      }
+    },
+    "stefondiggs": {
+      "name": "Stefon Diggs",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "NWE",
+        "2024": "HOU",
+        "2023": "BUF",
+        "2022": "BUF"
+      }
+    },
+    "keenanallen": {
+      "name": "Keenan Allen",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "LAC",
+        "2024": "CHI",
+        "2023": "CHI",
+        "2022": "LAC"
+      }
+    },
+    "rickypearsall": {
+      "name": "Ricky Pearsall",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "SFO"
+      }
+    },
+    "michaelpittman": {
+      "name": "Michael Pittman Jr.",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "IND",
+        "2024": "IND",
+        "2023": "IND",
+        "2022": "IND"
+      }
+    },
+    "jordanmason": {
+      "name": "Jordan Mason",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "MIN"
+      }
+    },
+    "khalilshakir": {
+      "name": "Khalil Shakir",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "BUF"
+      }
+    },
+    "keoncoleman": {
+      "name": "Keon Coleman",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "BUF",
+        "2024": "BUF"
+      }
+    },
+    "kylermurray": {
+      "name": "Kyler Murray",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "ARI",
+        "2024": "ARI",
+        "2022": "ARI"
+      }
+    },
+    "zachcharbonnet": {
+      "name": "Zach Charbonnet",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "SEA",
+        "2024": "SEA",
+        "2023": "SEA"
+      }
+    },
+    "darnellmooney": {
+      "name": "Darnell Mooney",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "ATL",
+        "2022": "CHI"
+      }
+    },
+    "tankbigsby": {
+      "name": "Tank Bigsby",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "PHI"
+      }
+    },
+    "calebwilliams": {
+      "name": "Caleb Williams",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "CHI",
+        "2024": "CHI"
+      }
+    },
+    "jaydenreed": {
+      "name": "Jayden Reed",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "GNB",
+        "2024": "GNB"
+      }
+    },
+    "tyjaespears": {
+      "name": "Tyjae Spears",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "TEN",
+        "2024": "TEN"
+      }
+    },
+    "dakprescott": {
+      "name": "Dak Prescott",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "DAL",
+        "2024": "DAL",
+        "2023": "DAL",
+        "2022": "DAL"
+      }
+    },
+    "travisetienne": {
+      "name": "Travis Etienne Jr.",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "JAX",
+        "2024": "JAX",
+        "2023": "JAX",
+        "2022": "JAX"
+      }
+    },
+    "tylerbass": {
+      "name": "Tyler Bass",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "BUF",
+        "2023": "BUF",
+        "2022": "BUF"
+      }
+    },
+    "jordanlove": {
+      "name": "Jordan Love",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "GNB",
+        "2024": "GNB"
+      }
+    },
+    "camskattebo": {
+      "name": "Cam Skattebo",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NYG"
+      }
+    },
+    "rhamondrestevenson": {
+      "name": "Rhamondre Stevenson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NWE",
+        "2024": "NWE",
+        "2023": "NWE",
+        "2022": "NWE"
+      }
+    },
+    "jaydenhiggins": {
+      "name": "Jayden Higgins",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "HOU"
+      }
+    },
+    "rachaadwhite": {
+      "name": "Rachaad White",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "TAM",
+        "2024": "TAM",
+        "2023": "TAM"
+      }
+    },
+    "tylerallgeier": {
+      "name": "Tyler Allgeier",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "ATL"
+      }
+    },
+    "jauanjennings": {
+      "name": "Jauan Jennings",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "SFO"
+      }
+    },
+    "braelonallen": {
+      "name": "Braelon Allen",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NYJ"
+      }
+    },
+    "brandonaubrey": {
+      "name": "Brandon Aubrey",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "DAL",
+        "2024": "DAL"
+      }
+    },
+    "justinfields": {
+      "name": "Justin Fields",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "NYJ",
+        "2023": "PIT"
+      }
+    },
+    "jaydonblue": {
+      "name": "Jaydon Blue",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "DAL"
+      }
+    },
+    "treybenson": {
+      "name": "Trey Benson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "ARI",
+        "2024": "ARI"
+      }
+    },
+    "adamthielen": {
+      "name": "Adam Thielen",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "PIT",
+        "2022": "FA"
+      }
+    },
+    "jjmccarthy": {
+      "name": "J.J. McCarthy",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "MIN"
+      }
+    },
+    "kylepitts": {
+      "name": "Kyle Pitts Sr.",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "ATL",
+        "2024": "ATL",
+        "2023": "ATL",
+        "2022": "ATL"
+      }
+    },
+    "broncosdst": {
+      "name": "Broncos D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "DEN"
+      }
+    },
+    "brianrobinson": {
+      "name": "Brian Robinson Jr.",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "SFO",
+        "2024": "WAS",
+        "2023": "WAS"
+      }
+    },
+    "steelersdst": {
+      "name": "Steelers D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "PIT",
+        "2024": "PIT",
+        "2023": "PIT",
+        "2022": "PIT"
+      }
+    },
+    "brandonaiyuk": {
+      "name": "Brandon Aiyuk",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "SFO",
+        "2024": "SFO",
+        "2023": "SFO",
+        "2022": "SFO"
+      }
+    },
+    "jaylenwright": {
+      "name": "Jaylen Wright",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "MIA"
+      }
+    },
+    "jeromeford": {
+      "name": "Jerome Ford",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "CLE",
+        "2024": "CLE"
+      }
+    },
+    "tuckerkraft": {
+      "name": "Tucker Kraft",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "GNB"
+      }
+    },
+    "rashodbateman": {
+      "name": "Rashod Bateman",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "BAL",
+        "2022": "BAL"
+      }
+    },
+    "devinneal": {
+      "name": "Devin Neal",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NOR"
+      }
+    },
+    "tylerloop": {
+      "name": "Tyler Loop",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "BAL"
+      }
+    },
+    "dallasgoedert": {
+      "name": "Dallas Goedert",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2025": "PHI",
+        "2023": "PHI",
+        "2022": "PHI"
+      }
+    },
+    "vikingsdst": {
+      "name": "Vikings D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "MIN"
+      }
+    },
+    "jakebates": {
+      "name": "Jake Bates",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "DET"
+      }
+    },
+    "camerondicker": {
+      "name": "Cameron Dicker",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "LAC",
+        "2024": "LAC"
+      }
+    },
+    "joshdowns": {
+      "name": "Josh Downs",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2025": "IND"
+      }
+    },
+    "khalilherbert": {
+      "name": "Khalil Herbert",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "NYJ",
+        "2023": "CHI"
+      }
+    },
+    "eaglesdst": {
+      "name": "Eagles D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "PHI",
+        "2023": "PHI"
+      }
+    },
+    "najeeharris": {
+      "name": "Najee Harris",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2025": "LAC",
+        "2024": "LAC",
+        "2023": "PIT",
+        "2022": "PIT"
+      }
+    },
+    "ravensdst": {
+      "name": "Ravens D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "BAL",
+        "2024": "BAL",
+        "2023": "BAL"
+      }
+    },
+    "chrisboswell": {
+      "name": "Chris Boswell",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "PIT"
+      }
+    },
+    "billsdst": {
+      "name": "Bills D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "BUF",
+        "2023": "BUF",
+        "2022": "BUF"
+      }
+    },
+    "camward": {
+      "name": "Cam Ward",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "TEN"
+      }
+    },
+    "chasemclaughlin": {
+      "name": "Chase McLaughlin",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "TAM"
+      }
+    },
+    "coltsdst": {
+      "name": "Colts D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "IND",
+        "2022": "IND"
+      }
+    },
+    "kaimifairbairn": {
+      "name": "Ka'imi Fairbairn",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "HOU",
+        "2024": "HOU"
+      }
+    },
+    "jetsdst": {
+      "name": "Jets D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "NYJ",
+        "2024": "NYJ",
+        "2023": "NYJ"
+      }
+    },
+    "danielcarlson": {
+      "name": "Daniel Carlson",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "LVR",
+        "2024": "LVR",
+        "2023": "LVR",
+        "2022": "LVR"
+      }
+    },
+    "camlittle": {
+      "name": "Cam Little",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "JAX"
+      }
+    },
+    "lionsdst": {
+      "name": "Lions D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "DET",
+        "2024": "DET"
+      }
+    },
+    "brandonmcmanus": {
+      "name": "Brandon McManus",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "GNB"
+      }
+    },
+    "patriotsdst": {
+      "name": "Patriots D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "NWE",
+        "2023": "NWE"
+      }
+    },
+    "younghoekoo": {
+      "name": "Younghoe Koo",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2025": "FA",
+        "2024": "ATL",
+        "2023": "ATL"
+      }
+    },
+    "giantsdst": {
+      "name": "Giants D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "NYG"
+      }
+    },
+    "seahawksdst": {
+      "name": "Seahawks D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "SEA"
+      }
+    },
+    "chiefsdst": {
+      "name": "Chiefs D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2025": "KAN",
+        "2024": "KAN"
+      }
+    },
+    "jaredgoff": {
+      "name": "Jared Goff",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2025": "DET"
+      }
+    },
+    "cjstroud": {
+      "name": "C.J. Stroud",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2024": "HOU"
+      }
+    },
+    "anthonyrichardson": {
+      "name": "Anthony Richardson",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2024": "IND",
+        "2023": "IND"
+      }
+    },
+    "amaricooper": {
+      "name": "Amari Cooper",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "BUF",
+        "2023": "CLE",
+        "2022": "CLE"
+      }
+    },
+    "tankdell": {
+      "name": "Tank Dell",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "HOU"
+      }
+    },
+    "daltonkincaid": {
+      "name": "Dalton Kincaid",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2024": "BUF"
+      }
+    },
+    "jonathonbrooks": {
+      "name": "Jonathon Brooks",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "CAR"
+      }
+    },
+    "zamirwhite": {
+      "name": "Zamir White",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "LVR"
+      }
+    },
+    "christianwatson": {
+      "name": "Christian Watson",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "GNB",
+        "2023": "GNB"
+      }
+    },
+    "zackmoss": {
+      "name": "Zack Moss",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "CIN"
+      }
+    },
+    "ezekielelliott": {
+      "name": "Ezekiel Elliott",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "FA",
+        "2023": "NWE",
+        "2022": "FA"
+      }
+    },
+    "raheemmostert": {
+      "name": "Raheem Mostert",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "LVR",
+        "2023": "MIA",
+        "2022": "MIA"
+      }
+    },
+    "christiankirk": {
+      "name": "Christian Kirk",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "HOU",
+        "2023": "JAX",
+        "2022": "JAX"
+      }
+    },
+    "devinsingletary": {
+      "name": "Devin Singletary",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "NYG",
+        "2022": "HOU"
+      }
+    },
+    "49ersdst": {
+      "name": "49ers D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2024": "SFO",
+        "2023": "SFO",
+        "2022": "SFO"
+      }
+    },
+    "diontaejohnson": {
+      "name": "Diontae Johnson",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "BAL",
+        "2023": "CAR",
+        "2022": "PIT"
+      }
+    },
+    "deandrehopkins": {
+      "name": "DeAndre Hopkins",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "BAL",
+        "2023": "TEN",
+        "2022": "ARI"
+      }
+    },
+    "nickchubb": {
+      "name": "Nick Chubb",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "CLE",
+        "2023": "CLE",
+        "2022": "CLE"
+      }
+    },
+    "hollywoodbrown": {
+      "name": "Hollywood Brown",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "KAN"
+      }
+    },
+    "brownsdst": {
+      "name": "Browns D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2024": "CLE"
+      }
+    },
+    "gusedwards": {
+      "name": "Gus Edwards",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "FA"
+      }
+    },
+    "blakecorum": {
+      "name": "Blake Corum",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "LAR"
+      }
+    },
+    "cowboysdst": {
+      "name": "Cowboys D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2024": "DAL",
+        "2023": "DAL",
+        "2022": "DAL"
+      }
+    },
+    "mikewilliams": {
+      "name": "Mike Williams",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2024": "LAC",
+        "2023": "NYJ",
+        "2022": "LAC"
+      }
+    },
+    "justintucker": {
+      "name": "Justin Tucker",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2024": "BAL",
+        "2023": "BAL",
+        "2022": "BAL"
+      }
+    },
+    "evanmcpherson": {
+      "name": "Evan McPherson",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2024": "CIN",
+        "2023": "CIN",
+        "2022": "CIN"
+      }
+    },
+    "saintsdst": {
+      "name": "Saints D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2024": "NOR",
+        "2023": "NOR",
+        "2022": "NOR"
+      }
+    },
+    "jakeelliott": {
+      "name": "Jake Elliott",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2024": "PHI",
+        "2023": "PHI"
+      }
+    },
+    "jakeferguson": {
+      "name": "Jake Ferguson",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2024": "DAL"
+      }
+    },
+    "jakemoody": {
+      "name": "Jake Moody",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2024": "SFO"
+      }
+    },
+    "colekmet": {
+      "name": "Cole Kmet",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2024": "CHI",
+        "2023": "CHI",
+        "2022": "CHI"
+      }
+    },
+    "ricodowdle": {
+      "name": "Rico Dowdle",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2024": "CAR"
+      }
+    },
+    "harrisonbutker": {
+      "name": "Harrison Butker",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2024": "KAN",
+        "2023": "KAN",
+        "2022": "KAN"
+      }
+    },
+    "dolphinsdst": {
+      "name": "Dolphins D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2024": "MIA",
+        "2023": "MIA"
+      }
+    },
+    "chargersdst": {
+      "name": "Chargers D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2024": "LAC"
+      }
+    },
+    "dameonpierce": {
+      "name": "Dameon Pierce",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "HOU",
+        "2022": "HOU"
+      }
+    },
+    "alexandermattison": {
+      "name": "Alexander Mattison",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "LVR",
+        "2022": "MIN"
+      }
+    },
+    "darrenwaller": {
+      "name": "Darren Waller",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2023": "NYG",
+        "2022": "NYG"
+      }
+    },
+    "milessanders": {
+      "name": "Miles Sanders",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "CAR",
+        "2022": "CAR"
+      }
+    },
+    "camakers": {
+      "name": "Cam Akers",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "MIN",
+        "2022": "LAR"
+      }
+    },
+    "tylerlockett": {
+      "name": "Tyler Lockett",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "SEA",
+        "2022": "SEA"
+      }
+    },
+    "trevorlawrence": {
+      "name": "Trevor Lawrence",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2023": "JAX"
+      }
+    },
+    "dalvincook": {
+      "name": "Dalvin Cook",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "BAL",
+        "2022": "MIN"
+      }
+    },
+    "brandincooks": {
+      "name": "Brandin Cooks",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "DAL",
+        "2022": "DAL"
+      }
+    },
+    "ajdillon": {
+      "name": "AJ Dillon",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "GNB",
+        "2022": "GNB"
+      }
+    },
+    "patfreiermuth": {
+      "name": "Pat Freiermuth",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2023": "PIT",
+        "2022": "PIT"
+      }
+    },
+    "deshaunwatson": {
+      "name": "Deshaun Watson",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2023": "CLE",
+        "2022": "CLE"
+      }
+    },
+    "marquisebrown": {
+      "name": "Marquise Brown",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "KAN",
+        "2022": "ARI"
+      }
+    },
+    "jahandotson": {
+      "name": "Jahan Dotson",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "WAS"
+      }
+    },
+    "michaelthomas": {
+      "name": "Michael Thomas",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "NOR",
+        "2022": "NOR"
+      }
+    },
+    "antoniogibson": {
+      "name": "Antonio Gibson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "NWE",
+        "2022": "WAS"
+      }
+    },
+    "skyymoore": {
+      "name": "Skyy Moore",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "KAN",
+        "2022": "KAN"
+      }
+    },
+    "jamaalwilliams": {
+      "name": "Jamaal Williams",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "NOR",
+        "2022": "NOR"
+      }
+    },
+    "jujusmithschuster": {
+      "name": "JuJu Smith-Schuster",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "NWE",
+        "2022": "NWE"
+      }
+    },
+    "treylonburks": {
+      "name": "Treylon Burks",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "TEN"
+      }
+    },
+    "kirkcousins": {
+      "name": "Kirk Cousins",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2023": "ATL"
+      }
+    },
+    "gabedavis": {
+      "name": "Gabe Davis",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "JAX",
+        "2022": "BUF"
+      }
+    },
+    "quentinjohnston": {
+      "name": "Quentin Johnston",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "LAC"
+      }
+    },
+    "samajeperine": {
+      "name": "Samaje Perine",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "DEN"
+      }
+    },
+    "odellbeckham": {
+      "name": "Odell Beckham Jr.",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "FA"
+      }
+    },
+    "tuatagovailoa": {
+      "name": "Tua Tagovailoa",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2023": "MIA"
+      }
+    },
+    "danieljones": {
+      "name": "Daniel Jones",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2023": "NYG"
+      }
+    },
+    "rondalemoore": {
+      "name": "Rondale Moore",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "ATL"
+      }
+    },
+    "commandersdst": {
+      "name": "Commanders D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2023": "WAS"
+      }
+    },
+    "hunterrenfrow": {
+      "name": "Hunter Renfrow",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2023": "LVR",
+        "2022": "LVR"
+      }
+    },
+    "jasonmyers": {
+      "name": "Jason Myers",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2023": "SEA"
+      }
+    },
+    "zachertz": {
+      "name": "Zach Ertz",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2023": "WAS",
+        "2022": "ARI"
+      }
+    },
+    "grahamgano": {
+      "name": "Graham Gano",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2023": "NYG"
+      }
+    },
+    "elijahmitchell": {
+      "name": "Elijah Mitchell",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2023": "SFO",
+        "2022": "SFO"
+      }
+    },
+    "mattgay": {
+      "name": "Matt Gay",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2023": "IND",
+        "2022": "IND"
+      }
+    },
+    "aaronrodgers": {
+      "name": "Aaron Rodgers",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2023": "NYJ",
+        "2022": "GNB"
+      }
+    },
+    "leonardfournette": {
+      "name": "Leonard Fournette",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "FA"
+      }
+    },
+    "allenrobinson": {
+      "name": "Allen Robinson II",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "LAR"
+      }
+    },
+    "clydeedwardshelaire": {
+      "name": "Clyde Edwards-Helaire",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "KAN"
+      }
+    },
+    "tombrady": {
+      "name": "Tom Brady",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2022": "TAM"
+      }
+    },
+    "kareemhunt": {
+      "name": "Kareem Hunt",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "CLE"
+      }
+    },
+    "daltonschultz": {
+      "name": "Dalton Schultz",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2022": "HOU"
+      }
+    },
+    "elijahmoore": {
+      "name": "Elijah Moore",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "NYJ"
+      }
+    },
+    "cordarrellepatterson": {
+      "name": "Cordarrelle Patterson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "ATL"
+      }
+    },
+    "chaseedmonds": {
+      "name": "Chase Edmonds",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "TAM"
+      }
+    },
+    "damienharris": {
+      "name": "Damien Harris",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "BUF"
+      }
+    },
+    "jamesrobinson": {
+      "name": "James Robinson",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "NWE"
+      }
+    },
+    "rashaadpenny": {
+      "name": "Rashaad Penny",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "PHI"
+      }
+    },
+    "kadariustoney": {
+      "name": "Kadarius Toney",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "KAN"
+      }
+    },
+    "allenlazard": {
+      "name": "Allen Lazard",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "NYJ"
+      }
+    },
+    "chaseclaypool": {
+      "name": "Chase Claypool",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "CHI"
+      }
+    },
+    "robertwoods": {
+      "name": "Robert Woods",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "FA"
+      }
+    },
+    "treylance": {
+      "name": "Trey Lance",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2022": "SFO"
+      }
+    },
+    "russellwilson": {
+      "name": "Russell Wilson",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2022": "DEN"
+      }
+    },
+    "melvingordon": {
+      "name": "Melvin Gordon III",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "FA"
+      }
+    },
+    "michaelcarter": {
+      "name": "Michael Carter",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "NYJ"
+      }
+    },
+    "matthewstafford": {
+      "name": "Matthew Stafford",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2022": "LAR"
+      }
+    },
+    "nyheimhines": {
+      "name": "Nyheim Hines",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "BUF"
+      }
+    },
+    "ramsdst": {
+      "name": "Rams D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2022": "LAR"
+      }
+    },
+    "marquezvaldesscantling": {
+      "name": "Marquez Valdes-Scantling",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "KAN"
+      }
+    },
+    "jdmckissic": {
+      "name": "J.D. McKissic",
+      "positions": [
+        "RB"
+      ],
+      "teams_by_year": {
+        "2022": "FA"
+      }
+    },
+    "jarvislandry": {
+      "name": "Jarvis Landry",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "NOR"
+      }
+    },
+    "kennygolladay": {
+      "name": "Kenny Golladay",
+      "positions": [
+        "WR"
+      ],
+      "teams_by_year": {
+        "2022": "FA"
+      }
+    },
+    "dawsonknox": {
+      "name": "Dawson Knox",
+      "positions": [
+        "TE"
+      ],
+      "teams_by_year": {
+        "2022": "BUF"
+      }
+    },
+    "derekcarr": {
+      "name": "Derek Carr",
+      "positions": [
+        "QB"
+      ],
+      "teams_by_year": {
+        "2022": "NOR"
+      }
+    },
+    "mattprater": {
+      "name": "Matt Prater",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2022": "ARI"
+      }
+    },
+    "buccaneersdst": {
+      "name": "Buccaneers D/ST",
+      "positions": [
+        "D/ST"
+      ],
+      "teams_by_year": {
+        "2022": "TAM"
+      }
+    },
+    "nickfolk": {
+      "name": "Nick Folk",
+      "positions": [
+        "K"
+      ],
+      "teams_by_year": {
+        "2022": "NWE"
+      }
+    }
+  }
+}

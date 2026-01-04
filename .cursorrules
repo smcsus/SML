@@ -1,0 +1,177 @@
+# Sunday Movie League (SML) - Project Context
+
+## Project Overview
+Fantasy football league website tracking draft history, player performance, and league statistics since 2016.
+
+## Current Architecture Issues
+- Single massive `index.html` file (2600+ lines)
+- All data embedded directly in HTML
+- Team information duplicated across years
+- Manual updates required for team changes
+- Error-prone (team mismatches, inconsistent data)
+
+## Value Calculation Rules
+
+### Definitions
+- **Push (≈)**: Difference between Draft Pos and Season Finish is 5 or less
+  - Color: `var(--text-muted)` (gray)
+  - Icon: `≈`
+
+- **Hit (✓)**: Draft Pos is 6-14 spots better than Season Finish
+  - Color: `#10b981` (green)
+  - Icon: `✓`
+
+- **Extreme Hit (✓)**: Draft Pos is 15-29 spots better than Season Finish
+  - Color: `#fbbf24` (gold)
+  - Icon: `✓`
+
+- **Super Extreme Hit (💎)**: Draft Pos is 30+ spots better than Season Finish
+  - Color: `#fbbf24` (gold)
+  - Icon: `💎` (diamond gem emoji)
+
+- **Miss (✗)**: Season Finish is 6+ spots worse than Draft Pos (difference < -5)
+  - Color: `#f97316` (orange)
+  - Icon: `✗`
+  - Note: All misses are regular misses (no extreme/super extreme misses)
+
+### Calculation Logic
+```python
+diff = draft_pos_num - season_finish_num
+
+if diff >= 30:
+    return '<span class="value-super-hit">💎</span>'
+elif diff >= 15:
+    return '<span class="value-extreme-hit">✓</span>'
+elif diff >= 6:
+    return '<span class="value-hit">✓</span>'
+elif abs(diff) <= 5:
+    return '<span class="value-push">≈</span>'
+else:
+    return '<span class="value-miss">✗</span>'
+```
+
+## Draft Position Calculation
+- "Draft Pos" reflects positional draft order, NOT overall draft position
+- Example: First QB drafted = "QB 1", second QB drafted = "QB 2"
+- Counters maintained per position: QB, RB, WR, TE, K, D/ST
+
+## Scoring System
+- **PPR (Points Per Reception)** is the primary scoring metric
+- Season Finish is based PURELY on PPR scoring within each position
+- Rankings are calculated by sorting players by PPR points (descending) within position
+
+## Team Abbreviation Normalization
+
+### Standard Team Map
+```python
+team_map = {
+    "KC": "KAN", "KAN": "KAN",
+    "SF": "SFO", "SFO": "SFO",
+    "GB": "GNB", "GNB": "GNB",
+    "NO": "NOR", "NOR": "NOR",
+    "TB": "TAM", "TAM": "TAM",
+    "WSH": "WAS", "WAS": "WAS", "Wsh": "WAS",
+    "LV": "LVR", "LVR": "LVR",
+    "NE": "NWE", "NWE": "NWE",
+    "BAL": "BAL", "Bal": "BAL",
+    "CIN": "CIN", "Cin": "CIN",
+    "ATL": "ATL", "Atl": "ATL",
+    "BUF": "BUF", "Buf": "BUF",
+    "IND": "IND", "Ind": "IND",
+    "LAR": "LAR",
+    "NYJ": "NYJ",
+    "DAL": "DAL", "Dal": "DAL",
+    "MIA": "MIA", "Mia": "MIA",
+    "DET": "DET", "Det": "DET",
+    "PHI": "PHI", "Phi": "PHI",
+    "ARI": "ARI", "Ari": "ARI",
+    "HOU": "HOU", "Hou": "HOU",
+    "JAX": "JAX", "Jax": "JAX",
+    "MIN": "MIN", "Min": "MIN",
+    "TEN": "TEN", "Ten": "TEN",
+    "CAR": "CAR", "Car": "CAR",
+    "CLE": "CLE", "Cle": "CLE",
+    "PIT": "PIT", "Pit": "PIT",
+    "DEN": "DEN", "Den": "DEN",
+    "CHI": "CHI", "Chi": "CHI",
+    "SEA": "SEA", "Sea": "SEA",
+    "LAC": "LAC",
+    "2TM": "2TM", "3TM": "3TM", "FA": "FA"
+}
+```
+
+## Player Name Normalization
+- Remove suffixes: Jr., Sr., II, III
+- Remove all punctuation and spaces for matching
+- Case-insensitive matching
+- Handle variations (e.g., "Jonathon" vs "Jonathan")
+
+## File Structure
+```
+SML/
+├── index.html              # Main HTML file (2600+ lines, contains all draft data)
+├── styles.css              # CSS styles
+├── script.js               # JavaScript functionality
+├── profiles/               # Individual member profile pages
+└── [temporary scripts]     # Python scripts for updates (often deleted after use)
+```
+
+## Common Issues & Solutions
+
+### Team Mismatches
+- Players change teams between seasons
+- HTML may have wrong team for a given year
+- Solution: Update team in HTML for specific year, or implement data-driven architecture
+
+### Missing Season Finish Data
+- Players with "—" in Season Finish column
+- Usually means player not in top rankings provided
+- Value automatically set to miss (✗)
+
+### PPR Data Updates
+- When new PPR data provided:
+  1. Parse PPR data by position
+  2. Sort by PPR descending
+  3. Assign ranks (RB 1, RB 2, etc.)
+  4. Update Season Finish, Points, and Value columns
+  5. Recalculate all values based on new rankings
+
+## Draft Years Currently Tracked
+- 2025 (most recent, has full columns)
+- 2024 (has full columns)
+- 2023 (has full columns)
+- 2022 (basic columns only)
+- 2021 (basic columns only)
+
+## Column Structure (Recent Years)
+For 2023, 2024, 2025:
+- Round
+- Pick
+- Player (Name, Team, Position)
+- Team (Owner)
+- Draft Pos
+- Season Finish
+- Points (PPR)
+- Value (calculated icon)
+
+## CSS Classes for Values
+- `.value-push` - Push (≈)
+- `.value-hit` - Hit (✓)
+- `.value-extreme-hit` - Extreme Hit (✓)
+- `.value-super-hit` - Super Extreme Hit (💎)
+- `.value-miss` - Miss (✗)
+
+## Important Notes
+- Always use PPR scoring for rankings
+- Season Finish is positional rank based on PPR, not overall rank
+- When updating one player's rank, may need to re-rank entire position
+- Team abbreviations in HTML may differ from data source (normalize)
+- Player names may have variations (normalize for matching)
+
+## Future Improvements Needed
+1. **Data-Driven Architecture**: Move data to JSON files
+2. **Template System**: Separate data from presentation
+3. **Automated Build**: Generate HTML from data files
+4. **Team Management**: Single source of truth for player teams by year
+5. **Validation**: Check data consistency before updates
+

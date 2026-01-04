@@ -31,19 +31,38 @@
 }
 
 .profile-page {
-    max-width: 900px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 4rem 2rem;
+}
+
+/* Two-Column Layout */
+.profile-layout {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.profile-sidebar {
+    position: sticky;
+    top: 2rem;
+}
+
+.profile-content {
+    min-width: 0; /* Prevent grid overflow */
 }
 
 /* Profile Header */
 .profile-header {
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
-    margin-bottom: 4rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid var(--bg-accent);
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
     animation: fadeInUp 0.6s ease-out;
 }
 
@@ -52,8 +71,8 @@
 }
 
 .picture-placeholder {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-accent) 100%);
     border: 3px solid var(--gold-primary);
     border-radius: 50%;
@@ -61,22 +80,67 @@
     align-items: center;
     justify-content: center;
     font-family: var(--font-display);
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: var(--gold-primary);
     box-shadow: 0 0 40px var(--gold-glow);
+    margin: 0 auto;
 }
 
 .profile-picture img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--gold-primary);
     box-shadow: 0 0 40px var(--gold-glow);
+    margin: 0 auto;
+    display: block;
 }
 
 .profile-info {
-    flex: 1;
+    width: 100%;
+}
+
+/* Tabs */
+.profile-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--bg-accent);
+    padding-bottom: 0;
+}
+
+.tab-button {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.tab-button:hover {
+    color: var(--text-secondary);
+}
+
+.tab-button.active {
+    color: var(--gold-primary);
+    border-bottom-color: var(--gold-primary);
+}
+
+.tab-content {
+    display: none;
+    animation: fadeInUp 0.4s ease-out;
+}
+
+.tab-content.active {
+    display: block;
 }
 
 .profile-badge {
@@ -122,6 +186,18 @@
     gap: 1.5rem;
     margin-bottom: 4rem;
     animation: fadeInUp 0.6s ease-out 0.1s both;
+}
+
+/* Stats in sidebar */
+.profile-sidebar .profile-stats {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.profile-sidebar .profile-stats .stat-card {
+    padding: 1rem 0.75rem;
 }
 
 .stat-card {
@@ -172,9 +248,10 @@
 
 /* Biography */
 .bio-content {
-    background: var(--bg-card);
-    border-radius: 8px;
-    padding: 2rem;
+    background: transparent;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 1.5rem;
     line-height: 1.8;
 }
 
@@ -265,6 +342,574 @@
     
     .profile-accolades {
         justify-content: center;
+    }
+    
+    .picture-placeholder,
+    .profile-picture img {
+        width: 150px;
+        height: 150px;
+        font-size: 3rem;
+    }
+}
+
+/* ============================================
+   Draft Statistics Styles
+   ============================================ */
+
+/* Draft Stats Table */
+.draft-stats-table-wrapper {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+
+.draft-stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-card);
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 0.85rem;
+    table-layout: fixed;
+}
+
+.draft-stats-table thead {
+    background: var(--bg-accent);
+}
+
+.draft-stats-table th {
+    padding: 0.6rem 0.5rem;
+    text-align: left;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--bg-accent);
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.draft-stats-table th:nth-child(1) {
+    width: 8%;
+}
+
+.draft-stats-table th:nth-child(2),
+.draft-stats-table th:nth-child(3),
+.draft-stats-table th:nth-child(4),
+.draft-stats-table th:nth-child(5),
+.draft-stats-table th:nth-child(6) {
+    text-align: center;
+    width: 7%;
+}
+
+.draft-stats-table th:nth-child(7),
+.draft-stats-table th:nth-child(10) {
+    width: 18%;
+}
+
+.draft-stats-table th:nth-child(8),
+.draft-stats-table th:nth-child(11) {
+    width: 6%;
+    text-align: center;
+}
+
+.draft-stats-table th:nth-child(9) {
+    width: 2%;
+    min-width: 20px;
+    padding: 0;
+}
+
+.draft-stats-table td:nth-child(9) {
+    padding: 0;
+    width: 2%;
+}
+
+/* ============================================
+   Draft Tendencies Styles
+   ============================================ */
+
+.tendency-loading,
+.no-tendencies {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 2rem;
+    font-style: italic;
+}
+
+#draft-tendencies-content {
+    display: flex;
+    justify-content: center;
+}
+
+.tendency-section {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    border: 1px solid var(--bg-accent);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+    transition: all 0.3s ease;
+}
+
+.tendency-section:hover {
+    border-color: var(--gold-primary);
+    box-shadow: 0 4px 12px rgba(212, 169, 64, 0.15);
+    transform: translateY(-2px);
+}
+
+.tendency-item {
+    display: grid;
+    grid-template-columns: 140px 1fr auto;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--bg-accent);
+    transition: all 0.2s ease;
+}
+
+.tendency-item:last-child {
+    border-bottom: none;
+}
+
+.tendency-item:hover {
+    padding-left: 0.5rem;
+}
+
+.tendency-label {
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.tendency-value {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.tendency-years {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+/* ============================================
+   Draft Achievements Styles
+   ============================================ */
+
+.achievement-loading,
+.no-achievements {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 2rem;
+    font-style: italic;
+}
+
+.achievements-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.achievement-badge {
+    position: relative;
+    background: var(--bg-card);
+    border: 2px solid var(--bg-accent);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 100px;
+    cursor: help;
+    transition: all 0.3s ease;
+}
+
+.achievement-badge:hover {
+    border-color: var(--gold-primary);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(212, 169, 64, 0.2);
+}
+
+.achievement-icon {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.achievement-name {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.achievement-badge[data-tooltip] {
+    position: relative;
+}
+
+.achievement-badge[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.5rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    z-index: 1000;
+    border: 1px solid var(--gold-primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+    max-width: 250px;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.achievement-badge[data-tooltip]:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.25rem;
+    border: 6px solid transparent;
+    border-top-color: var(--gold-primary);
+    z-index: 1001;
+    pointer-events: none;
+}
+
+.draft-stats-table td {
+    padding: 0.75rem 0.5rem;
+    border-bottom: 1px solid var(--bg-accent);
+    color: var(--text-secondary);
+    vertical-align: top;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.draft-stats-table tbody tr:hover {
+    background: rgba(212, 169, 64, 0.05);
+}
+
+.draft-stats-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.draft-stats-table .col-year {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--text-muted);
+}
+
+.draft-stats-table .career-row {
+    background: var(--bg-accent);
+    font-weight: 600;
+}
+
+.draft-stats-table .career-row td {
+    border-top: 2px solid var(--gold-primary);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.draft-stats-table .best-pick-cell,
+.draft-stats-table .worst-pick-cell {
+    line-height: 1.6;
+}
+
+.draft-stats-table .pick-name {
+    font-weight: 500;
+    color: var(--text-primary);
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.draft-stats-table .pick-detail {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: block;
+}
+
+.draft-stats-table .value-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.draft-stats-table .value-cell .value-icon {
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.draft-stats-table td {
+    text-align: left;
+}
+
+.draft-stats-table td:nth-child(2),
+.draft-stats-table td:nth-child(3),
+.draft-stats-table td:nth-child(4),
+.draft-stats-table td:nth-child(5),
+.draft-stats-table td:nth-child(6) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Best/Worst Picks Section */
+.best-worst-picks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.best-picks-section,
+.worst-picks-section {
+    min-width: 0; /* Prevent grid overflow */
+}
+
+@media (max-width: 768px) {
+    .best-worst-picks {
+        grid-template-columns: 1fr;
+    }
+}
+
+.subsection-heading {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--gold-primary);
+}
+
+.picks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pick-item {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.pick-item.best {
+    border-left-color: #10b981;
+}
+
+.pick-item.worst {
+    border-left-color: #f97316;
+}
+
+.pick-item:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pick-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.pick-player {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.pick-year {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.pick-details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    flex-wrap: wrap;
+}
+
+.pick-draft-pos,
+.pick-season-finish {
+    font-weight: 500;
+}
+
+.pick-arrow {
+    color: var(--text-muted);
+}
+
+.pick-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Draft Year Cards */
+.draft-year-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.draft-year-card {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.draft-year-card:hover {
+    border-color: var(--gold-primary);
+    transform: translateY(-2px);
+}
+
+.year-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.year-header h4 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.year-hit-rate {
+    font-size: 0.9rem;
+    color: var(--gold-primary);
+    font-weight: 600;
+}
+
+.year-stats {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.year-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.highlight {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.highlight-label {
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.highlight.best .highlight-label {
+    color: #10b981;
+}
+
+.highlight.worst .highlight-label {
+    color: #f97316;
+}
+
+/* Value Icons in Picks */
+.value-icon {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: 0.25rem;
+    line-height: 1;
+}
+
+.value-icon.super-hit {
+    color: #fbbf24;
+}
+
+.value-icon.extreme-hit {
+    color: #fbbf24;
+}
+
+.value-icon.hit {
+    color: #10b981;
+}
+
+.value-icon.push {
+    color: var(--text-muted);
+}
+
+.value-icon.miss {
+    color: #f97316;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .profile-layout {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .profile-sidebar {
+        position: static;
+    }
+    
+    .profile-header {
+        flex-direction: row;
+        text-align: left;
+        gap: 2rem;
+    }
+    
+    .profile-sidebar .profile-stats {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-page {
+        padding: 2rem 1rem;
+    }
+    
+    .profile-tabs {
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+    
+    .tab-button {
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+    }
+    
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
     }
     
     .picture-placeholder,

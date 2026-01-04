@@ -1048,16 +1048,46 @@ body {
     font-weight: bold;
 }
 
-.col-value .value-good {
-    color: #10b981; /* green */
+/* Regular hits/misses */
+/* HIT: Draft position is 6-14 spots better than season finish (draft_pos - season_finish >= 6 and < 15) */
+.draft-table td .value-hit {
+    color: #10b981 !important; /* green */
+    display: inline-block;
 }
 
-.col-value .value-bad {
-    color: #ef4444; /* red */
+.draft-table td .value-miss {
+    color: #f97316 !important; /* orange */
+    display: inline-block;
 }
 
-.col-value .value-push {
-    color: var(--text-muted);
+/* Extreme hits/misses */
+/* EXTREME HIT: Draft position is 15-29 spots better than season finish (draft_pos - season_finish >= 15 and < 30) */
+.draft-table tbody tr td .value-extreme-hit,
+.draft-table td .value-extreme-hit {
+    color: #fbbf24 !important; /* gold */
+    display: inline-block;
+}
+
+.draft-table td .value-extreme-miss {
+    color: #ef4444 !important; /* red */
+    display: inline-block;
+}
+
+/* Super extreme hits/misses */
+/* SUPER EXTREME HIT: Draft position is 30+ spots better than season finish (draft_pos - season_finish >= 30) */
+.draft-table td .value-super-hit {
+    color: #fbbf24 !important; /* gold/yellow */
+    display: inline-block;
+}
+
+.draft-table td .value-super-miss {
+    color: #991b1b !important; /* dark red */
+    display: inline-block;
+}
+
+.draft-table td .value-push {
+    color: var(--text-muted) !important;
+    display: inline-block;
 }
 
 /* ============================================

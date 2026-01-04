@@ -1,0 +1,255 @@
+/* Additional CSS for draft statistics in profiles */
+
+/* Draft Stats Grid */
+.draft-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Best/Worst Picks Section */
+.best-worst-picks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+    .best-worst-picks {
+        grid-template-columns: 1fr;
+    }
+}
+
+.subsection-heading {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--gold-primary);
+}
+
+.picks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pick-item {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.pick-item.best {
+    border-left-color: #10b981;
+}
+
+.pick-item.worst {
+    border-left-color: #f97316;
+}
+
+.pick-item:hover {
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pick-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.pick-player {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.pick-year {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.pick-details {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.pick-draft-pos,
+.pick-season-finish {
+    font-weight: 500;
+}
+
+.pick-arrow {
+    color: var(--text-muted);
+}
+
+.pick-meta {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Draft Year Cards */
+.draft-year-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.draft-year-card {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.draft-year-card:hover {
+    border-color: var(--gold-primary);
+    transform: translateY(-2px);
+}
+
+.year-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.year-header h4 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.year-hit-rate {
+    font-size: 0.9rem;
+    color: var(--gold-primary);
+    font-weight: 600;
+}
+
+.year-stats {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.year-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.highlight {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.highlight-label {
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.highlight.best .highlight-label {
+    color: #10b981;
+}
+
+.highlight.worst .highlight-label {
+    color: #f97316;
+}
+
+/* Position Breakdown */
+.position-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+}
+
+.position-stat-card {
+    background: var(--bg-card);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.position-stat-card:hover {
+    border-color: var(--gold-primary);
+    transform: translateY(-4px);
+}
+
+.position-icon {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--gold-primary);
+    font-family: var(--font-display);
+}
+
+.position-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.position-hit-rate {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gold-primary);
+    font-family: var(--font-display);
+}
+
+.position-label {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.position-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+/* Value Icons in Picks */
+.value-icon {
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.value-icon.super-hit {
+    color: #fbbf24;
+}
+
+.value-icon.extreme-hit {
+    color: #fbbf24;
+}
+
+.value-icon.hit {
+    color: #10b981;
+}
+
+.value-icon.push {
+    color: var(--text-muted);
+}
+
+.value-icon.miss {
+    color: #f97316;
+}
+

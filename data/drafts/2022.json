@@ -1,0 +1,985 @@
+{
+  "year": 2022,
+  "picks": [
+    {
+      "round": 1,
+      "pick": 1,
+      "player_id": "christianmccaffrey",
+      "owner": "Camden Bendik",
+      "draft_pos": "RB 1"
+    },
+    {
+      "round": 1,
+      "pick": 2,
+      "player_id": "jonathantaylor",
+      "owner": "Joseph Martin",
+      "draft_pos": "RB 2"
+    },
+    {
+      "round": 1,
+      "pick": 3,
+      "player_id": "austinekeler",
+      "owner": "Jack Johnson",
+      "draft_pos": "RB 3"
+    },
+    {
+      "round": 1,
+      "pick": 4,
+      "player_id": "derrickhenry",
+      "owner": "Ethan Hatter",
+      "draft_pos": "RB 4"
+    },
+    {
+      "round": 1,
+      "pick": 5,
+      "player_id": "cooperkupp",
+      "owner": "Jasper Mills",
+      "draft_pos": "WR 1"
+    },
+    {
+      "round": 1,
+      "pick": 6,
+      "player_id": "najeeharris",
+      "owner": "David Sun",
+      "draft_pos": "RB 5"
+    },
+    {
+      "round": 1,
+      "pick": 7,
+      "player_id": "justinjefferson",
+      "owner": "Brandon Kircher",
+      "draft_pos": "WR 2"
+    },
+    {
+      "round": 1,
+      "pick": 8,
+      "player_id": "jamarrchase",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "WR 3"
+    },
+    {
+      "round": 1,
+      "pick": 9,
+      "player_id": "davanteadams",
+      "owner": "Steven Masters",
+      "draft_pos": "WR 4"
+    },
+    {
+      "round": 1,
+      "pick": 10,
+      "player_id": "alvinkamara",
+      "owner": "Trey Melnyk",
+      "draft_pos": "RB 6"
+    },
+    {
+      "round": 2,
+      "pick": 1,
+      "player_id": "dalvincook",
+      "owner": "Trey Melnyk",
+      "draft_pos": "RB 7"
+    },
+    {
+      "round": 2,
+      "pick": 2,
+      "player_id": "stefondiggs",
+      "owner": "Steven Masters",
+      "draft_pos": "WR 5"
+    },
+    {
+      "round": 2,
+      "pick": 3,
+      "player_id": "dandreswift",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "RB 8"
+    },
+    {
+      "round": 2,
+      "pick": 4,
+      "player_id": "aaronjones",
+      "owner": "Brandon Kircher",
+      "draft_pos": "RB 9"
+    },
+    {
+      "round": 2,
+      "pick": 5,
+      "player_id": "joemixon",
+      "owner": "David Sun",
+      "draft_pos": "RB 10"
+    },
+    {
+      "round": 2,
+      "pick": 6,
+      "player_id": "deebosamuel",
+      "owner": "Jasper Mills",
+      "draft_pos": "WR 6"
+    },
+    {
+      "round": 2,
+      "pick": 7,
+      "player_id": "traviskelce",
+      "owner": "Ethan Hatter",
+      "draft_pos": "TE 1"
+    },
+    {
+      "round": 2,
+      "pick": 8,
+      "player_id": "jamesconner",
+      "owner": "Jack Johnson",
+      "draft_pos": "RB 11"
+    },
+    {
+      "round": 2,
+      "pick": 9,
+      "player_id": "markandrews",
+      "owner": "Joseph Martin",
+      "draft_pos": "TE 2"
+    },
+    {
+      "round": 2,
+      "pick": 10,
+      "player_id": "ceedeelamb",
+      "owner": "Camden Bendik",
+      "draft_pos": "WR 7"
+    },
+    {
+      "round": 3,
+      "pick": 1,
+      "player_id": "leonardfournette",
+      "owner": "Camden Bendik",
+      "draft_pos": "RB 12"
+    },
+    {
+      "round": 3,
+      "pick": 2,
+      "player_id": "tyreekhill",
+      "owner": "Joseph Martin",
+      "draft_pos": "WR 8"
+    },
+    {
+      "round": 3,
+      "pick": 3,
+      "player_id": "javontewilliams",
+      "owner": "Jack Johnson",
+      "draft_pos": "RB 13"
+    },
+    {
+      "round": 3,
+      "pick": 4,
+      "player_id": "mikeevans",
+      "owner": "Ethan Hatter",
+      "draft_pos": "WR 9"
+    },
+    {
+      "round": 3,
+      "pick": 5,
+      "player_id": "camakers",
+      "owner": "Jasper Mills",
+      "draft_pos": "RB 14"
+    },
+    {
+      "round": 3,
+      "pick": 6,
+      "player_id": "saquonbarkley",
+      "owner": "David Sun",
+      "draft_pos": "RB 15"
+    },
+    {
+      "round": 3,
+      "pick": 7,
+      "player_id": "keenanallen",
+      "owner": "Brandon Kircher",
+      "draft_pos": "WR 10"
+    },
+    {
+      "round": 3,
+      "pick": 8,
+      "player_id": "nickchubb",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "RB 16"
+    },
+    {
+      "round": 3,
+      "pick": 9,
+      "player_id": "diontaejohnson",
+      "owner": "Steven Masters",
+      "draft_pos": "WR 11"
+    },
+    {
+      "round": 3,
+      "pick": 10,
+      "player_id": "michaelpittman",
+      "owner": "Trey Melnyk",
+      "draft_pos": "WR 12"
+    },
+    {
+      "round": 4,
+      "pick": 1,
+      "player_id": "teehiggins",
+      "owner": "Trey Melnyk",
+      "draft_pos": "WR 13"
+    },
+    {
+      "round": 4,
+      "pick": 2,
+      "player_id": "joshallen",
+      "owner": "Steven Masters",
+      "draft_pos": "QB 1"
+    },
+    {
+      "round": 4,
+      "pick": 3,
+      "player_id": "davidmontgomery",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "RB 17"
+    },
+    {
+      "round": 4,
+      "pick": 4,
+      "player_id": "kylepitts",
+      "owner": "Brandon Kircher",
+      "draft_pos": "TE 3"
+    },
+    {
+      "round": 4,
+      "pick": 5,
+      "player_id": "ajbrown",
+      "owner": "David Sun",
+      "draft_pos": "WR 14"
+    },
+    {
+      "round": 4,
+      "pick": 6,
+      "player_id": "terrymclaurin",
+      "owner": "Jasper Mills",
+      "draft_pos": "WR 15"
+    },
+    {
+      "round": 4,
+      "pick": 7,
+      "player_id": "ezekielelliott",
+      "owner": "Ethan Hatter",
+      "draft_pos": "RB 18"
+    },
+    {
+      "round": 4,
+      "pick": 8,
+      "player_id": "jaylenwaddle",
+      "owner": "Jack Johnson",
+      "draft_pos": "WR 16"
+    },
+    {
+      "round": 4,
+      "pick": 9,
+      "player_id": "mikewilliams",
+      "owner": "Joseph Martin",
+      "draft_pos": "WR 17"
+    },
+    {
+      "round": 4,
+      "pick": 10,
+      "player_id": "jerryjeudy",
+      "owner": "Camden Bendik",
+      "draft_pos": "WR 18"
+    },
+    {
+      "round": 5,
+      "pick": 1,
+      "player_id": "elijahmitchell",
+      "owner": "Camden Bendik",
+      "draft_pos": "RB 19"
+    },
+    {
+      "round": 5,
+      "pick": 2,
+      "player_id": "joshjacobs",
+      "owner": "Joseph Martin",
+      "draft_pos": "RB 20"
+    },
+    {
+      "round": 5,
+      "pick": 3,
+      "player_id": "djmoore",
+      "owner": "Jack Johnson",
+      "draft_pos": "WR 19"
+    },
+    {
+      "round": 5,
+      "pick": 4,
+      "player_id": "marquisebrown",
+      "owner": "Ethan Hatter",
+      "draft_pos": "WR 20"
+    },
+    {
+      "round": 5,
+      "pick": 5,
+      "player_id": "breecehall",
+      "owner": "Jasper Mills",
+      "draft_pos": "RB 21"
+    },
+    {
+      "round": 5,
+      "pick": 6,
+      "player_id": "courtlandsutton",
+      "owner": "David Sun",
+      "draft_pos": "WR 21"
+    },
+    {
+      "round": 5,
+      "pick": 7,
+      "player_id": "travisetienne",
+      "owner": "Brandon Kircher",
+      "draft_pos": "RB 22"
+    },
+    {
+      "round": 5,
+      "pick": 8,
+      "player_id": "amonrastbrown",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "WR 22"
+    },
+    {
+      "round": 5,
+      "pick": 9,
+      "player_id": "jkdobbins",
+      "owner": "Steven Masters",
+      "draft_pos": "RB 23"
+    },
+    {
+      "round": 5,
+      "pick": 10,
+      "player_id": "patrickmahomes",
+      "owner": "Trey Melnyk",
+      "draft_pos": "QB 2"
+    },
+    {
+      "round": 6,
+      "pick": 1,
+      "player_id": "chrisgodwin",
+      "owner": "Trey Melnyk",
+      "draft_pos": "WR 23"
+    },
+    {
+      "round": 6,
+      "pick": 2,
+      "player_id": "georgekittle",
+      "owner": "Steven Masters",
+      "draft_pos": "TE 4"
+    },
+    {
+      "round": 6,
+      "pick": 3,
+      "player_id": "darrenwaller",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "TE 5"
+    },
+    {
+      "round": 6,
+      "pick": 4,
+      "player_id": "justinherbert",
+      "owner": "Brandon Kircher",
+      "draft_pos": "QB 3"
+    },
+    {
+      "round": 6,
+      "pick": 5,
+      "player_id": "dkmetcalf",
+      "owner": "David Sun",
+      "draft_pos": "WR 24"
+    },
+    {
+      "round": 6,
+      "pick": 6,
+      "player_id": "lamarjackson",
+      "owner": "Jasper Mills",
+      "draft_pos": "QB 4"
+    },
+    {
+      "round": 6,
+      "pick": 7,
+      "player_id": "allenrobinson",
+      "owner": "Ethan Hatter",
+      "draft_pos": "WR 25"
+    },
+    {
+      "round": 6,
+      "pick": 8,
+      "player_id": "kylermurray",
+      "owner": "Jack Johnson",
+      "draft_pos": "QB 5"
+    },
+    {
+      "round": 6,
+      "pick": 9,
+      "player_id": "brandincooks",
+      "owner": "Joseph Martin",
+      "draft_pos": "WR 26"
+    },
+    {
+      "round": 6,
+      "pick": 10,
+      "player_id": "dakprescott",
+      "owner": "Camden Bendik",
+      "draft_pos": "QB 6"
+    },
+    {
+      "round": 7,
+      "pick": 1,
+      "player_id": "clydeedwardshelaire",
+      "owner": "Camden Bendik",
+      "draft_pos": "RB 24"
+    },
+    {
+      "round": 7,
+      "pick": 2,
+      "player_id": "tombrady",
+      "owner": "Joseph Martin",
+      "draft_pos": "QB 7"
+    },
+    {
+      "round": 7,
+      "pick": 3,
+      "player_id": "gabedavis",
+      "owner": "Jack Johnson",
+      "draft_pos": "WR 27"
+    },
+    {
+      "round": 7,
+      "pick": 4,
+      "player_id": "michaelthomas",
+      "owner": "Ethan Hatter",
+      "draft_pos": "WR 28"
+    },
+    {
+      "round": 7,
+      "pick": 5,
+      "player_id": "tjhockenson",
+      "owner": "Jasper Mills",
+      "draft_pos": "TE 6"
+    },
+    {
+      "round": 7,
+      "pick": 6,
+      "player_id": "jalenhurts",
+      "owner": "David Sun",
+      "draft_pos": "QB 8"
+    },
+    {
+      "round": 7,
+      "pick": 7,
+      "player_id": "hunterrenfrow",
+      "owner": "Brandon Kircher",
+      "draft_pos": "WR 29"
+    },
+    {
+      "round": 7,
+      "pick": 8,
+      "player_id": "joeburrow",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "QB 9"
+    },
+    {
+      "round": 7,
+      "pick": 9,
+      "player_id": "milessanders",
+      "owner": "Steven Masters",
+      "draft_pos": "RB 25"
+    },
+    {
+      "round": 7,
+      "pick": 10,
+      "player_id": "darnellmooney",
+      "owner": "Trey Melnyk",
+      "draft_pos": "WR 30"
+    },
+    {
+      "round": 8,
+      "pick": 1,
+      "player_id": "kareemhunt",
+      "owner": "Trey Melnyk",
+      "draft_pos": "RB 26"
+    },
+    {
+      "round": 8,
+      "pick": 2,
+      "player_id": "amaricooper",
+      "owner": "Steven Masters",
+      "draft_pos": "WR 31"
+    },
+    {
+      "round": 8,
+      "pick": 3,
+      "player_id": "adamthielen",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "WR 32"
+    },
+    {
+      "round": 8,
+      "pick": 4,
+      "player_id": "jujusmithschuster",
+      "owner": "Brandon Kircher",
+      "draft_pos": "WR 33"
+    },
+    {
+      "round": 8,
+      "pick": 5,
+      "player_id": "daltonschultz",
+      "owner": "David Sun",
+      "draft_pos": "TE 7"
+    },
+    {
+      "round": 8,
+      "pick": 6,
+      "player_id": "dameonpierce",
+      "owner": "Jasper Mills",
+      "draft_pos": "RB 27"
+    },
+    {
+      "round": 8,
+      "pick": 7,
+      "player_id": "aaronrodgers",
+      "owner": "Ethan Hatter",
+      "draft_pos": "QB 10"
+    },
+    {
+      "round": 8,
+      "pick": 8,
+      "player_id": "elijahmoore",
+      "owner": "Jack Johnson",
+      "draft_pos": "WR 34"
+    },
+    {
+      "round": 8,
+      "pick": 9,
+      "player_id": "devinsingletary",
+      "owner": "Joseph Martin",
+      "draft_pos": "RB 28"
+    },
+    {
+      "round": 8,
+      "pick": 10,
+      "player_id": "devontasmith",
+      "owner": "Camden Bendik",
+      "draft_pos": "WR 35"
+    },
+    {
+      "round": 9,
+      "pick": 1,
+      "player_id": "tonypollard",
+      "owner": "Camden Bendik",
+      "draft_pos": "RB 29"
+    },
+    {
+      "round": 9,
+      "pick": 2,
+      "player_id": "cordarrellepatterson",
+      "owner": "Joseph Martin",
+      "draft_pos": "RB 30"
+    },
+    {
+      "round": 9,
+      "pick": 3,
+      "player_id": "dallasgoedert",
+      "owner": "Jack Johnson",
+      "draft_pos": "TE 8"
+    },
+    {
+      "round": 9,
+      "pick": 4,
+      "player_id": "chaseedmonds",
+      "owner": "Ethan Hatter",
+      "draft_pos": "RB 31"
+    },
+    {
+      "round": 9,
+      "pick": 5,
+      "player_id": "drakelondon",
+      "owner": "Jasper Mills",
+      "draft_pos": "WR 36"
+    },
+    {
+      "round": 9,
+      "pick": 6,
+      "player_id": "antoniogibson",
+      "owner": "David Sun",
+      "draft_pos": "RB 32"
+    },
+    {
+      "round": 9,
+      "pick": 7,
+      "player_id": "damienharris",
+      "owner": "Brandon Kircher",
+      "draft_pos": "RB 33"
+    },
+    {
+      "round": 9,
+      "pick": 8,
+      "player_id": "rashodbateman",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "WR 37"
+    },
+    {
+      "round": 9,
+      "pick": 9,
+      "player_id": "jamesrobinson",
+      "owner": "Steven Masters",
+      "draft_pos": "RB 34"
+    },
+    {
+      "round": 9,
+      "pick": 10,
+      "player_id": "deandrehopkins",
+      "owner": "Trey Melnyk",
+      "draft_pos": "WR 38"
+    },
+    {
+      "round": 10,
+      "pick": 1,
+      "player_id": "ajdillon",
+      "owner": "Trey Melnyk",
+      "draft_pos": "RB 35"
+    },
+    {
+      "round": 10,
+      "pick": 2,
+      "player_id": "brandonaiyuk",
+      "owner": "Steven Masters",
+      "draft_pos": "WR 39"
+    },
+    {
+      "round": 10,
+      "pick": 3,
+      "player_id": "rashaadpenny",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "RB 36"
+    },
+    {
+      "round": 10,
+      "pick": 4,
+      "player_id": "kadariustoney",
+      "owner": "Brandon Kircher",
+      "draft_pos": "WR 40"
+    },
+    {
+      "round": 10,
+      "pick": 5,
+      "player_id": "allenlazard",
+      "owner": "David Sun",
+      "draft_pos": "WR 41"
+    },
+    {
+      "round": 10,
+      "pick": 6,
+      "player_id": "tylerlockett",
+      "owner": "Jasper Mills",
+      "draft_pos": "WR 42"
+    },
+    {
+      "round": 10,
+      "pick": 7,
+      "player_id": "christiankirk",
+      "owner": "Ethan Hatter",
+      "draft_pos": "WR 43"
+    },
+    {
+      "round": 10,
+      "pick": 8,
+      "player_id": "zachertz",
+      "owner": "Jack Johnson",
+      "draft_pos": "TE 9"
+    },
+    {
+      "round": 10,
+      "pick": 9,
+      "player_id": "chaseclaypool",
+      "owner": "Joseph Martin",
+      "draft_pos": "WR 44"
+    },
+    {
+      "round": 10,
+      "pick": 10,
+      "player_id": "patfreiermuth",
+      "owner": "Camden Bendik",
+      "draft_pos": "TE 10"
+    },
+    {
+      "round": 11,
+      "pick": 1,
+      "player_id": "robertwoods",
+      "owner": "Camden Bendik",
+      "draft_pos": "WR 45"
+    },
+    {
+      "round": 11,
+      "pick": 2,
+      "player_id": "treylance",
+      "owner": "Joseph Martin",
+      "draft_pos": "QB 11"
+    },
+    {
+      "round": 11,
+      "pick": 3,
+      "player_id": "russellwilson",
+      "owner": "Jack Johnson",
+      "draft_pos": "QB 12"
+    },
+    {
+      "round": 11,
+      "pick": 4,
+      "player_id": "melvingordon",
+      "owner": "Ethan Hatter",
+      "draft_pos": "RB 37"
+    },
+    {
+      "round": 11,
+      "pick": 5,
+      "player_id": "skyymoore",
+      "owner": "Jasper Mills",
+      "draft_pos": "WR 46"
+    },
+    {
+      "round": 11,
+      "pick": 6,
+      "player_id": "chrisolave",
+      "owner": "David Sun",
+      "draft_pos": "WR 47"
+    },
+    {
+      "round": 11,
+      "pick": 7,
+      "player_id": "jamescook",
+      "owner": "Brandon Kircher",
+      "draft_pos": "RB 38"
+    },
+    {
+      "round": 11,
+      "pick": 8,
+      "player_id": "garrettwilson",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "WR 48"
+    },
+    {
+      "round": 11,
+      "pick": 9,
+      "player_id": "kennethwalker",
+      "owner": "Steven Masters",
+      "draft_pos": "RB 39"
+    },
+    {
+      "round": 11,
+      "pick": 10,
+      "player_id": "michaelcarter",
+      "owner": "Trey Melnyk",
+      "draft_pos": "RB 40"
+    },
+    {
+      "round": 12,
+      "pick": 1,
+      "player_id": "matthewstafford",
+      "owner": "Trey Melnyk",
+      "draft_pos": "QB 13"
+    },
+    {
+      "round": 12,
+      "pick": 2,
+      "player_id": "nyheimhines",
+      "owner": "Steven Masters",
+      "draft_pos": "RB 41"
+    },
+    {
+      "round": 12,
+      "pick": 3,
+      "player_id": "rhamondrestevenson",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "RB 42"
+    },
+    {
+      "round": 12,
+      "pick": 4,
+      "player_id": "ramsdst",
+      "owner": "Brandon Kircher",
+      "draft_pos": "D/ST 1"
+    },
+    {
+      "round": 12,
+      "pick": 5,
+      "player_id": "billsdst",
+      "owner": "David Sun",
+      "draft_pos": "D/ST 2"
+    },
+    {
+      "round": 12,
+      "pick": 6,
+      "player_id": "raheemmostert",
+      "owner": "Jasper Mills",
+      "draft_pos": "RB 43"
+    },
+    {
+      "round": 12,
+      "pick": 7,
+      "player_id": "marquezvaldesscantling",
+      "owner": "Ethan Hatter",
+      "draft_pos": "WR 49"
+    },
+    {
+      "round": 12,
+      "pick": 8,
+      "player_id": "evanmcpherson",
+      "owner": "Jack Johnson",
+      "draft_pos": "K 1"
+    },
+    {
+      "round": 12,
+      "pick": 9,
+      "player_id": "jdmckissic",
+      "owner": "Joseph Martin",
+      "draft_pos": "RB 44"
+    },
+    {
+      "round": 12,
+      "pick": 10,
+      "player_id": "justintucker",
+      "owner": "Camden Bendik",
+      "draft_pos": "K 2"
+    },
+    {
+      "round": 13,
+      "pick": 1,
+      "player_id": "alexandermattison",
+      "owner": "Camden Bendik",
+      "draft_pos": "RB 45"
+    },
+    {
+      "round": 13,
+      "pick": 2,
+      "player_id": "49ersdst",
+      "owner": "Joseph Martin",
+      "draft_pos": "D/ST 3"
+    },
+    {
+      "round": 13,
+      "pick": 3,
+      "player_id": "coltsdst",
+      "owner": "Jack Johnson",
+      "draft_pos": "D/ST 4"
+    },
+    {
+      "round": 13,
+      "pick": 4,
+      "player_id": "mattgay",
+      "owner": "Ethan Hatter",
+      "draft_pos": "K 3"
+    },
+    {
+      "round": 13,
+      "pick": 5,
+      "player_id": "jarvislandry",
+      "owner": "Jasper Mills",
+      "draft_pos": "WR 50"
+    },
+    {
+      "round": 13,
+      "pick": 6,
+      "player_id": "kennygolladay",
+      "owner": "David Sun",
+      "draft_pos": "WR 51"
+    },
+    {
+      "round": 13,
+      "pick": 7,
+      "player_id": "dawsonknox",
+      "owner": "Brandon Kircher",
+      "draft_pos": "TE 11"
+    },
+    {
+      "round": 13,
+      "pick": 8,
+      "player_id": "derekcarr",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "QB 14"
+    },
+    {
+      "round": 13,
+      "pick": 9,
+      "player_id": "tylerbass",
+      "owner": "Steven Masters",
+      "draft_pos": "K 4"
+    },
+    {
+      "round": 13,
+      "pick": 10,
+      "player_id": "colekmet",
+      "owner": "Trey Melnyk",
+      "draft_pos": "TE 12"
+    },
+    {
+      "round": 14,
+      "pick": 1,
+      "player_id": "saintsdst",
+      "owner": "Trey Melnyk",
+      "draft_pos": "D/ST 5"
+    },
+    {
+      "round": 14,
+      "pick": 2,
+      "player_id": "cowboysdst",
+      "owner": "Steven Masters",
+      "draft_pos": "D/ST 6"
+    },
+    {
+      "round": 14,
+      "pick": 3,
+      "player_id": "danielcarlson",
+      "owner": "Andrew Ortiz",
+      "draft_pos": "K 5"
+    },
+    {
+      "round": 14,
+      "pick": 4,
+      "player_id": "jamaalwilliams",
+      "owner": "Brandon Kircher",
+      "draft_pos": "RB 46"
+    },
+    {
+      "round": 14,
+      "pick": 5,
+      "player_id": "harrisonbutker",
+      "owner": "David Sun",
+      "draft_pos": "K 6"
+    },
+    {
+      "round": 14,
+      "pick": 6,
+      "player_id": "mattprater",
+      "owner": "Jasper Mills",
+      "draft_pos": "K 7"
+    },
+    {
+      "round": 14,
+      "pick": 7,
+      "player_id": "buccaneersdst",
+      "owner": "Ethan Hatter",
+      "draft_pos": "D/ST 7"
+    },
+    {
+      "round": 14,
+      "pick": 8,
+      "player_id": "steelersdst",
+      "owner": "Jack Johnson",
+      "draft_pos": "D/ST 8"
+    },
+    {
+      "round": 14,
+      "pick": 9,
+      "player_id": "nickfolk",
+      "owner": "Joseph Martin",
+      "draft_pos": "K 8"
+    },
+    {
+      "round": 14,
+      "pick": 10,
+      "player_id": "deshaunwatson",
+      "owner": "Camden Bendik",
+      "draft_pos": "QB 15"
+    }
+  ]
+}
