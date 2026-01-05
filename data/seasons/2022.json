@@ -1,0 +1,813 @@
+{
+  "year": 2022,
+  "ppr_rankings": {
+    "QB": [
+      {
+        "player_id": "patrickmahomes",
+        "ppr": 417.4,
+        "rank": 1
+      },
+      {
+        "player_id": "joshallen",
+        "ppr": 395.5,
+        "rank": 2
+      },
+      {
+        "player_id": "jalenhurts",
+        "ppr": 378.0,
+        "rank": 3
+      },
+      {
+        "player_id": "joeburrow",
+        "ppr": 350.7,
+        "rank": 4
+      },
+      {
+        "player_id": "justinfields",
+        "ppr": 296.0,
+        "rank": 5
+      },
+      {
+        "player_id": "trevorlawrence",
+        "ppr": 295.6,
+        "rank": 6
+      },
+      {
+        "player_id": "kirkcousins",
+        "ppr": 291.6,
+        "rank": 7
+      },
+      {
+        "player_id": "danieljones",
+        "ppr": 289.0,
+        "rank": 8
+      },
+      {
+        "player_id": "jaredgoff",
+        "ppr": 284.3,
+        "rank": 9
+      },
+      {
+        "player_id": "justinherbert",
+        "ppr": 281.3,
+        "rank": 10
+      },
+      {
+        "player_id": "tombrady",
+        "ppr": 271.7,
+        "rank": 11
+      },
+      {
+        "player_id": "aaronrodgers",
+        "ppr": 239.2,
+        "rank": 12
+      },
+      {
+        "player_id": "lamarjackson",
+        "ppr": 236.1,
+        "rank": 13
+      },
+      {
+        "player_id": "tuatagovailoa",
+        "ppr": 230.9,
+        "rank": 14
+      },
+      {
+        "player_id": "russellwilson",
+        "ppr": 225.8,
+        "rank": 15
+      },
+      {
+        "player_id": "derekcarr",
+        "ppr": 219.1,
+        "rank": 16
+      },
+      {
+        "player_id": "kylermurray",
+        "ppr": 200.5,
+        "rank": 17
+      },
+      {
+        "player_id": "dakprescott",
+        "ppr": 198.6,
+        "rank": 18
+      },
+      {
+        "player_id": "bakermayfield",
+        "ppr": 121.4,
+        "rank": 19
+      },
+      {
+        "player_id": "matthewstafford",
+        "ppr": 108.4,
+        "rank": 20
+      },
+      {
+        "player_id": "brockpurdy",
+        "ppr": 106.3,
+        "rank": 21
+      },
+      {
+        "player_id": "deshaunwatson",
+        "ppr": 85.6,
+        "rank": 22
+      },
+      {
+        "player_id": "treylance",
+        "ppr": 12.5,
+        "rank": 23
+      },
+      {
+        "player_id": "jordanlove",
+        "ppr": 11.7,
+        "rank": 24
+      }
+    ],
+    "RB": [
+      {
+        "player_id": "austinekeler",
+        "ppr": 372.7,
+        "rank": 1
+      },
+      {
+        "player_id": "christianmccaffrey",
+        "ppr": 356.4,
+        "rank": 2
+      },
+      {
+        "player_id": "joshjacobs",
+        "ppr": 328.3,
+        "rank": 3
+      },
+      {
+        "player_id": "derrickhenry",
+        "ppr": 302.8,
+        "rank": 4
+      },
+      {
+        "player_id": "saquonbarkley",
+        "ppr": 284.0,
+        "rank": 5
+      },
+      {
+        "player_id": "nickchubb",
+        "ppr": 281.4,
+        "rank": 6
+      },
+      {
+        "player_id": "rhamondrestevenson",
+        "ppr": 249.1,
+        "rank": 7
+      },
+      {
+        "player_id": "tonypollard",
+        "ppr": 248.8,
+        "rank": 8
+      },
+      {
+        "player_id": "aaronjones",
+        "ppr": 248.6,
+        "rank": 9
+      },
+      {
+        "player_id": "joemixon",
+        "ppr": 239.5,
+        "rank": 10
+      },
+      {
+        "player_id": "dalvincook",
+        "ppr": 237.8,
+        "rank": 11
+      },
+      {
+        "player_id": "leonardfournette",
+        "ppr": 226.1,
+        "rank": 12
+      },
+      {
+        "player_id": "jamaalwilliams",
+        "ppr": 225.9,
+        "rank": 13
+      },
+      {
+        "player_id": "najeeharris",
+        "ppr": 223.5,
+        "rank": 14
+      },
+      {
+        "player_id": "milessanders",
+        "ppr": 216.7,
+        "rank": 15
+      },
+      {
+        "player_id": "alvinkamara",
+        "ppr": 211.7,
+        "rank": 16
+      },
+      {
+        "player_id": "travisetienne",
+        "ppr": 205.1,
+        "rank": 17
+      },
+      {
+        "player_id": "kennethwalker",
+        "ppr": 202.5,
+        "rank": 18
+      },
+      {
+        "player_id": "jamesconner",
+        "ppr": 200.2,
+        "rank": 19
+      },
+      {
+        "player_id": "dandreswift",
+        "ppr": 191.1,
+        "rank": 20
+      },
+      {
+        "player_id": "ezekielelliott",
+        "ppr": 185.8,
+        "rank": 21
+      },
+      {
+        "player_id": "devinsingletary",
+        "ppr": 177.9,
+        "rank": 22
+      },
+      {
+        "player_id": "davidmontgomery",
+        "ppr": 177.7,
+        "rank": 23
+      },
+      {
+        "player_id": "raheemmostert",
+        "ppr": 168.3,
+        "rank": 24
+      },
+      {
+        "player_id": "ajdillon",
+        "ppr": 167.6,
+        "rank": 25
+      },
+      {
+        "player_id": "dameonpierce",
+        "ppr": 166.4,
+        "rank": 26
+      },
+      {
+        "player_id": "antoniogibson",
+        "ppr": 165.9,
+        "rank": 27
+      },
+      {
+        "player_id": "tylerallgeier",
+        "ppr": 159.4,
+        "rank": 28
+      },
+      {
+        "player_id": "cordarrellepatterson",
+        "ppr": 154.7,
+        "rank": 29
+      },
+      {
+        "player_id": "jonathantaylor",
+        "ppr": 146.4,
+        "rank": 30
+      },
+      {
+        "player_id": "samajeperine",
+        "ppr": 142.1,
+        "rank": 31
+      },
+      {
+        "player_id": "camakers",
+        "ppr": 141.3,
+        "rank": 32
+      },
+      {
+        "player_id": "rachaadwhite",
+        "ppr": 139.1,
+        "rank": 33
+      },
+      {
+        "player_id": "isiahpacheco",
+        "ppr": 135.0,
+        "rank": 34
+      },
+      {
+        "player_id": "kareemhunt",
+        "ppr": 126.8,
+        "rank": 35
+      },
+      {
+        "player_id": "michaelcarter",
+        "ppr": 126.0,
+        "rank": 36
+      },
+      {
+        "player_id": "khalilherbert",
+        "ppr": 117.8,
+        "rank": 37
+      },
+      {
+        "player_id": "breecehall",
+        "ppr": 115.1,
+        "rank": 38
+      },
+      {
+        "player_id": "brianrobinson",
+        "ppr": 112.7,
+        "rank": 39
+      },
+      {
+        "player_id": "jamescook",
+        "ppr": 105.7,
+        "rank": 40
+      },
+      {
+        "player_id": "clydeedwardshelaire",
+        "ppr": 98.3,
+        "rank": 41
+      },
+      {
+        "player_id": "jaylenwarren",
+        "ppr": 93.3,
+        "rank": 42
+      },
+      {
+        "player_id": "damienharris",
+        "ppr": 90.9,
+        "rank": 43
+      },
+      {
+        "player_id": "jamesrobinson",
+        "ppr": 88.6,
+        "rank": 44
+      },
+      {
+        "player_id": "alexandermattison",
+        "ppr": 88.4,
+        "rank": 45
+      },
+      {
+        "player_id": "chubahubbard",
+        "ppr": 87.7,
+        "rank": 46
+      },
+      {
+        "player_id": "melvingordon",
+        "ppr": 87.1,
+        "rank": 47
+      },
+      {
+        "player_id": "nyheimhines",
+        "ppr": 81.4,
+        "rank": 48
+      },
+      {
+        "player_id": "jkdobbins",
+        "ppr": 81.2,
+        "rank": 49
+      },
+      {
+        "player_id": "chaseedmonds",
+        "ppr": 74.2,
+        "rank": 50
+      },
+      {
+        "player_id": "zackmoss",
+        "ppr": 64.5,
+        "rank": 51
+      },
+      {
+        "player_id": "gusedwards",
+        "ppr": 59.3,
+        "rank": 52
+      },
+      {
+        "player_id": "jdmckissic",
+        "ppr": 55.8,
+        "rank": 53
+      },
+      {
+        "player_id": "rashaadpenny",
+        "ppr": 52.2,
+        "rank": 54
+      },
+      {
+        "player_id": "elijahmitchell",
+        "ppr": 43.6,
+        "rank": 55
+      },
+      {
+        "player_id": "javontewilliams",
+        "ppr": 42.0,
+        "rank": 56
+      },
+      {
+        "player_id": "jordanmason",
+        "ppr": 31.8,
+        "rank": 57
+      },
+      {
+        "player_id": "kyrenwilliams",
+        "ppr": 30.5,
+        "rank": 58
+      },
+      {
+        "player_id": "zamirwhite",
+        "ppr": 7.0,
+        "rank": 59
+      }
+    ],
+    "WR": [
+      {
+        "player_id": "justinjefferson",
+        "ppr": 368.7,
+        "rank": 1
+      },
+      {
+        "player_id": "tyreekhill",
+        "ppr": 347.2,
+        "rank": 2
+      },
+      {
+        "player_id": "davanteadams",
+        "ppr": 335.5,
+        "rank": 3
+      },
+      {
+        "player_id": "stefondiggs",
+        "ppr": 316.6,
+        "rank": 4
+      },
+      {
+        "player_id": "ceedeelamb",
+        "ppr": 301.6,
+        "rank": 5
+      },
+      {
+        "player_id": "ajbrown",
+        "ppr": 299.6,
+        "rank": 6
+      },
+      {
+        "player_id": "amonrastbrown",
+        "ppr": 267.6,
+        "rank": 7
+      },
+      {
+        "player_id": "jaylenwaddle",
+        "ppr": 259.2,
+        "rank": 8
+      },
+      {
+        "player_id": "devontasmith",
+        "ppr": 254.6,
+        "rank": 9
+      },
+      {
+        "player_id": "amaricooper",
+        "ppr": 246.0,
+        "rank": 10
+      },
+      {
+        "player_id": "jamarrchase",
+        "ppr": 242.4,
+        "rank": 11
+      },
+      {
+        "player_id": "christiankirk",
+        "ppr": 241.9,
+        "rank": 12
+      },
+      {
+        "player_id": "tylerlockett",
+        "ppr": 237.3,
+        "rank": 13
+      },
+      {
+        "player_id": "terrymclaurin",
+        "ppr": 229.0,
+        "rank": 14
+      },
+      {
+        "player_id": "brandonaiyuk",
+        "ppr": 227.8,
+        "rank": 15
+      },
+      {
+        "player_id": "dkmetcalf",
+        "ppr": 226.8,
+        "rank": 16
+      },
+      {
+        "player_id": "mikeevans",
+        "ppr": 225.4,
+        "rank": 17
+      },
+      {
+        "player_id": "chrisgodwin",
+        "ppr": 222.8,
+        "rank": 18
+      },
+      {
+        "player_id": "teehiggins",
+        "ppr": 220.9,
+        "rank": 19
+      },
+      {
+        "player_id": "michaelpittman",
+        "ppr": 216.5,
+        "rank": 20
+      },
+      {
+        "player_id": "garrettwilson",
+        "ppr": 215.7,
+        "rank": 21
+      },
+      {
+        "player_id": "jerryjeudy",
+        "ppr": 204.2,
+        "rank": 22
+      },
+      {
+        "player_id": "cooperkupp",
+        "ppr": 201.4,
+        "rank": 23
+      },
+      {
+        "player_id": "djmoore",
+        "ppr": 199.1,
+        "rank": 24
+      },
+      {
+        "player_id": "chrisolave",
+        "ppr": 198.2,
+        "rank": 25
+      },
+      {
+        "player_id": "jujusmithschuster",
+        "ppr": 185.3,
+        "rank": 26
+      },
+      {
+        "player_id": "diontaejohnson",
+        "ppr": 180.7,
+        "rank": 27
+      },
+      {
+        "player_id": "jakobimeyers",
+        "ppr": 180.3,
+        "rank": 28
+      },
+      {
+        "player_id": "adamthielen",
+        "ppr": 180.0,
+        "rank": 29
+      },
+      {
+        "player_id": "drakelondon",
+        "ppr": 178.6,
+        "rank": 30
+      },
+      {
+        "player_id": "mikewilliams",
+        "ppr": 176.5,
+        "rank": 31
+      },
+      {
+        "player_id": "allenlazard",
+        "ppr": 174.8,
+        "rank": 32
+      },
+      {
+        "player_id": "deebosamuel",
+        "ppr": 168.4,
+        "rank": 33
+      },
+      {
+        "player_id": "georgepickens",
+        "ppr": 166.5,
+        "rank": 34
+      },
+      {
+        "player_id": "christianwatson",
+        "ppr": 164.1,
+        "rank": 35
+      },
+      {
+        "player_id": "keenanallen",
+        "ppr": 164.0,
+        "rank": 36
+      },
+      {
+        "player_id": "courtlandsutton",
+        "ppr": 159.4,
+        "rank": 37
+      },
+      {
+        "player_id": "marquisebrown",
+        "ppr": 156.0,
+        "rank": 38
+      },
+      {
+        "player_id": "deandrehopkins",
+        "ppr": 151.7,
+        "rank": 39
+      },
+      {
+        "player_id": "brandincooks",
+        "ppr": 145.6,
+        "rank": 40
+      },
+      {
+        "player_id": "jahandotson",
+        "ppr": 130.6,
+        "rank": 41
+      },
+      {
+        "player_id": "marquezvaldesscantling",
+        "ppr": 122.4,
+        "rank": 42
+      },
+      {
+        "player_id": "robertwoods",
+        "ppr": 115.7,
+        "rank": 43
+      },
+      {
+        "player_id": "chaseclaypool",
+        "ppr": 105.0,
+        "rank": 44
+      },
+      {
+        "player_id": "darnellmooney",
+        "ppr": 101.5,
+        "rank": 45
+      },
+      {
+        "player_id": "nicocollins",
+        "ppr": 97.1,
+        "rank": 46
+      },
+      {
+        "player_id": "treylonburks",
+        "ppr": 94.1,
+        "rank": 47
+      },
+      {
+        "player_id": "elijahmoore",
+        "ppr": 88.1,
+        "rank": 48
+      },
+      {
+        "player_id": "rondalemoore",
+        "ppr": 87.9,
+        "rank": 49
+      },
+      {
+        "player_id": "allenrobinson",
+        "ppr": 84.9,
+        "rank": 50
+      },
+      {
+        "player_id": "jauanjennings",
+        "ppr": 82.6,
+        "rank": 51
+      },
+      {
+        "player_id": "hunterrenfrow",
+        "ppr": 79.0,
+        "rank": 52
+      },
+      {
+        "player_id": "jarvislandry",
+        "ppr": 60.2,
+        "rank": 53
+      },
+      {
+        "player_id": "kadariustoney",
+        "ppr": 57.3,
+        "rank": 54
+      },
+      {
+        "player_id": "rashodbateman",
+        "ppr": 53.5,
+        "rank": 55
+      },
+      {
+        "player_id": "michaelthomas",
+        "ppr": 51.1,
+        "rank": 56
+      },
+      {
+        "player_id": "skyymoore",
+        "ppr": 43.4,
+        "rank": 57
+      },
+      {
+        "player_id": "khalilshakir",
+        "ppr": 34.1,
+        "rank": 58
+      },
+      {
+        "player_id": "kennygolladay",
+        "ppr": 20.1,
+        "rank": 59
+      },
+      {
+        "player_id": "jamesonwilliams",
+        "ppr": 15.1,
+        "rank": 60
+      }
+    ],
+    "TE": [
+      {
+        "player_id": "traviskelce",
+        "ppr": 316.3,
+        "rank": 1
+      },
+      {
+        "player_id": "tjhockenson",
+        "ppr": 215.4,
+        "rank": 2
+      },
+      {
+        "player_id": "georgekittle",
+        "ppr": 200.5,
+        "rank": 3
+      },
+      {
+        "player_id": "markandrews",
+        "ppr": 190.5,
+        "rank": 4
+      },
+      {
+        "player_id": "evanengram",
+        "ppr": 176.9,
+        "rank": 5
+      },
+      {
+        "player_id": "patfreiermuth",
+        "ppr": 148.2,
+        "rank": 6
+      },
+      {
+        "player_id": "colekmet",
+        "ppr": 147.3,
+        "rank": 7
+      },
+      {
+        "player_id": "daltonschultz",
+        "ppr": 142.7,
+        "rank": 8
+      },
+      {
+        "player_id": "davidnjoku",
+        "ppr": 142.0,
+        "rank": 9
+      },
+      {
+        "player_id": "dallasgoedert",
+        "ppr": 141.2,
+        "rank": 10
+      },
+      {
+        "player_id": "dawsonknox",
+        "ppr": 135.7,
+        "rank": 11
+      },
+      {
+        "player_id": "zachertz",
+        "ppr": 115.6,
+        "rank": 12
+      },
+      {
+        "player_id": "darrenwaller",
+        "ppr": 84.8,
+        "rank": 13
+      },
+      {
+        "player_id": "kylepitts",
+        "ppr": 75.6,
+        "rank": 14
+      },
+      {
+        "player_id": "treymcbride",
+        "ppr": 61.5,
+        "rank": 15
+      },
+      {
+        "player_id": "jakeferguson",
+        "ppr": 48.4,
+        "rank": 16
+      },
+      {
+        "player_id": "brianthomas",
+        "ppr": 40.7,
+        "rank": 17
+      }
+    ]
+  }
+}

@@ -400,13 +400,34 @@ function displayDraftAchievements(profileData, playersData) {
 function calculateAchievements(allPicks, stats, playersData, picksByYear) {
     const achievements = [];
     
-    // Sharpshooter - 20%+ hit rate (lowered from 30%)
-    if (stats.hit_rate >= 20) {
-        achievements.push({
-            name: 'Sharpshooter',
-            icon: '🎯',
-            description: `Achieved ${stats.hit_rate.toFixed(1)}% hit rate across all seasons`
+    // Sharpshooter - 30%+ hit rate in a single season (season-based award)
+    if (picksByYear) {
+        const sharpshooterYears = [];
+        Object.keys(picksByYear).forEach(year => {
+            const yearPicks = picksByYear[year];
+            const yearStats = calculateYearStats(yearPicks);
+            if (yearStats.hitRate >= 30) {
+                sharpshooterYears.push({
+                    year: year,
+                    hitRate: yearStats.hitRate
+                });
+            }
         });
+        
+        if (sharpshooterYears.length > 0) {
+            // Sort by hit rate descending, take the best
+            sharpshooterYears.sort((a, b) => b.hitRate - a.hitRate);
+            const bestYear = sharpshooterYears[0];
+            const count = sharpshooterYears.length;
+            
+            achievements.push({
+                name: 'Sharpshooter',
+                icon: '🎯',
+                description: count > 1 
+                    ? `Achieved 30%+ hit rate in ${count} seasons (best: ${bestYear.hitRate.toFixed(1)}% in ${bestYear.year})`
+                    : `Achieved ${bestYear.hitRate.toFixed(1)}% hit rate in ${bestYear.year}`
+            });
+        }
     }
     
     // Diamond Miner - 1+ super extreme hits (lowered from 3)
@@ -618,37 +639,10 @@ function checkRisingStar(picksByYear) {
     return false;
 }
 
-// Tab functionality
-function initTabs() {
-    const tabButtons = document.querySelectorAll('.tab-button');
-    const tabContents = document.querySelectorAll('.tab-content');
-    
-    tabButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const targetTab = button.getAttribute('data-tab');
-            
-            // Remove active class from all buttons and contents
-            tabButtons.forEach(btn => btn.classList.remove('active'));
-            tabContents.forEach(content => content.classList.remove('active'));
-            
-            // Add active class to clicked button and corresponding content
-            button.classList.add('active');
-            const targetContent = document.getElementById(`${targetTab}-tab`);
-            if (targetContent) {
-                targetContent.classList.add('active');
-            }
-        });
-    });
-}
-
 // Load stats when DOM is ready
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-        loadDraftStats();
-        initTabs();
-    });
+    document.addEventListener('DOMContentLoaded', loadDraftStats);
 } else {
     loadDraftStats();
-    initTabs();
 }
 
