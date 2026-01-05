@@ -1,0 +1,74 @@
+{
+  "sunny": {
+    "championships": 1,
+    "runner_ups": 0,
+    "playoff_record": "2-0",
+    "playoff_appearances": 1
+  },
+  "jj": {
+    "championships": 0,
+    "runner_ups": 1,
+    "playoff_record": "2-1",
+    "playoff_appearances": 1
+  },
+  "kircher": {
+    "championships": 2,
+    "runner_ups": 1,
+    "playoff_record": "3-1",
+    "playoff_appearances": 3
+  },
+  "drew": {
+    "championships": 0,
+    "runner_ups": 1,
+    "playoff_record": "2-3",
+    "playoff_appearances": 1
+  },
+  "cam": {
+    "championships": 1,
+    "runner_ups": 0,
+    "playoff_record": "2-3",
+    "playoff_appearances": 1
+  },
+  "jasper": {
+    "championships": 0,
+    "runner_ups": 2,
+    "playoff_record": "1-4",
+    "playoff_appearances": 2
+  },
+  "hatter": {
+    "championships": 1,
+    "runner_ups": 1,
+    "playoff_record": "4-3",
+    "playoff_appearances": 2
+  },
+  "masters": {
+    "championships": 1,
+    "runner_ups": 1,
+    "playoff_record": "2-3",
+    "playoff_appearances": 2
+  },
+  "jmar": {
+    "championships": 1,
+    "runner_ups": 0,
+    "playoff_record": "3-3",
+    "playoff_appearances": 1
+  },
+  "d-lew": {
+    "championships": 1,
+    "runner_ups": 0,
+    "playoff_record": "0-0",
+    "playoff_appearances": 1
+  },
+  "baker": {
+    "championships": 0,
+    "runner_ups": 0,
+    "playoff_record": "1-1",
+    "playoff_appearances": 0
+  },
+  "lucas": {
+    "championships": 0,
+    "runner_ups": 0,
+    "playoff_record": "1-1",
+    "playoff_appearances": 0
+  }
+}
