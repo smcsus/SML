@@ -8,18 +8,24 @@ Official website for the Sunday Movie League fantasy football league, establishe
 
 ## About
 
-A static website built to document and display the history of a fantasy football league. The site serves as the official record of league champions, season standings, historical events, and member profiles.
+A static website built to document and display the history of a fantasy football league. The site serves as the official record of league champions, season standings, historical events, draft history, and member profiles with detailed statistics and achievements.
 
 ---
 
 ## Features
 
 - **Champions Display** - Complete list of all league champions and runner-ups with clickable profile links
-- **Season Standings** - Tabbed interface showing regular season standings from 2021-2025 with full statistics (Record, Points For, Points Against, Differential, Streak, Moves)
+- **Season Standings** - Tabbed interface showing regular season standings from 2021-2025 with full statistics
 - **Playoff Brackets** - Visual bracket displays with all matchup scores for each season
+- **Draft History** - Complete draft records from 2021-2025 with draft position, season finish, points, and value calculations
 - **League History Timeline** - Chronological display of key events and scoring changes
-- **Member Profiles** - Individual pages for each member with profile picture placeholder, biography section, and league history
-- **Responsive Design** - Works on desktop and mobile devices
+- **Member Profiles** - Individual pages for each member featuring:
+  - Profile statistics (championships, records, playoff history)
+  - Biography
+  - Draft statistics with year-by-year breakdown
+  - Draft tendencies and patterns
+  - Seasonal achievements
+  - Complete league history timeline
 
 ---
 
@@ -43,9 +49,17 @@ SML/
 ├── script.js           # Interactive functionality
 ├── README.md           # This file
 ├── LICENSE             # MIT License
-└── profiles/           # Individual member profile pages
-    ├── profile.css     # Shared profile styling
-    └── [name].html     # Individual profile pages
+├── data/               # JSON data files
+│   ├── league_database.json
+│   ├── league_history.json
+│   ├── drafts/         # Draft data by year
+│   ├── seasons/        # Season data by year
+│   └── profiles/       # Member draft statistics
+├── profiles/           # Individual member profile pages
+│   ├── profile.css     # Shared profile styling
+│   ├── draft-stats.js  # Draft statistics and achievements
+│   └── [name].html     # Individual profile pages
+└── scripts/            # Python scripts for data processing
 ```
 
 ---

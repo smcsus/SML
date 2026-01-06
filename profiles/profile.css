@@ -431,7 +431,7 @@
 }
 
 /* ============================================
-   Draft Achievements Styles
+   Achievements Styles
    ============================================ */
 
 .achievement-loading,
@@ -484,6 +484,14 @@
     letter-spacing: 0.05em;
 }
 
+.achievement-year {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-top: 0.25rem;
+    text-align: center;
+}
+
 .achievement-badge[data-tooltip] {
     position: relative;
 }
@@ -500,15 +508,15 @@
     color: var(--text-primary);
     font-size: 0.85rem;
     border-radius: 6px;
-    white-space: nowrap;
     z-index: 1000;
     border: 1px solid var(--gold-primary);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     pointer-events: none;
-    max-width: 250px;
+    max-width: 350px;
     white-space: normal;
-    text-align: center;
-    line-height: 1.4;
+    text-align: left;
+    line-height: 1.5;
+    word-wrap: break-word;
 }
 
 .achievement-badge[data-tooltip]:hover::before {
