@@ -257,13 +257,13 @@ def main():
     print("=" * 70)
     print()
     
-    print("📊 Loading draft and season data...")
+    print("Loading draft and season data...")
     member_stats = calculate_member_stats()
     
     print(f"✅ Calculated stats for {len(member_stats)} members")
     print()
     
-    print("💾 Generating profile JSON files...")
+    print("Generating profile JSON files...")
     for member_name, stats in member_stats.items():
         output_file = generate_profile_json(member_name, stats)
         print(f"  ✅ {member_name}: {output_file}")

@@ -17,7 +17,9 @@ const memberFileMap = {
     'Nuts': 'nuts',
     'PPWW': 'ppww',
     'D-Lew': 'd-lew',
-    'Baker': 'baker'
+    'Baker': 'baker',
+    'Nate': 'nate',
+    'Trey': 'trey'
 };
 
 function getValueIcon(valueType, valueDiff) {

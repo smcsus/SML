@@ -1,0 +1,150 @@
+{
+  "sunny": {
+    "championships": [
+      "2024"
+    ],
+    "runner_ups": [],
+    "playoff_appearances": [
+      "2024"
+    ],
+    "playoff_record": "2-0"
+  },
+  "jj": {
+    "championships": [],
+    "runner_ups": [
+      "2024"
+    ],
+    "playoff_appearances": [
+      "2024"
+    ],
+    "playoff_record": "2-1"
+  },
+  "kircher": {
+    "championships": [
+      "2023",
+      "2017"
+    ],
+    "runner_ups": [
+      "2018"
+    ],
+    "playoff_appearances": [
+      "2023",
+      "2022",
+      "2018",
+      "2017"
+    ],
+    "playoff_record": "3-1"
+  },
+  "drew": {
+    "championships": [],
+    "runner_ups": [
+      "2023"
+    ],
+    "playoff_appearances": [
+      "2024",
+      "2023",
+      "2022"
+    ],
+    "playoff_record": "2-3"
+  },
+  "cam": {
+    "championships": [
+      "2022"
+    ],
+    "runner_ups": [],
+    "playoff_appearances": [
+      "2025",
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "playoff_record": "2-3"
+  },
+  "jasper": {
+    "championships": [],
+    "runner_ups": [
+      "2022",
+      "2021"
+    ],
+    "playoff_appearances": [
+      "2024",
+      "2023",
+      "2022",
+      "2021"
+    ],
+    "playoff_record": "1-4"
+  },
+  "hatter": {
+    "championships": [
+      "2021"
+    ],
+    "runner_ups": [
+      "2020"
+    ],
+    "playoff_appearances": [
+      "2025",
+      "2024",
+      "2023",
+      "2021",
+      "2020"
+    ],
+    "playoff_record": "4-3"
+  },
+  "masters": {
+    "championships": [
+      "2020"
+    ],
+    "runner_ups": [
+      "2016"
+    ],
+    "playoff_appearances": [
+      "2025",
+      "2024",
+      "2022",
+      "2021",
+      "2020",
+      "2016"
+    ],
+    "playoff_record": "2-3"
+  },
+  "jmar": {
+    "championships": [
+      "2019"
+    ],
+    "runner_ups": [],
+    "playoff_appearances": [
+      "2025",
+      "2023",
+      "2022",
+      "2021",
+      "2019"
+    ],
+    "playoff_record": "3-3"
+  },
+  "d-lew": {
+    "championships": [
+      "2018"
+    ],
+    "runner_ups": [],
+    "playoff_appearances": [
+      "2018"
+    ],
+    "playoff_record": "0-0"
+  },
+  "lucas": {
+    "championships": [],
+    "runner_ups": [],
+    "playoff_appearances": [
+      "2025"
+    ],
+    "playoff_record": "1-1"
+  },
+  "baker": {
+    "championships": [],
+    "runner_ups": [],
+    "playoff_appearances": [
+      "2025"
+    ],
+    "playoff_record": "1-1"
+  }
+}

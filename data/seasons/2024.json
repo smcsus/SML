@@ -604,57 +604,7 @@
         "rank": 32
       }
     ],
-    "K": [
-      {
-        "player_id": "brandonaubrey",
-        "ppr": 195.9,
-        "rank": 1
-      },
-      {
-        "player_id": "camerondicker",
-        "ppr": 180.9,
-        "rank": 3
-      },
-      {
-        "player_id": "kaimifairbairn",
-        "ppr": 170.4,
-        "rank": 4
-      },
-      {
-        "player_id": "danielcarlson",
-        "ppr": 142.9,
-        "rank": 10
-      },
-      {
-        "player_id": "justintucker",
-        "ppr": 137.3,
-        "rank": 13
-      },
-      {
-        "player_id": "jakeelliott",
-        "ppr": 134.1,
-        "rank": 15
-      },
-      {
-        "player_id": "younghoekoo",
-        "ppr": 106.3,
-        "rank": 24
-      },
-      {
-        "player_id": "jakemoody",
-        "ppr": 102.4,
-        "rank": 26
-      },
-      {
-        "player_id": "harrisonbutker",
-        "ppr": 94.7,
-        "rank": 28
-      },
-      {
-        "player_id": "evanmcpherson",
-        "ppr": 88.4,
-        "rank": 29
-      }
-    ]
+    "K": [],
+    "ST": []
   }
 }

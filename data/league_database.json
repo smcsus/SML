@@ -1,0 +1,813 @@
+{
+  "league_id": "1065196140",
+  "league_name": "Sunday Movie League",
+  "scraped_at": "2026-01-06T02:35:00",
+  "seasons": {
+    "2021": {
+      "year": 2021,
+      "standings": [
+        {
+          "rank": 1,
+          "team_name": "Cam",
+          "owner": "Cam",
+          "owner_alias": "cam",
+          "record": "11-3-0",
+          "points_for": 1802.4,
+          "points_against": 1531.76,
+          "playoff_team": false
+        },
+        {
+          "rank": 2,
+          "team_name": "Jasper",
+          "owner": "Jasper",
+          "owner_alias": "jasper",
+          "record": "9-5-0",
+          "points_for": 1777.42,
+          "points_against": 1540.46,
+          "playoff_team": false
+        },
+        {
+          "rank": 3,
+          "team_name": "Hatter",
+          "owner": "Hatter",
+          "owner_alias": "hatter",
+          "record": "8-6-0",
+          "points_for": 1664.4,
+          "points_against": 1653.78,
+          "playoff_team": false
+        },
+        {
+          "rank": 4,
+          "team_name": "Nate",
+          "owner": "Nate",
+          "owner_alias": "nate",
+          "record": "8-6-0",
+          "points_for": 1669.86,
+          "points_against": 1654.62,
+          "playoff_team": false
+        },
+        {
+          "rank": 5,
+          "team_name": "JMar",
+          "owner": "JMar",
+          "owner_alias": "jmar",
+          "record": "8-6-0",
+          "points_for": 1576.92,
+          "points_against": 1549.56,
+          "playoff_team": false
+        },
+        {
+          "rank": 6,
+          "team_name": "Masters",
+          "owner": "Masters",
+          "owner_alias": "masters",
+          "record": "7-7-0",
+          "points_for": 1543.58,
+          "points_against": 1594.24,
+          "playoff_team": false
+        },
+        {
+          "rank": 7,
+          "team_name": "Sunny",
+          "owner": "Sunny",
+          "owner_alias": "sunny",
+          "record": "5-9-0",
+          "points_for": 1557.86,
+          "points_against": 1632.26,
+          "playoff_team": false
+        },
+        {
+          "rank": 8,
+          "team_name": "Kircher",
+          "owner": "Kircher",
+          "owner_alias": "kircher",
+          "record": "5-9-0",
+          "points_for": 1535.6,
+          "points_against": 1614.98,
+          "playoff_team": false
+        },
+        {
+          "rank": 9,
+          "team_name": "Drew",
+          "owner": "Drew",
+          "owner_alias": "drew",
+          "record": "5-9-0",
+          "points_for": 1492.3,
+          "points_against": 1703.12,
+          "playoff_team": false
+        },
+        {
+          "rank": 10,
+          "team_name": "JJ",
+          "owner": "JJ",
+          "owner_alias": "jj",
+          "record": "4-10-0",
+          "points_for": 1527.02,
+          "points_against": 1672.58,
+          "playoff_team": false
+        }
+      ]
+    },
+    "2022": {
+      "year": 2022,
+      "standings": [
+        {
+          "rank": 1,
+          "team_name": "Jasper",
+          "owner": "Jasper",
+          "owner_alias": "jasper",
+          "record": "10-4-0",
+          "points_for": 1745.9,
+          "points_against": 1632.06,
+          "playoff_team": false
+        },
+        {
+          "rank": 2,
+          "team_name": "Cam",
+          "owner": "Cam",
+          "owner_alias": "cam",
+          "record": "8-6-0",
+          "points_for": 1857.66,
+          "points_against": 1821.88,
+          "playoff_team": false
+        },
+        {
+          "rank": 3,
+          "team_name": "JMar",
+          "owner": "JMar",
+          "owner_alias": "jmar",
+          "record": "8-6-0",
+          "points_for": 1860.64,
+          "points_against": 1797.76,
+          "playoff_team": false
+        },
+        {
+          "rank": 4,
+          "team_name": "Kircher",
+          "owner": "Kircher",
+          "owner_alias": "kircher",
+          "record": "8-6-0",
+          "points_for": 1565.74,
+          "points_against": 1574.98,
+          "playoff_team": false
+        },
+        {
+          "rank": 5,
+          "team_name": "Masters",
+          "owner": "Masters",
+          "owner_alias": "masters",
+          "record": "7-7-0",
+          "points_for": 1739.24,
+          "points_against": 1685.64,
+          "playoff_team": false
+        },
+        {
+          "rank": 6,
+          "team_name": "Drew",
+          "owner": "Drew",
+          "owner_alias": "drew",
+          "record": "7-7-0",
+          "points_for": 1822.22,
+          "points_against": 1814.4,
+          "playoff_team": false
+        },
+        {
+          "rank": 7,
+          "team_name": "Trey",
+          "owner": "Trey",
+          "owner_alias": "trey",
+          "record": "7-7-0",
+          "points_for": 1683.42,
+          "points_against": 1682.14,
+          "playoff_team": false
+        },
+        {
+          "rank": 8,
+          "team_name": "Sunny",
+          "owner": "Sunny",
+          "owner_alias": "sunny",
+          "record": "6-8-0",
+          "points_for": 1784.0,
+          "points_against": 1790.42,
+          "playoff_team": false
+        },
+        {
+          "rank": 9,
+          "team_name": "Hatter",
+          "owner": "Hatter",
+          "owner_alias": "hatter",
+          "record": "5-9-0",
+          "points_for": 1653.1,
+          "points_against": 1820.82,
+          "playoff_team": false
+        },
+        {
+          "rank": 10,
+          "team_name": "JJ",
+          "owner": "JJ",
+          "owner_alias": "jj",
+          "record": "4-10-0",
+          "points_for": 1661.3,
+          "points_against": 1753.12,
+          "playoff_team": false
+        }
+      ]
+    },
+    "2023": {
+      "year": 2023,
+      "standings": [
+        {
+          "rank": 1,
+          "team_name": "Kircher",
+          "owner": "Kircher",
+          "owner_alias": "kircher",
+          "record": "10-4-0",
+          "points_for": 1684.06,
+          "points_against": 1557.88,
+          "playoff_team": false
+        },
+        {
+          "rank": 2,
+          "team_name": "Cam",
+          "owner": "Cam",
+          "owner_alias": "cam",
+          "record": "10-4-0",
+          "points_for": 1900.26,
+          "points_against": 1777.36,
+          "playoff_team": false
+        },
+        {
+          "rank": 3,
+          "team_name": "JMar",
+          "owner": "JMar",
+          "owner_alias": "jmar",
+          "record": "9-5-0",
+          "points_for": 1946.9,
+          "points_against": 1711.96,
+          "playoff_team": false
+        },
+        {
+          "rank": 4,
+          "team_name": "Drew",
+          "owner": "Drew",
+          "owner_alias": "drew",
+          "record": "8-6-0",
+          "points_for": 1788.44,
+          "points_against": 1677.02,
+          "playoff_team": false
+        },
+        {
+          "rank": 5,
+          "team_name": "Hatter",
+          "owner": "Hatter",
+          "owner_alias": "hatter",
+          "record": "8-6-0",
+          "points_for": 1872.2,
+          "points_against": 1767.32,
+          "playoff_team": false
+        },
+        {
+          "rank": 6,
+          "team_name": "Jasper",
+          "owner": "Jasper",
+          "owner_alias": "jasper",
+          "record": "8-6-0",
+          "points_for": 1753.92,
+          "points_against": 1832.42,
+          "playoff_team": false
+        },
+        {
+          "rank": 7,
+          "team_name": "Sunny",
+          "owner": "Sunny",
+          "owner_alias": "sunny",
+          "record": "5-9-0",
+          "points_for": 1514.62,
+          "points_against": 1812.96,
+          "playoff_team": false
+        },
+        {
+          "rank": 8,
+          "team_name": "Masters",
+          "owner": "Masters",
+          "owner_alias": "masters",
+          "record": "5-9-0",
+          "points_for": 1586.16,
+          "points_against": 1664.46,
+          "playoff_team": false
+        },
+        {
+          "rank": 9,
+          "team_name": "JJ",
+          "owner": "JJ",
+          "owner_alias": "jj",
+          "record": "4-10-0",
+          "points_for": 1694.56,
+          "points_against": 1805.0,
+          "playoff_team": false
+        },
+        {
+          "rank": 10,
+          "team_name": "Lucas",
+          "owner": "Lucas",
+          "owner_alias": "lucas",
+          "record": "3-11-0",
+          "points_for": 1631.22,
+          "points_against": 1765.96,
+          "playoff_team": false
+        }
+      ]
+    },
+    "2024": {
+      "year": 2024,
+      "standings": [
+        {
+          "rank": 1,
+          "team_name": "Jasper",
+          "owner": "Jasper",
+          "owner_alias": "jasper",
+          "record": "9-5-0",
+          "points_for": 2024.08,
+          "points_against": 1709.18,
+          "playoff_team": false
+        },
+        {
+          "rank": 2,
+          "team_name": "Sunny",
+          "owner": "Sunny",
+          "owner_alias": "sunny",
+          "record": "9-5-0",
+          "points_for": 1977.12,
+          "points_against": 1810.66,
+          "playoff_team": false
+        },
+        {
+          "rank": 3,
+          "team_name": "Hatter",
+          "owner": "Hatter",
+          "owner_alias": "hatter",
+          "record": "9-5-0",
+          "points_for": 1857.88,
+          "points_against": 1743.68,
+          "playoff_team": false
+        },
+        {
+          "rank": 4,
+          "team_name": "JJ",
+          "owner": "JJ",
+          "owner_alias": "jj",
+          "record": "7-7-0",
+          "points_for": 1739.66,
+          "points_against": 1835.7,
+          "playoff_team": false
+        },
+        {
+          "rank": 5,
+          "team_name": "Drew",
+          "owner": "Drew",
+          "owner_alias": "drew",
+          "record": "7-7-0",
+          "points_for": 1769.7,
+          "points_against": 1832.44,
+          "playoff_team": false
+        },
+        {
+          "rank": 6,
+          "team_name": "Masters",
+          "owner": "Masters",
+          "owner_alias": "masters",
+          "record": "7-7-0",
+          "points_for": 1652.04,
+          "points_against": 1810.42,
+          "playoff_team": false
+        },
+        {
+          "rank": 7,
+          "team_name": "JMar",
+          "owner": "JMar",
+          "owner_alias": "jmar",
+          "record": "6-8-0",
+          "points_for": 1767.64,
+          "points_against": 1775.74,
+          "playoff_team": false
+        },
+        {
+          "rank": 8,
+          "team_name": "Kircher",
+          "owner": "Kircher",
+          "owner_alias": "kircher",
+          "record": "6-8-0",
+          "points_for": 1609.08,
+          "points_against": 1749.62,
+          "playoff_team": false
+        },
+        {
+          "rank": 9,
+          "team_name": "Cam",
+          "owner": "Cam",
+          "owner_alias": "cam",
+          "record": "5-9-0",
+          "points_for": 1729.74,
+          "points_against": 1715.4,
+          "playoff_team": false
+        },
+        {
+          "rank": 10,
+          "team_name": "Lucas",
+          "owner": "Lucas",
+          "owner_alias": "lucas",
+          "record": "5-9-0",
+          "points_for": 1711.86,
+          "points_against": 1855.96,
+          "playoff_team": false
+        }
+      ]
+    },
+    "2025": {
+      "year": 2025,
+      "standings": [
+        {
+          "rank": 1,
+          "team_name": "JMar",
+          "owner": "JMar",
+          "owner_alias": "jmar",
+          "record": "10-4-0",
+          "points_for": 1950.08,
+          "points_against": 1610.28,
+          "playoff_team": false
+        },
+        {
+          "rank": 2,
+          "team_name": "Lucas",
+          "owner": "Lucas",
+          "owner_alias": "lucas",
+          "record": "10-4-0",
+          "points_for": 1829.38,
+          "points_against": 1670.6,
+          "playoff_team": false
+        },
+        {
+          "rank": 3,
+          "team_name": "Baker",
+          "owner": "Baker",
+          "owner_alias": "baker",
+          "record": "9-5-0",
+          "points_for": 1696.9,
+          "points_against": 1579.64,
+          "playoff_team": false
+        },
+        {
+          "rank": 4,
+          "team_name": "Hatter",
+          "owner": "Hatter",
+          "owner_alias": "hatter",
+          "record": "9-5-0",
+          "points_for": 1644.12,
+          "points_against": 1597.82,
+          "playoff_team": false
+        },
+        {
+          "rank": 5,
+          "team_name": "Masters",
+          "owner": "Masters",
+          "owner_alias": "masters",
+          "record": "8-6-0",
+          "points_for": 1759.4,
+          "points_against": 1643.8,
+          "playoff_team": false
+        },
+        {
+          "rank": 6,
+          "team_name": "Cam",
+          "owner": "Cam",
+          "owner_alias": "cam",
+          "record": "7-7-0",
+          "points_for": 1780.84,
+          "points_against": 1745.06,
+          "playoff_team": false
+        },
+        {
+          "rank": 7,
+          "team_name": "Jasper",
+          "owner": "Jasper",
+          "owner_alias": "jasper",
+          "record": "7-7-0",
+          "points_for": 1550.2,
+          "points_against": 1642.58,
+          "playoff_team": false
+        },
+        {
+          "rank": 8,
+          "team_name": "JJ",
+          "owner": "JJ",
+          "owner_alias": "jj",
+          "record": "6-8-0",
+          "points_for": 1673.96,
+          "points_against": 1725.52,
+          "playoff_team": false
+        },
+        {
+          "rank": 9,
+          "team_name": "Kircher",
+          "owner": "Kircher",
+          "owner_alias": "kircher",
+          "record": "6-8-0",
+          "points_for": 1616.18,
+          "points_against": 1716.0,
+          "playoff_team": false
+        },
+        {
+          "rank": 10,
+          "team_name": "Sunny",
+          "owner": "Sunny",
+          "owner_alias": "sunny",
+          "record": "5-9-0",
+          "points_for": 1500.74,
+          "points_against": 1682.54,
+          "playoff_team": false
+        },
+        {
+          "rank": 11,
+          "team_name": "D-Lew",
+          "owner": "D-Lew",
+          "owner_alias": "d-lew",
+          "record": "4-10-0",
+          "points_for": 1658.06,
+          "points_against": 1866.84,
+          "playoff_team": false
+        },
+        {
+          "rank": 12,
+          "team_name": "Drew",
+          "owner": "Drew",
+          "owner_alias": "drew",
+          "record": "3-11-0",
+          "points_for": 1521.16,
+          "points_against": 1700.34,
+          "playoff_team": false
+        }
+      ]
+    }
+  },
+  "drafts": {},
+  "playoffs": {
+    "2021": {
+      "year": 2021,
+      "champion": "hatter",
+      "runner_up": "jasper",
+      "bracket_results": []
+    },
+    "2022": {
+      "year": 2022,
+      "champion": "cam",
+      "runner_up": "jasper",
+      "bracket_results": []
+    },
+    "2023": {
+      "year": 2023,
+      "champion": "kircher",
+      "runner_up": "drew",
+      "bracket_results": []
+    },
+    "2024": {
+      "year": 2024,
+      "champion": "sunny",
+      "runner_up": "jj",
+      "bracket_results": []
+    },
+    "2025": {
+      "year": 2025,
+      "champion": "jmar",
+      "runner_up": "lucas",
+      "bracket_results": []
+    }
+  },
+  "members": {
+    "jj": {
+      "name": "JJ",
+      "alias": "jj",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "2-1",
+      "playoff_appearances": [
+        "2024"
+      ],
+      "playoff_wins": 2,
+      "playoff_losses": 1
+    },
+    "d-lew": {
+      "name": "D-Lew",
+      "alias": "d-lew",
+      "seasons_active": [
+        2025
+      ]
+    },
+    "drew": {
+      "name": "Drew",
+      "alias": "drew",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "2-3",
+      "playoff_appearances": [
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "playoff_wins": 2,
+      "playoff_losses": 3
+    },
+    "trey": {
+      "name": "Trey",
+      "alias": "trey",
+      "seasons_active": [
+        2022
+      ]
+    },
+    "jasper": {
+      "name": "Jasper",
+      "alias": "jasper",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "2-4",
+      "playoff_appearances": [
+        "2024",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "playoff_wins": 2,
+      "playoff_losses": 4
+    },
+    "lucas": {
+      "name": "Lucas",
+      "alias": "lucas",
+      "seasons_active": [
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "1-1",
+      "playoff_appearances": [
+        "2025"
+      ],
+      "playoff_wins": 1,
+      "playoff_losses": 1
+    },
+    "cam": {
+      "name": "Cam",
+      "alias": "cam",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "2-3",
+      "playoff_appearances": [
+        "2025",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "playoff_wins": 2,
+      "playoff_losses": 3
+    },
+    "masters": {
+      "name": "Masters",
+      "alias": "masters",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "2-4",
+      "playoff_appearances": [
+        "2025",
+        "2024",
+        "2022",
+        "2021"
+      ],
+      "playoff_wins": 2,
+      "playoff_losses": 4
+    },
+    "baker": {
+      "name": "Baker",
+      "alias": "baker",
+      "seasons_active": [
+        2025
+      ],
+      "playoff_record": "1-1",
+      "playoff_appearances": [
+        "2025"
+      ],
+      "playoff_wins": 1,
+      "playoff_losses": 1
+    },
+    "sunny": {
+      "name": "Sunny",
+      "alias": "sunny",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "2-0",
+      "playoff_appearances": [
+        "2024"
+      ],
+      "playoff_wins": 2,
+      "playoff_losses": 0
+    },
+    "nate": {
+      "name": "Nate",
+      "alias": "nate",
+      "seasons_active": [
+        2021
+      ],
+      "playoff_record": "1-1",
+      "playoff_appearances": [
+        "2021"
+      ],
+      "playoff_wins": 1,
+      "playoff_losses": 1
+    },
+    "jmar": {
+      "name": "JMar",
+      "alias": "jmar",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "3-3",
+      "playoff_appearances": [
+        "2025",
+        "2023",
+        "2022",
+        "2021"
+      ],
+      "playoff_wins": 3,
+      "playoff_losses": 3
+    },
+    "kircher": {
+      "name": "Kircher",
+      "alias": "kircher",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "3-1",
+      "playoff_appearances": [
+        "2023",
+        "2022"
+      ],
+      "playoff_wins": 3,
+      "playoff_losses": 1
+    },
+    "hatter": {
+      "name": "Hatter",
+      "alias": "hatter",
+      "seasons_active": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "playoff_record": "4-3",
+      "playoff_appearances": [
+        "2025",
+        "2024",
+        "2023",
+        "2021"
+      ],
+      "playoff_wins": 4,
+      "playoff_losses": 3
+    }
+  }
+}

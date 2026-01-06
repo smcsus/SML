@@ -840,10 +840,14 @@ body {
     background: var(--bg-card);
     border-radius: 4px;
     opacity: 0.7;
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s, background 0.2s;
 }
 
 .alumni-item:hover {
     opacity: 1;
+    background: var(--bg-card-hover);
 }
 
 .alumni-item.mystery {
